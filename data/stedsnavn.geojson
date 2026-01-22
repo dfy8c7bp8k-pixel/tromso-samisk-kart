@@ -1,0 +1,2255 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "samisk_navn": "Loavgavárri",
+        "norsk_navn": "Fløya",
+        "objekttype": "nan",
+        "nivaa": "nan",
+        "knr": "5501",
+        "stedsnummer": "537730",
+        "ssr_display": "Loavgavárri",
+        "infotekst_no": "nan",
+        "infotekst_sme": "nan",
+        "infotekst_en": "nan",
+        "notion_url_no": "nan",
+        "notion_url_sme": "nan",
+        "notion_url_en": "nan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.98512,
+          69.62487
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "samisk_navn": "Sállir",
+        "norsk_navn": "Kvaløya",
+        "objekttype": "nan",
+        "nivaa": "nan",
+        "knr": "5501",
+        "stedsnummer": "807590",
+        "ssr_display": "Sállir",
+        "infotekst_no": "nan",
+        "infotekst_sme": "nan",
+        "infotekst_en": "nan",
+        "notion_url_no": "nan",
+        "notion_url_sme": "nan",
+        "notion_url_en": "nan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.36649,
+          69.57589
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "samisk_navn": "Ruobbá",
+        "norsk_navn": "Rebbenesøya",
+        "objekttype": "nan",
+        "nivaa": "nan",
+        "knr": "5501",
+        "stedsnummer": "140143",
+        "ssr_display": "Ruobbá",
+        "infotekst_no": "nan",
+        "infotekst_sme": "nan",
+        "infotekst_en": "nan",
+        "notion_url_no": "nan",
+        "notion_url_sme": "nan",
+        "notion_url_en": "nan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.72251,
+          70.05229
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "samisk_navn": "Ráneš",
+        "norsk_navn": "Ringvassøya",
+        "objekttype": "nan",
+        "nivaa": "nan",
+        "knr": "5501",
+        "stedsnummer": "749821",
+        "ssr_display": "Ráneš",
+        "infotekst_no": "nan",
+        "infotekst_sme": "nan",
+        "infotekst_en": "nan",
+        "notion_url_no": "nan",
+        "notion_url_sme": "nan",
+        "notion_url_en": "nan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.17286,
+          69.8868
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "samisk_navn": "Romssasuolu",
+        "norsk_navn": "Tromsøya",
+        "objekttype": "nan",
+        "nivaa": "nan",
+        "knr": "5501",
+        "stedsnummer": "868425",
+        "ssr_display": "Romssasuolu",
+        "infotekst_no": "nan",
+        "infotekst_sme": "nan",
+        "infotekst_en": "nan",
+        "notion_url_no": "nan",
+        "notion_url_sme": "nan",
+        "notion_url_en": "nan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.9258,
+          69.66761
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "samisk_navn": "Loavganuorri",
+        "norsk_navn": "Tromsøysundet",
+        "objekttype": "nan",
+        "nivaa": "nan",
+        "knr": "5501",
+        "stedsnummer": "40121",
+        "ssr_display": "Loavganuorri",
+        "infotekst_no": "nan",
+        "infotekst_sme": "nan",
+        "infotekst_en": "nan",
+        "notion_url_no": "nan",
+        "notion_url_sme": "nan",
+        "notion_url_en": "nan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.92915,
+          69.62711
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "samisk_navn": "Romssanuorri",
+        "norsk_navn": "Tromsøysundet",
+        "objekttype": "nan",
+        "nivaa": "nan",
+        "knr": "5501",
+        "stedsnummer": "79399",
+        "ssr_display": "Romssanuorri",
+        "infotekst_no": "nan",
+        "infotekst_sme": "nan",
+        "infotekst_en": "nan",
+        "notion_url_no": "nan",
+        "notion_url_sme": "nan",
+        "notion_url_en": "nan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.99141,
+          69.66168
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "samisk_navn": "Gáranasvuotna",
+        "norsk_navn": "Ramfjorden",
+        "objekttype": "nan",
+        "nivaa": "nan",
+        "knr": "5501",
+        "stedsnummer": "139281",
+        "ssr_display": "Gáranasvuotna",
+        "infotekst_no": "nan",
+        "infotekst_sme": "nan",
+        "infotekst_en": "nan",
+        "notion_url_no": "nan",
+        "notion_url_sme": "nan",
+        "notion_url_en": "nan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.06179,
+          69.54514
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "samisk_navn": "Moskavuotna",
+        "norsk_navn": "Sørfjorden",
+        "objekttype": "nan",
+        "nivaa": "nan",
+        "knr": "5501",
+        "stedsnummer": "688253",
+        "ssr_display": "Moskavuotna",
+        "infotekst_no": "nan",
+        "infotekst_sme": "nan",
+        "infotekst_en": "nan",
+        "notion_url_no": "nan",
+        "notion_url_sme": "nan",
+        "notion_url_en": "nan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.5567,
+          69.42326
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "samisk_navn": "Moskavuotna",
+        "norsk_navn": "Ullsfjorden",
+        "objekttype": "nan",
+        "nivaa": "nan",
+        "knr": "5501",
+        "stedsnummer": "688253",
+        "ssr_display": "Moskavuotna",
+        "infotekst_no": "nan",
+        "infotekst_sme": "nan",
+        "infotekst_en": "nan",
+        "notion_url_no": "nan",
+        "notion_url_sme": "nan",
+        "notion_url_en": "nan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.5567,
+          69.42326
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "samisk_navn": "Moskaluokta",
+        "norsk_navn": "Lakselvbukta",
+        "objekttype": "nan",
+        "nivaa": "nan",
+        "knr": "5501",
+        "stedsnummer": "385522",
+        "ssr_display": "Moskaluokta",
+        "infotekst_no": "nan",
+        "infotekst_sme": "nan",
+        "infotekst_en": "nan",
+        "notion_url_no": "nan",
+        "notion_url_sme": "nan",
+        "notion_url_en": "nan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.64699,
+          69.43331
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "samisk_navn": "Ámmonjávri",
+        "norsk_navn": "Amundvatnet",
+        "objekttype": "nan",
+        "nivaa": "nan",
+        "knr": "5501",
+        "stedsnummer": "322478",
+        "ssr_display": "Ámmonjávri",
+        "infotekst_no": "nan",
+        "infotekst_sme": "nan",
+        "infotekst_en": "nan",
+        "notion_url_no": "nan",
+        "notion_url_sme": "nan",
+        "notion_url_en": "nan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.83327,
+          69.72385
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "samisk_navn": "Báhpajávri",
+        "norsk_navn": "Prestvannet",
+        "objekttype": "nan",
+        "nivaa": "nan",
+        "knr": "5501",
+        "stedsnummer": "564313",
+        "ssr_display": "Báhpajávri",
+        "infotekst_no": "nan",
+        "infotekst_sme": "nan",
+        "infotekst_en": "nan",
+        "notion_url_no": "nan",
+        "notion_url_sme": "nan",
+        "notion_url_en": "nan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.93594,
+          69.65936
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "samisk_navn": "Skulvajávri",
+        "norsk_navn": "Skulvavatnet",
+        "objekttype": "nan",
+        "nivaa": "nan",
+        "knr": "5501",
+        "stedsnummer": "79173",
+        "ssr_display": "Skulvajávri",
+        "infotekst_no": "nan",
+        "infotekst_sme": "nan",
+        "infotekst_en": "nan",
+        "notion_url_no": "nan",
+        "notion_url_sme": "nan",
+        "notion_url_en": "nan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.55207,
+          69.36643
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "samisk_navn": "Ruollajávri",
+        "norsk_navn": "Svartevatnet",
+        "objekttype": "nan",
+        "nivaa": "nan",
+        "knr": "5501",
+        "stedsnummer": "869850",
+        "ssr_display": "Ruollajávri",
+        "infotekst_no": "nan",
+        "infotekst_sme": "nan",
+        "infotekst_en": "nan",
+        "notion_url_no": "nan",
+        "notion_url_sme": "nan",
+        "notion_url_en": "nan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.97291,
+          69.94785
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "samisk_navn": "Jiekŋajohka",
+        "norsk_navn": "Forneselva",
+        "objekttype": "nan",
+        "nivaa": "nan",
+        "knr": "5501",
+        "stedsnummer": "443971",
+        "ssr_display": "Jiekŋajohka",
+        "infotekst_no": "nan",
+        "infotekst_sme": "nan",
+        "infotekst_en": "nan",
+        "notion_url_no": "nan",
+        "notion_url_sme": "nan",
+        "notion_url_en": "nan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.88374,
+          69.57428
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "samisk_navn": "Gođđojohka",
+        "norsk_navn": "Goddoelva",
+        "objekttype": "nan",
+        "nivaa": "nan",
+        "knr": "5501",
+        "stedsnummer": "959357",
+        "ssr_display": "Gođđojohka",
+        "infotekst_no": "nan",
+        "infotekst_sme": "nan",
+        "infotekst_en": "nan",
+        "notion_url_no": "nan",
+        "notion_url_sme": "nan",
+        "notion_url_en": "nan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.40408,
+          69.39219
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "samisk_navn": "Rievdnavákkijohka",
+        "norsk_navn": "Kalvebakkelva",
+        "objekttype": "nan",
+        "nivaa": "nan",
+        "knr": "5501",
+        "stedsnummer": "201222",
+        "ssr_display": "Rievdnavákkijohka",
+        "infotekst_no": "nan",
+        "infotekst_sme": "nan",
+        "infotekst_en": "nan",
+        "notion_url_no": "nan",
+        "notion_url_sme": "nan",
+        "notion_url_en": "nan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.04211,
+          69.57542
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "samisk_navn": "Biežavákkejohka",
+        "norsk_navn": "Krokelva",
+        "objekttype": "nan",
+        "nivaa": "nan",
+        "knr": "5501",
+        "stedsnummer": "139332",
+        "ssr_display": "Biežavákkejohka",
+        "infotekst_no": "nan",
+        "infotekst_sme": "nan",
+        "infotekst_en": "nan",
+        "notion_url_no": "nan",
+        "notion_url_sme": "nan",
+        "notion_url_en": "nan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.10193,
+          69.66583
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "samisk_navn": "Stuorajohka",
+        "norsk_navn": "Storelva",
+        "objekttype": "nan",
+        "nivaa": "nan",
+        "knr": "5501",
+        "stedsnummer": "322310",
+        "ssr_display": "Stuorajohka",
+        "infotekst_no": "nan",
+        "infotekst_sme": "nan",
+        "infotekst_en": "nan",
+        "notion_url_no": "nan",
+        "notion_url_sme": "nan",
+        "notion_url_en": "nan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.78258,
+          69.69168
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "samisk_navn": "Romssaváhjohka",
+        "norsk_navn": "Tromsdalselva",
+        "objekttype": "nan",
+        "nivaa": "nan",
+        "knr": "5501",
+        "stedsnummer": "18299",
+        "ssr_display": "Romssaváhjohka",
+        "infotekst_no": "nan",
+        "infotekst_sme": "nan",
+        "infotekst_en": "nan",
+        "notion_url_no": "nan",
+        "notion_url_sme": "nan",
+        "notion_url_en": "nan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.03734,
+          69.63059
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "samisk_navn": "Sálášváhjohka",
+        "norsk_navn": "Tromsdalselva",
+        "objekttype": "nan",
+        "nivaa": "nan",
+        "knr": "5501",
+        "stedsnummer": "18299",
+        "ssr_display": "Tromsdalselva",
+        "infotekst_no": "nan",
+        "infotekst_sme": "nan",
+        "infotekst_en": "nan",
+        "notion_url_no": "nan",
+        "notion_url_sme": "nan",
+        "notion_url_en": "nan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.03734,
+          69.63059
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "samisk_navn": "Goahtevuomieatnu",
+        "norsk_navn": "Tønsvikelva",
+        "objekttype": "nan",
+        "nivaa": "nan",
+        "knr": "5501",
+        "stedsnummer": "261501",
+        "ssr_display": "Goahtevuomieatnu",
+        "infotekst_no": "nan",
+        "infotekst_sme": "nan",
+        "infotekst_en": "nan",
+        "notion_url_no": "nan",
+        "notion_url_sme": "nan",
+        "notion_url_en": "nan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.17245,
+          69.73584
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "samisk_navn": "Nieidavuovdi",
+        "norsk_navn": "Andersdalen",
+        "objekttype": "nan",
+        "nivaa": "nan",
+        "knr": "5501",
+        "stedsnummer": "443844",
+        "ssr_display": "Nieidavuovdi",
+        "infotekst_no": "nan",
+        "infotekst_sme": "nan",
+        "infotekst_en": "nan",
+        "notion_url_no": "nan",
+        "notion_url_sme": "nan",
+        "notion_url_en": "nan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.08745,
+          69.47013
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "samisk_navn": "Divrevággi",
+        "norsk_navn": "Bjørnskardalen",
+        "objekttype": "nan",
+        "nivaa": "nan",
+        "knr": "5501",
+        "stedsnummer": "746167",
+        "ssr_display": "Divrevággi",
+        "infotekst_no": "nan",
+        "infotekst_sme": "nan",
+        "infotekst_en": "nan",
+        "notion_url_no": "nan",
+        "notion_url_sme": "nan",
+        "notion_url_en": "nan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.27812,
+          69.56553
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "samisk_navn": "Govdavággi",
+        "norsk_navn": "Breidalen",
+        "objekttype": "nan",
+        "nivaa": "nan",
+        "knr": "5501",
+        "stedsnummer": "382227",
+        "ssr_display": "Govdavággi",
+        "infotekst_no": "nan",
+        "infotekst_sme": "nan",
+        "infotekst_en": "nan",
+        "notion_url_no": "nan",
+        "notion_url_sme": "nan",
+        "notion_url_en": "nan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.45427,
+          69.66772
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "samisk_navn": "Galbárvággi",
+        "norsk_navn": "Eliasdalen",
+        "objekttype": "nan",
+        "nivaa": "nan",
+        "knr": "5501",
+        "stedsnummer": "19230",
+        "ssr_display": "Galbárvággi",
+        "infotekst_no": "nan",
+        "infotekst_sme": "nan",
+        "infotekst_en": "nan",
+        "notion_url_no": "nan",
+        "notion_url_sme": "nan",
+        "notion_url_en": "nan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.1325,
+          69.57935
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "samisk_navn": "Simmaidvággi",
+        "norsk_navn": "Finnvikdalen",
+        "objekttype": "nan",
+        "nivaa": "nan",
+        "knr": "5501",
+        "stedsnummer": "929482",
+        "ssr_display": "Simmaidvággi",
+        "infotekst_no": "nan",
+        "infotekst_sme": "nan",
+        "infotekst_en": "nan",
+        "notion_url_no": "nan",
+        "notion_url_sme": "nan",
+        "notion_url_en": "nan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.91225,
+          69.759
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "samisk_navn": "Jiekŋavággi",
+        "norsk_navn": "Fornesdalen",
+        "objekttype": "nan",
+        "nivaa": "nan",
+        "knr": "5501",
+        "stedsnummer": "868893",
+        "ssr_display": "Jiekŋavággi",
+        "infotekst_no": "nan",
+        "infotekst_sme": "nan",
+        "infotekst_en": "nan",
+        "notion_url_no": "nan",
+        "notion_url_sme": "nan",
+        "notion_url_en": "nan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.92347,
+          69.55683
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "samisk_navn": "Rievdnavággi",
+        "norsk_navn": "Kalvebakkdalen",
+        "objekttype": "nan",
+        "nivaa": "nan",
+        "knr": "5501",
+        "stedsnummer": "808234",
+        "ssr_display": "Rievdnavággi",
+        "infotekst_no": "nan",
+        "infotekst_sme": "nan",
+        "infotekst_en": "nan",
+        "notion_url_no": "nan",
+        "notion_url_sme": "nan",
+        "notion_url_en": "nan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.04851,
+          69.57034
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "samisk_navn": "Gálbirvággi",
+        "norsk_navn": "Kalvedalen",
+        "objekttype": "nan",
+        "nivaa": "nan",
+        "knr": "5501",
+        "stedsnummer": "747901",
+        "ssr_display": "Gálbirvággi",
+        "infotekst_no": "nan",
+        "infotekst_sme": "nan",
+        "infotekst_en": "nan",
+        "notion_url_no": "nan",
+        "notion_url_sme": "nan",
+        "notion_url_en": "nan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.81538,
+          69.76576
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "samisk_navn": "Gáhttovuonvággi",
+        "norsk_navn": "Kattfjorddalen",
+        "objekttype": "nan",
+        "nivaa": "nan",
+        "knr": "5501",
+        "stedsnummer": "685540",
+        "ssr_display": "Gáhttovuonvággi",
+        "infotekst_no": "nan",
+        "infotekst_sme": "nan",
+        "infotekst_en": "nan",
+        "notion_url_no": "nan",
+        "notion_url_sme": "nan",
+        "notion_url_en": "nan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.47145,
+          69.63798
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "samisk_navn": "Biežavággi",
+        "norsk_navn": "Krokdalen",
+        "objekttype": "nan",
+        "nivaa": "nan",
+        "knr": "5501",
+        "stedsnummer": "321403",
+        "ssr_display": "Biežavággi",
+        "infotekst_no": "nan",
+        "infotekst_sme": "nan",
+        "infotekst_en": "nan",
+        "notion_url_no": "nan",
+        "notion_url_sme": "nan",
+        "notion_url_en": "nan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.0981,
+          69.67558
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "samisk_navn": "Gorviihvuopmi",
+        "norsk_navn": "Kårvikdalen",
+        "objekttype": "nan",
+        "nivaa": "nan",
+        "knr": "5501",
+        "stedsnummer": "79753",
+        "ssr_display": "Gorviihvuopmi",
+        "infotekst_no": "nan",
+        "infotekst_sme": "nan",
+        "infotekst_en": "nan",
+        "notion_url_no": "nan",
+        "notion_url_sme": "nan",
+        "notion_url_en": "nan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.00535,
+          69.87793
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "samisk_navn": "Guhkesrohči",
+        "norsk_navn": "Langdalen",
+        "objekttype": "nan",
+        "nivaa": "nan",
+        "knr": "5501",
+        "stedsnummer": "747230",
+        "ssr_display": "Guhkesrohči",
+        "infotekst_no": "nan",
+        "infotekst_sme": "nan",
+        "infotekst_en": "nan",
+        "notion_url_no": "nan",
+        "notion_url_sme": "nan",
+        "notion_url_en": "nan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.54698,
+          69.67159
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "samisk_navn": "Guhkesvággi",
+        "norsk_navn": "Langdalen",
+        "objekttype": "nan",
+        "nivaa": "nan",
+        "knr": "5501",
+        "stedsnummer": "40745",
+        "ssr_display": "Guhkesvággi",
+        "infotekst_no": "nan",
+        "infotekst_sme": "nan",
+        "infotekst_en": "nan",
+        "notion_url_no": "nan",
+        "notion_url_sme": "nan",
+        "notion_url_en": "nan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.56716,
+          69.72877
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "samisk_navn": "Gaskavággi",
+        "norsk_navn": "Mellomdalen",
+        "objekttype": "nan",
+        "nivaa": "nan",
+        "knr": "5501",
+        "stedsnummer": "382022",
+        "ssr_display": "Gaskavággi",
+        "infotekst_no": "nan",
+        "infotekst_sme": "nan",
+        "infotekst_en": "nan",
+        "notion_url_no": "nan",
+        "notion_url_sme": "nan",
+        "notion_url_en": "nan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.29571,
+          69.47543
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "samisk_navn": "Náhkkevággi",
+        "norsk_navn": "Nakkedalen",
+        "objekttype": "nan",
+        "nivaa": "nan",
+        "knr": "5501",
+        "stedsnummer": "868130",
+        "ssr_display": "Náhkkevággi",
+        "infotekst_no": "nan",
+        "infotekst_sme": "nan",
+        "infotekst_en": "nan",
+        "notion_url_no": "nan",
+        "notion_url_sme": "nan",
+        "notion_url_en": "nan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.55588,
+          69.59862
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "samisk_navn": "Nammavággi",
+        "norsk_navn": "Namdalen",
+        "objekttype": "nan",
+        "nivaa": "nan",
+        "knr": "5501",
+        "stedsnummer": "564154",
+        "ssr_display": "Nammavággi",
+        "infotekst_no": "nan",
+        "infotekst_sme": "nan",
+        "infotekst_en": "nan",
+        "notion_url_no": "nan",
+        "notion_url_sme": "nan",
+        "notion_url_en": "nan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.45973,
+          69.55515
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "samisk_navn": "Sáltevággi",
+        "norsk_navn": "Saltdalen",
+        "objekttype": "nan",
+        "nivaa": "nan",
+        "knr": "5501",
+        "stedsnummer": "79030",
+        "ssr_display": "Sáltevággi",
+        "infotekst_no": "nan",
+        "infotekst_sme": "nan",
+        "infotekst_en": "nan",
+        "notion_url_no": "nan",
+        "notion_url_sme": "nan",
+        "notion_url_en": "nan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.37062,
+          69.49894
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "samisk_navn": "Suoidnevággi",
+        "norsk_navn": "Sennedalen",
+        "objekttype": "nan",
+        "nivaa": "nan",
+        "knr": "5501",
+        "stedsnummer": "79012",
+        "ssr_display": "Suoidnevággi",
+        "infotekst_no": "nan",
+        "infotekst_sme": "nan",
+        "infotekst_en": "nan",
+        "notion_url_no": "nan",
+        "notion_url_sme": "nan",
+        "notion_url_en": "nan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.44556,
+          69.45788
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "samisk_navn": "Čuonjávággi",
+        "norsk_navn": "Sennedalen",
+        "objekttype": "nan",
+        "nivaa": "nan",
+        "knr": "5501",
+        "stedsnummer": "80408",
+        "ssr_display": "Čuonjávággi",
+        "infotekst_no": "nan",
+        "infotekst_sme": "nan",
+        "infotekst_en": "nan",
+        "notion_url_no": "nan",
+        "notion_url_sme": "nan",
+        "notion_url_en": "nan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.45456,
+          69.5178
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "samisk_navn": "Skáhpevággi",
+        "norsk_navn": "Skavelvdalen",
+        "objekttype": "nan",
+        "nivaa": "nan",
+        "knr": "5501",
+        "stedsnummer": "261324",
+        "ssr_display": "Skáhpevággi",
+        "infotekst_no": "nan",
+        "infotekst_sme": "nan",
+        "infotekst_en": "nan",
+        "notion_url_no": "nan",
+        "notion_url_sme": "nan",
+        "notion_url_en": "nan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.69354,
+          69.66084
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "samisk_navn": "Čeađevággi",
+        "norsk_navn": "Skognesdalen",
+        "objekttype": "nan",
+        "nivaa": "nan",
+        "knr": "5501",
+        "stedsnummer": "625022",
+        "ssr_display": "Čeađevággi",
+        "infotekst_no": "nan",
+        "infotekst_sme": "nan",
+        "infotekst_en": "nan",
+        "notion_url_no": "nan",
+        "notion_url_sme": "nan",
+        "notion_url_en": "nan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.59888,
+          69.4783
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "samisk_navn": "Skulvavággi",
+        "norsk_navn": "Skulvadalen",
+        "objekttype": "nan",
+        "nivaa": "nan",
+        "knr": "5501",
+        "stedsnummer": "261163",
+        "ssr_display": "Skulvavággi",
+        "infotekst_no": "nan",
+        "infotekst_sme": "nan",
+        "infotekst_en": "nan",
+        "notion_url_no": "nan",
+        "notion_url_sme": "nan",
+        "notion_url_en": "nan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.56347,
+          69.3628
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "samisk_navn": "Rievdnavággi",
+        "norsk_navn": "Stordalen",
+        "objekttype": "nan",
+        "nivaa": "nan",
+        "knr": "5501",
+        "stedsnummer": "808234",
+        "ssr_display": "Rievdnavággi",
+        "infotekst_no": "nan",
+        "infotekst_sme": "nan",
+        "infotekst_en": "nan",
+        "notion_url_no": "nan",
+        "notion_url_sme": "nan",
+        "notion_url_en": "nan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.04851,
+          69.57034
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "samisk_navn": "Vuolevággi",
+        "norsk_navn": "Tepphaugdalen",
+        "objekttype": "nan",
+        "nivaa": "nan",
+        "knr": "5501",
+        "stedsnummer": "79139",
+        "ssr_display": "Vuolevággi",
+        "infotekst_no": "nan",
+        "infotekst_sme": "nan",
+        "infotekst_en": "nan",
+        "notion_url_no": "nan",
+        "notion_url_sme": "nan",
+        "notion_url_en": "nan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.46287,
+          69.59267
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "samisk_navn": "Romssavággi",
+        "norsk_navn": "Tromsdalen",
+        "objekttype": "nan",
+        "nivaa": "nan",
+        "knr": "5501",
+        "stedsnummer": "322313",
+        "ssr_display": "Romssavággi",
+        "infotekst_no": "nan",
+        "infotekst_sme": "nan",
+        "infotekst_en": "nan",
+        "notion_url_no": "nan",
+        "notion_url_sme": "nan",
+        "notion_url_en": "nan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.0518,
+          69.63536
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "samisk_navn": "Sálašvággi",
+        "norsk_navn": "Tromsdalen",
+        "objekttype": "nan",
+        "nivaa": "nan",
+        "knr": "5501",
+        "stedsnummer": "322313",
+        "ssr_display": "Sálašvággi",
+        "infotekst_no": "nan",
+        "infotekst_sme": "nan",
+        "infotekst_en": "nan",
+        "notion_url_no": "nan",
+        "notion_url_sme": "nan",
+        "notion_url_en": "nan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.0518,
+          69.63536
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "samisk_navn": "Goahtevuopmi",
+        "norsk_navn": "Tønsvikdalen",
+        "objekttype": "nan",
+        "nivaa": "nan",
+        "knr": "5501",
+        "stedsnummer": "625415",
+        "ssr_display": "Goahtevuopmi",
+        "infotekst_no": "nan",
+        "infotekst_sme": "nan",
+        "infotekst_en": "nan",
+        "notion_url_no": "nan",
+        "notion_url_sme": "nan",
+        "notion_url_en": "nan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.19813,
+          69.69944
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "samisk_navn": "Simmáviihvággi",
+        "norsk_navn": "Ytredalen",
+        "objekttype": "nan",
+        "nivaa": "nan",
+        "knr": "5501",
+        "stedsnummer": "261996",
+        "ssr_display": "Simmáviihvággi",
+        "infotekst_no": "nan",
+        "infotekst_sme": "nan",
+        "infotekst_en": "nan",
+        "notion_url_no": "nan",
+        "notion_url_sme": "nan",
+        "notion_url_en": "nan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.03843,
+          69.8468
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "samisk_navn": "Jerremaš",
+        "norsk_navn": "Austeråsfjellet",
+        "objekttype": "nan",
+        "nivaa": "nan",
+        "knr": "5501",
+        "stedsnummer": "928914",
+        "ssr_display": "Jerremaš",
+        "infotekst_no": "nan",
+        "infotekst_sme": "nan",
+        "infotekst_en": "nan",
+        "notion_url_no": "nan",
+        "notion_url_sme": "nan",
+        "notion_url_en": "nan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.96876,
+          69.78239
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "samisk_navn": "Davit Geađgečohkka",
+        "norsk_navn": "Blåfjellet",
+        "objekttype": "nan",
+        "nivaa": "nan",
+        "knr": "5501",
+        "stedsnummer": "809478",
+        "ssr_display": "Davit Geađgečohkka",
+        "infotekst_no": "nan",
+        "infotekst_sme": "nan",
+        "infotekst_en": "nan",
+        "notion_url_no": "nan",
+        "notion_url_sme": "nan",
+        "notion_url_en": "nan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.16214,
+          69.67028
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "samisk_navn": "Sáttovárri",
+        "norsk_navn": "Blåfjellet",
+        "objekttype": "nan",
+        "nivaa": "nan",
+        "knr": "5501",
+        "stedsnummer": "627232",
+        "ssr_display": "Sáttovárri",
+        "infotekst_no": "nan",
+        "infotekst_sme": "nan",
+        "infotekst_en": "nan",
+        "notion_url_no": "nan",
+        "notion_url_sme": "nan",
+        "notion_url_en": "nan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.12237,
+          69.51811
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "samisk_navn": "Vávrrosvárri",
+        "norsk_navn": "Fagerfjellet",
+        "objekttype": "nan",
+        "nivaa": "nan",
+        "knr": "5501",
+        "stedsnummer": "625159",
+        "ssr_display": "Vávrrosvárri",
+        "infotekst_no": "nan",
+        "infotekst_sme": "nan",
+        "infotekst_en": "nan",
+        "notion_url_no": "nan",
+        "notion_url_sme": "nan",
+        "notion_url_en": "nan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.26398,
+          69.55065
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "samisk_navn": "Jiekŋaváhgáisi",
+        "norsk_navn": "Fornesfjellet",
+        "objekttype": "nan",
+        "nivaa": "nan",
+        "knr": "5501",
+        "stedsnummer": "261967",
+        "ssr_display": "Jiekŋaváhgáisi",
+        "infotekst_no": "nan",
+        "infotekst_sme": "nan",
+        "infotekst_en": "nan",
+        "notion_url_no": "nan",
+        "notion_url_sme": "nan",
+        "notion_url_en": "nan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.90928,
+          69.57255
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "samisk_navn": "Goalseváhgáisi",
+        "norsk_navn": "Kvalvikdalsfjellet",
+        "objekttype": "nan",
+        "nivaa": "nan",
+        "knr": "5501",
+        "stedsnummer": "932898",
+        "ssr_display": "Goalseváhgáisi",
+        "infotekst_no": "nan",
+        "infotekst_sme": "nan",
+        "infotekst_en": "nan",
+        "notion_url_no": "nan",
+        "notion_url_sme": "nan",
+        "notion_url_en": "nan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.00842,
+          69.53838
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "samisk_navn": "Vilgesbákti",
+        "norsk_navn": "Kvitbergfjellet",
+        "objekttype": "nan",
+        "nivaa": "nan",
+        "knr": "5501",
+        "stedsnummer": "768551",
+        "ssr_display": "Vilgesbákti",
+        "infotekst_no": "nan",
+        "infotekst_sme": "nan",
+        "infotekst_en": "nan",
+        "notion_url_no": "nan",
+        "notion_url_sme": "nan",
+        "notion_url_en": "nan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.63536,
+          69.52738
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "samisk_navn": "Vilgesvárri",
+        "norsk_navn": "Kvitfjell",
+        "objekttype": "nan",
+        "nivaa": "nan",
+        "knr": "5501",
+        "stedsnummer": "82597",
+        "ssr_display": "Vilgesvárri",
+        "infotekst_no": "nan",
+        "infotekst_sme": "nan",
+        "infotekst_en": "nan",
+        "notion_url_no": "nan",
+        "notion_url_sme": "nan",
+        "notion_url_en": "nan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.13148,
+          69.58293
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "samisk_navn": "Galbárnjunni",
+        "norsk_navn": "Laukslettfjellet",
+        "objekttype": "nan",
+        "nivaa": "nan",
+        "knr": "5501",
+        "stedsnummer": "19239",
+        "ssr_display": "Galbárnjunni",
+        "infotekst_no": "nan",
+        "infotekst_sme": "nan",
+        "infotekst_en": "nan",
+        "notion_url_no": "nan",
+        "notion_url_sme": "nan",
+        "notion_url_en": "nan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.10385,
+          69.57369
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "samisk_navn": "Vearral",
+        "norsk_navn": "Makfjellet",
+        "objekttype": "nan",
+        "nivaa": "nan",
+        "knr": "5501",
+        "stedsnummer": "79988",
+        "ssr_display": "Vearral",
+        "infotekst_no": "nan",
+        "infotekst_sme": "nan",
+        "infotekst_en": "nan",
+        "notion_url_no": "nan",
+        "notion_url_sme": "nan",
+        "notion_url_en": "nan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.98158,
+          69.85514
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "samisk_navn": "Jievjačielgi",
+        "norsk_navn": "Middagsfjellet",
+        "objekttype": "nan",
+        "nivaa": "nan",
+        "knr": "5501",
+        "stedsnummer": "263426",
+        "ssr_display": "Jievjačielgi",
+        "infotekst_no": "nan",
+        "infotekst_sme": "nan",
+        "infotekst_en": "nan",
+        "notion_url_no": "nan",
+        "notion_url_sme": "nan",
+        "notion_url_en": "nan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.10178,
+          69.90843
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "samisk_navn": "Náhkkevárri",
+        "norsk_navn": "Nakkefjellet",
+        "objekttype": "nan",
+        "nivaa": "nan",
+        "knr": "5501",
+        "stedsnummer": "686123",
+        "ssr_display": "Náhkkevárri",
+        "infotekst_no": "nan",
+        "infotekst_sme": "nan",
+        "infotekst_en": "nan",
+        "notion_url_no": "nan",
+        "notion_url_sme": "nan",
+        "notion_url_en": "nan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.64654,
+          69.61388
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "samisk_navn": "Biežavárri",
+        "norsk_navn": "Nordfjellet",
+        "objekttype": "nan",
+        "nivaa": "nan",
+        "knr": "5501",
+        "stedsnummer": "21349",
+        "ssr_display": "Biežavárri",
+        "infotekst_no": "nan",
+        "infotekst_sme": "nan",
+        "infotekst_en": "nan",
+        "notion_url_no": "nan",
+        "notion_url_sme": "nan",
+        "notion_url_en": "nan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.06944,
+          69.65732
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "samisk_navn": "Ruksesvárri",
+        "norsk_navn": "Raudtindfjellet",
+        "objekttype": "nan",
+        "nivaa": "nan",
+        "knr": "5501",
+        "stedsnummer": "778370",
+        "ssr_display": "Ruksesvárri",
+        "infotekst_no": "nan",
+        "infotekst_sme": "nan",
+        "infotekst_en": "nan",
+        "notion_url_no": "nan",
+        "notion_url_sme": "nan",
+        "notion_url_en": "nan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.75255,
+          69.70146
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "samisk_navn": "Davit Geađgečohkka",
+        "norsk_navn": "Rundfjellet",
+        "objekttype": "nan",
+        "nivaa": "nan",
+        "knr": "5501",
+        "stedsnummer": "809478",
+        "ssr_display": "Davit Geađgečohkka",
+        "infotekst_no": "nan",
+        "infotekst_sme": "nan",
+        "infotekst_en": "nan",
+        "notion_url_no": "nan",
+        "notion_url_sme": "nan",
+        "notion_url_en": "nan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.16214,
+          69.67028
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "samisk_navn": "Stuoračazačohkka",
+        "norsk_navn": "Skarsfjellet",
+        "objekttype": "nan",
+        "nivaa": "nan",
+        "knr": "5501",
+        "stedsnummer": "504309",
+        "ssr_display": "Stuoračazačohkka",
+        "infotekst_no": "nan",
+        "infotekst_sme": "nan",
+        "infotekst_en": "nan",
+        "notion_url_no": "nan",
+        "notion_url_sme": "nan",
+        "notion_url_en": "nan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.14665,
+          69.63173
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "samisk_navn": "Skieljevárdu",
+        "norsk_navn": "Skjellelvfjellet",
+        "objekttype": "nan",
+        "nivaa": "nan",
+        "knr": "5501",
+        "stedsnummer": "19232",
+        "ssr_display": "Skieljevárdu",
+        "infotekst_no": "nan",
+        "infotekst_sme": "nan",
+        "infotekst_en": "nan",
+        "notion_url_no": "nan",
+        "notion_url_sme": "nan",
+        "notion_url_en": "nan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.14859,
+          69.58246
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "samisk_navn": "Stuoravárri",
+        "norsk_navn": "Storefjellet",
+        "objekttype": "nan",
+        "nivaa": "nan",
+        "knr": "5501",
+        "stedsnummer": "79858",
+        "ssr_display": "Stuoravárri",
+        "infotekst_no": "nan",
+        "infotekst_sme": "nan",
+        "infotekst_en": "nan",
+        "notion_url_no": "nan",
+        "notion_url_sme": "nan",
+        "notion_url_en": "nan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.7612,
+          69.76233
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "samisk_navn": "Stuoravárri",
+        "norsk_navn": "Storfjellet",
+        "objekttype": "nan",
+        "nivaa": "nan",
+        "knr": "5501",
+        "stedsnummer": "79858",
+        "ssr_display": "Stuoravárri",
+        "infotekst_no": "nan",
+        "infotekst_sme": "nan",
+        "infotekst_en": "nan",
+        "notion_url_no": "nan",
+        "notion_url_sme": "nan",
+        "notion_url_en": "nan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.7612,
+          69.76233
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "samisk_navn": "Spiidnegáisá",
+        "norsk_navn": "Durmålstinden",
+        "objekttype": "nan",
+        "nivaa": "nan",
+        "knr": "5501",
+        "stedsnummer": "503491",
+        "ssr_display": "Durmålstinden",
+        "infotekst_no": "nan",
+        "infotekst_sme": "nan",
+        "infotekst_en": "nan",
+        "notion_url_no": "nan",
+        "notion_url_sme": "nan",
+        "notion_url_en": "nan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.45375,
+          69.6212
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "samisk_navn": "Oarrevárri",
+        "norsk_navn": "Gråtinden",
+        "objekttype": "nan",
+        "nivaa": "nan",
+        "knr": "5501",
+        "stedsnummer": "931843",
+        "ssr_display": "Oarrevárri",
+        "infotekst_no": "nan",
+        "infotekst_sme": "nan",
+        "infotekst_en": "nan",
+        "notion_url_no": "nan",
+        "notion_url_sme": "nan",
+        "notion_url_en": "nan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.77445,
+          69.9231
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "samisk_navn": "Rášat",
+        "norsk_navn": "Kråktinden",
+        "objekttype": "nan",
+        "nivaa": "nan",
+        "knr": "5501",
+        "stedsnummer": "564798",
+        "ssr_display": "Rášat",
+        "infotekst_no": "nan",
+        "infotekst_sme": "nan",
+        "infotekst_en": "nan",
+        "notion_url_no": "nan",
+        "notion_url_sme": "nan",
+        "notion_url_en": "nan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.92888,
+          69.90059
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "samisk_navn": "Lássávárri",
+        "norsk_navn": "Lakstinden",
+        "objekttype": "nan",
+        "nivaa": "nan",
+        "knr": "5501",
+        "stedsnummer": "503508",
+        "ssr_display": "Lássávárri",
+        "infotekst_no": "nan",
+        "infotekst_sme": "nan",
+        "infotekst_en": "nan",
+        "notion_url_no": "nan",
+        "notion_url_sme": "nan",
+        "notion_url_en": "nan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.14281,
+          69.61769
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "samisk_navn": "Suorgečohkka",
+        "norsk_navn": "Nattmålstinden",
+        "objekttype": "nan",
+        "nivaa": "nan",
+        "knr": "5501",
+        "stedsnummer": "263193",
+        "ssr_display": "Suorgečohkka",
+        "infotekst_no": "nan",
+        "infotekst_sme": "nan",
+        "infotekst_en": "nan",
+        "notion_url_no": "nan",
+        "notion_url_sme": "nan",
+        "notion_url_en": "nan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.96579,
+          69.98712
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "samisk_navn": "Nuortagáisi",
+        "norsk_navn": "Nordtinden",
+        "objekttype": "nan",
+        "nivaa": "nan",
+        "knr": "5501",
+        "stedsnummer": "870980",
+        "ssr_display": "Nuortagáisi",
+        "infotekst_no": "nan",
+        "infotekst_sme": "nan",
+        "infotekst_en": "nan",
+        "notion_url_no": "nan",
+        "notion_url_sme": "nan",
+        "notion_url_en": "nan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.74414,
+          69.8278
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "samisk_navn": "Skulvagáissát",
+        "norsk_navn": "Skulvatindane",
+        "objekttype": "nan",
+        "nivaa": "nan",
+        "knr": "5501",
+        "stedsnummer": "82200",
+        "ssr_display": "Skulvagáissát",
+        "infotekst_no": "nan",
+        "infotekst_sme": "nan",
+        "infotekst_en": "nan",
+        "notion_url_no": "nan",
+        "notion_url_sme": "nan",
+        "notion_url_en": "nan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.57056,
+          69.37988
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "samisk_navn": "Ádjetgáisi",
+        "norsk_navn": "Svartvasstinden",
+        "objekttype": "nan",
+        "nivaa": "nan",
+        "knr": "5501",
+        "stedsnummer": "81836",
+        "ssr_display": "Ádjetgáisi",
+        "infotekst_no": "nan",
+        "infotekst_sme": "nan",
+        "infotekst_en": "nan",
+        "notion_url_no": "nan",
+        "notion_url_sme": "nan",
+        "notion_url_en": "nan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.03068,
+          69.94052
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "samisk_navn": "Sálaščohkka (Sálašoaivi)",
+        "norsk_navn": "Tromsdalstinden",
+        "objekttype": "nan",
+        "nivaa": "nan",
+        "knr": "5501",
+        "stedsnummer": "21384",
+        "ssr_display": "Sálaščohkka",
+        "infotekst_no": "Tromsdalstinden regnes som byfjellet i Tromsø. Lokalbefolkningen kaller den for Tinden eller Tijn, og mange i Tromsø har et lidenskapelig forhold til byfjellet sitt. Sola skinner på Tinden flere dager før sola vender tilbake til sentrum i slutten av januar. Et tidlig snøfall i august på Tinden varsler om den kommende vinteren. Tromsdalstinden avslører også deler av Nord-Norges geologiske historie.",
+        "infotekst_sme": "Sálašoaivi lea Romssa gávpotvárri. Romssas lea máŋgasiin erenoamáš oktavuohta iežaset gávpotvárrái. Beaivváš báitá Sálašoaivái moadde beaivvi ovdal go beaivváš fas báitigoahtá gávpotguovddážis ođđajagimánu loahpas. Go árrat muohttá Sálašoaivái borgemánus, de dieđiha dálvvi mii lea boahtime. Sálašoaivi almmustahttá maid osiid Davvi-Norgga geologalaš historjjás.",
+        "infotekst_en": "Tromsdalstinden is considered the city mountain of Tromsø. Locals refer to it as Tinden or Tijn, and many people in Tromsø have a deep and passionate connection to their mountain. The sun shines on Tinden several days before it returns to the city center at the end of January. An early snowfall on Tinden in August is seen as a sign of the coming winter. Tromsdalstinden also reveals parts of Northern Norway’s geological history.",
+        "notion_url_no": "https://learnlabacademy.notion.site/Hva-er-det-som-gj-r-Tromsdalstinden-s-spesiell-2452c336afd6806e87a9dfa0d6c766ed?pvs=143",
+        "notion_url_sme": "https://learnlab.notion.site/S-la-oaivi-2602c336afd6802abf6dc0fa5a42f972?pvs=143",
+        "notion_url_en": "https://learnlab.notion.site/What-makes-Tromsdalstinden-so-special-25e2c336afd680108127d2272a239b1f?pvs=143"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.14581,
+          69.60716
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "samisk_navn": "Gođđonjárga",
+        "norsk_navn": "Gåddoneset",
+        "objekttype": "nan",
+        "nivaa": "nan",
+        "knr": "5501",
+        "stedsnummer": "291418",
+        "ssr_display": "Gođđonjárga",
+        "infotekst_no": "nan",
+        "infotekst_sme": "nan",
+        "infotekst_en": "nan",
+        "notion_url_no": "nan",
+        "notion_url_sme": "nan",
+        "notion_url_en": "nan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.40597,
+          69.38859
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "samisk_navn": "Várdánčohkka",
+        "norsk_navn": "Vardheia",
+        "objekttype": "nan",
+        "nivaa": "nan",
+        "knr": "5501",
+        "stedsnummer": "322438",
+        "ssr_display": "Várdánčohkka",
+        "infotekst_no": "nan",
+        "infotekst_sme": "nan",
+        "infotekst_en": "nan",
+        "notion_url_no": "nan",
+        "notion_url_sme": "nan",
+        "notion_url_en": "nan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.24049,
+          69.53383
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "samisk_navn": "Lulit Geađgečohkka",
+        "norsk_navn": "Blåmannen",
+        "objekttype": "nan",
+        "nivaa": "nan",
+        "knr": "5501",
+        "stedsnummer": "746310",
+        "ssr_display": "Lulit Geađgečohkka",
+        "infotekst_no": "nan",
+        "infotekst_sme": "nan",
+        "infotekst_en": "nan",
+        "notion_url_no": "nan",
+        "notion_url_sme": "nan",
+        "notion_url_en": "nan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.1719,
+          69.66057
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "samisk_navn": "Guohcavuopmi",
+        "norsk_navn": "Breivikeidet",
+        "objekttype": "nan",
+        "nivaa": "nan",
+        "knr": "5501",
+        "stedsnummer": "274575",
+        "ssr_display": "Guohcavuopmi",
+        "infotekst_no": "nan",
+        "infotekst_sme": "nan",
+        "infotekst_en": "nan",
+        "notion_url_no": "nan",
+        "notion_url_sme": "nan",
+        "notion_url_en": "nan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.56755,
+          69.65613
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "samisk_navn": "Eljor",
+        "norsk_navn": "Maken",
+        "objekttype": "nan",
+        "nivaa": "nan",
+        "knr": "5501",
+        "stedsnummer": "79740",
+        "ssr_display": "Eljor",
+        "infotekst_no": "nan",
+        "infotekst_sme": "nan",
+        "infotekst_en": "nan",
+        "notion_url_no": "nan",
+        "notion_url_sme": "nan",
+        "notion_url_en": "nan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.02209,
+          69.87269
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "samisk_navn": "Eljorvárri",
+        "norsk_navn": "Maken",
+        "objekttype": "nan",
+        "nivaa": "nan",
+        "knr": "5501",
+        "stedsnummer": "79740",
+        "ssr_display": "Eljorvárri",
+        "infotekst_no": "nan",
+        "infotekst_sme": "nan",
+        "infotekst_en": "nan",
+        "notion_url_no": "nan",
+        "notion_url_sme": "nan",
+        "notion_url_en": "nan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.02209,
+          69.87269
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "samisk_navn": "Stuoravállas",
+        "norsk_navn": "Ramfjordmoen",
+        "objekttype": "nan",
+        "nivaa": "nan",
+        "knr": "5501",
+        "stedsnummer": "747247",
+        "ssr_display": "Stuoravállas",
+        "infotekst_no": "nan",
+        "infotekst_sme": "nan",
+        "infotekst_en": "nan",
+        "notion_url_no": "nan",
+        "notion_url_sme": "nan",
+        "notion_url_en": "nan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.20724,
+          69.58364
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "samisk_navn": "Stuoragielas",
+        "norsk_navn": "Stor-Kjølen",
+        "objekttype": "nan",
+        "nivaa": "nan",
+        "knr": "5501",
+        "stedsnummer": "564496",
+        "ssr_display": "Stuoragielas",
+        "infotekst_no": "nan",
+        "infotekst_sme": "nan",
+        "infotekst_en": "nan",
+        "notion_url_no": "nan",
+        "notion_url_sme": "nan",
+        "notion_url_en": "nan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.78744,
+          69.73369
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "samisk_navn": "Stuoračahca",
+        "norsk_navn": "Storskaret",
+        "objekttype": "nan",
+        "nivaa": "nan",
+        "knr": "5501",
+        "stedsnummer": "81372",
+        "ssr_display": "Stuoračahca",
+        "infotekst_no": "nan",
+        "infotekst_sme": "nan",
+        "infotekst_en": "nan",
+        "notion_url_no": "nan",
+        "notion_url_sme": "nan",
+        "notion_url_en": "nan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.13427,
+          69.62482
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "samisk_navn": "Čazajávrrit",
+        "norsk_navn": "Storskarvatnan",
+        "objekttype": "nan",
+        "nivaa": "nan",
+        "knr": "5501",
+        "stedsnummer": "625345",
+        "ssr_display": "Čazajávrrit",
+        "infotekst_no": "nan",
+        "infotekst_sme": "nan",
+        "infotekst_en": "nan",
+        "notion_url_no": "nan",
+        "notion_url_sme": "nan",
+        "notion_url_en": "nan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.20093,
+          69.64317
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "samisk_navn": "Romsa (Romssa suohkan)",
+        "norsk_navn": "Troms",
+        "objekttype": "nan",
+        "nivaa": "nan",
+        "knr": "5501",
+        "stedsnummer": "503295",
+        "ssr_display": "Romsa",
+        "infotekst_no": "nan",
+        "infotekst_sme": "nan",
+        "infotekst_en": "nan",
+        "notion_url_no": "nan",
+        "notion_url_sme": "nan",
+        "notion_url_en": "nan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.96366,
+          69.65455
+        ]
+      }
+    }
+  ]
+}

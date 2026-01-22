@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="no">
+<head>
+  <meta charset="utf-8" />
+  <title>Samiske stedsnavn – Tromsø</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <!-- Leaflet CSS -->
+  <link
+    rel="stylesheet"
+    href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+    integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
+    crossorigin=""
+  />
+
+  <!-- Leaflet JS -->
+  <script
+    src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+    integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
+    crossorigin=""
+  ></script>
+
+  <style>
+    body {
+      margin: 0;
+    }
+
+    #map {
+      height: 100vh;
+      width: 100vw;
+    }
+
+    .popup-samisk {
+      font-size: 16px;
+      font-weight: 600;
+      margin: 0 0 2px 0;
+    }
+
+    .popup-norsk {
+      font-size: 13px;
+      margin: 0;
+      opacity: 0.85;
+    }
+
+    /* Språkblokker */
+    .popup-lang {
+      display: flex;
+      gap: 8px;
+      margin-top: 10px;
+      align-items: flex-start;
+    }
+
+    .lang-icon {
+      width: 22px;
+      height: auto;
+      margin-top: 2px;
+      flex: 0 0 auto;
+    }
+
+    .popup-text {
+      font-size: 13px;
+      line-height: 1.4;
+    }
+
+    .popup-text p {
+      margin: 0 0 6px 0;
+    }
+
+    .popup-text a {
+      text-decoration: none;
+      color: #0066cc;
+    }
+
+    .popup-text a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <div id="map"></div>
+
+  <!-- App -->
+  <script src="./app.js"></script>
+</body>
+</html>
