@@ -1,10 +1,56 @@
+// ===== Språkvalg (frontend-only) =====
+let currentLang = "sme"; // standard: samisk
+
+// ===== Kart =====
 const map = L.map("map").setView([69.65, 18.95], 10);
 
 L.tileLayer(
   "https://cache.kartverket.no/v1/wmts/1.0.0/topo/default/webmercator/{z}/{y}/{x}.png",
-  { maxZoom: 19, attribution: "© Kartverket" }
+  {
+    maxZoom: 19,
+    attribution:
+      '© <a href="https://www.kartverket.no/" target="_blank" rel="noopener">Kartverket</a> | ' +
+      'Stedsnavn: <a href="https://www.kartverket.no/til-lands/stadnamn/sok-stadnamn-i-kart" target="_blank" rel="noopener">SSR</a>',
+  }
 ).addTo(map);
 
+// ===== Språk-knapper i Leaflet (øverst til høyre) =====
+const LangControl = L.Control.extend({
+  onAdd: function () {
+    const div = L.DomUtil.create("div", "lang-switcher leaflet-bar");
+
+    div.innerHTML = `
+      <a href="#" data-lang="sme" class="active">SME</a>
+      <a href="#" data-lang="no">NO</a>
+      <a href="#" data-lang="en">EN</a>
+    `;
+
+    // Hindrer at kartet “tar” klikk/drag
+    L.DomEvent.disableClickPropagation(div);
+    L.DomEvent.disableScrollPropagation(div);
+
+    div.querySelectorAll("a").forEach((a) => {
+      a.addEventListener("click", (e) => {
+        e.preventDefault();
+
+        currentLang = a.dataset.lang;
+
+        div.querySelectorAll("a").forEach((x) => x.classList.remove("active"));
+        a.classList.add("active");
+
+        // Popup-innhold bygges på nytt ved åpning (se bindPopup(() => ...)).
+        // Vi lukker bare popup, så brukeren kan klikke markør på nytt.
+        map.closePopup();
+      });
+    });
+
+    return div;
+  },
+});
+
+map.addControl(new LangControl({ position: "topright" }));
+
+// ===== Utils =====
 function escapeHtml(s) {
   return String(s)
     .replaceAll("&", "&amp;")
@@ -30,85 +76,70 @@ function fixUrl(u) {
 }
 
 function renderText(text) {
-  // escape + behold linjeskift fra Excel
   return escapeHtml(text).replace(/\n/g, "<br>");
 }
 
-function langBlock({ lang, iconHtml, iconImgSrc, text, url, linkText }) {
-  const hasText = !!text;
-  const hasUrl = !!url;
-  if (!hasText && !hasUrl) return "";
-
-  const iconPart = iconImgSrc
-    ? `<img src="${escapeHtml(iconImgSrc)}" class="lang-icon" alt="" />`
-    : iconHtml
-      ? `<span class="lang-icon-inline" aria-hidden="true">${iconHtml}</span>`
-      : "";
-
-  return `
-    <div class="popup-lang" lang="${escapeHtml(lang)}">
-      ${iconPart}
-      <div class="popup-text">
-        ${hasText ? `<p>${renderText(text)}</p>` : ""}
-        ${
-          hasUrl
-            ? `<p><a href="${escapeHtml(url)}" target="_blank" rel="noopener noreferrer">${escapeHtml(
-                linkText
-              )}</a></p>`
-            : ""
-        }
-      </div>
-    </div>
-  `;
+// ===== Språk: ikon + lenketekst =====
+function linkTextFor(lang) {
+  if (lang === "sme") return "Lohkka sámegillii";
+  if (lang === "no") return "Les mer";
+  return "Read more";
 }
 
+// Samisk: SVG-ikon. Norsk/Engelsk: emoji (unicode).
+function langIconFor(lang) {
+  if (lang === "sme") {
+    return `<img src="assets/sami_flag.svg" class="lang-icon" alt="" />`;
+  }
+  if (lang === "no") {
+    return `<span class="lang-icon-inline" aria-hidden="true">🇳🇴</span>`;
+  }
+  // EN
+  return `<span class="lang-icon-inline" aria-hidden="true">🇬🇧</span>`;
+}
+
+// ===== Popup builder (viktig: kjøres ved åpning) =====
+function buildPopupHtml(p) {
+  const samiskNavn = escapeHtml(clean(p.samisk_navn));
+  const norskNavn = escapeHtml(clean(p.norsk_navn));
+
+  let html = `
+    <div class="popup-samisk">${samiskNavn}</div>
+    <div class="popup-norsk">${norskNavn}</div>
+  `;
+
+  const infotekst = clean(p[`infotekst_${currentLang}`]);
+  const url = fixUrl(p[`notion_url_${currentLang}`]);
+
+  if (infotekst || url) {
+    html += `
+      <div class="popup-lang" lang="${escapeHtml(currentLang)}">
+        ${langIconFor(currentLang)}
+        <div class="popup-text">
+          ${infotekst ? `<p>${renderText(infotekst)}</p>` : ""}
+          ${
+            url
+              ? `<p><a href="${escapeHtml(
+                  url
+                )}" target="_blank" rel="noopener noreferrer">${escapeHtml(
+                  linkTextFor(currentLang)
+                )}</a></p>`
+              : ""
+          }
+        </div>
+      </div>
+    `;
+  }
+
+  return html;
+}
+
+// ===== GeoJSON binding =====
 function onEachFeature(feature, layer) {
   const p = feature.properties || {};
 
-  const samisk = escapeHtml(clean(p.samisk_navn));
-  const norsk = escapeHtml(clean(p.norsk_navn));
-
-  const infotekstSme = clean(p.infotekst_sme);
-  const infotekstNo = clean(p.infotekst_no);
-  const infotekstEn = clean(p.infotekst_en);
-
-  const urlSme = fixUrl(p.notion_url_sme);
-  const urlNo = fixUrl(p.notion_url_no);
-  const urlEn = fixUrl(p.notion_url_en);
-
-  let html = `
-    <div class="popup-samisk">${samisk}</div>
-    <div class="popup-norsk">${norsk}</div>
-  `;
-
-  // Samisk (ikonfil)
-  html += langBlock({
-    lang: "sme",
-    iconImgSrc: "assets/sami_flag.svg",
-    text: infotekstSme,
-    url: urlSme,
-    linkText: "Lohkka sámegillii",
-  });
-
-  // Norsk (unicode-ikon)
-  html += langBlock({
-    lang: "no",
-    iconHtml: "🇳🇴",
-    text: infotekstNo,
-    url: urlNo,
-    linkText: "Les mer",
-  });
-
-  // Engelsk (unicode-ikon)
-  html += langBlock({
-    lang: "en",
-    iconHtml: "🇬🇧",
-    text: infotekstEn,
-    url: urlEn,
-    linkText: "Read more",
-  });
-
-  layer.bindPopup(html, { maxWidth: 360 });
+  // Nøkkelendring: bindPopup med funksjon -> regenererer HTML hver gang popup åpnes
+  layer.bindPopup(() => buildPopupHtml(p), { maxWidth: 360 });
 }
 
 fetch("./data/stedsnavn.geojson")
