@@ -79,6 +79,23 @@ function renderText(text) {
   return escapeHtml(text).replace(/\n/g, "<br>");
 }
 
+// ===== Ikoner (SVG) for punkter =====
+// (fikset: dynamisk størrelse + riktig anchor)
+function svgIcon(path, size = 28) {
+  return L.icon({
+    iconUrl: path,
+    iconSize: [100, 100],
+    iconAnchor: [100 / 2, 100 / 2],
+    popupAnchor: [0, -100 / 2],
+  });
+}
+
+const ICONS = {
+  fjell: "assets/icons/natur/fjell.svg",
+  gard: "assets/icons/bosetting/gard.svg",
+  offerplass: "assets/icons/kultur/offerplass.svg",
+};
+
 // ===== Språk: ikon + lenketekst =====
 function linkTextFor(lang) {
   if (lang === "sme") return "Lohkka sámegillii";
@@ -94,7 +111,6 @@ function langIconFor(lang) {
   if (lang === "no") {
     return `<span class="lang-icon-inline" aria-hidden="true">🇳🇴</span>`;
   }
-  // EN
   return `<span class="lang-icon-inline" aria-hidden="true">🇬🇧</span>`;
 }
 
@@ -137,8 +153,6 @@ function buildPopupHtml(p) {
 // ===== GeoJSON binding =====
 function onEachFeature(feature, layer) {
   const p = feature.properties || {};
-
-  // Nøkkelendring: bindPopup med funksjon -> regenererer HTML hver gang popup åpnes
   layer.bindPopup(() => buildPopupHtml(p), { maxWidth: 360 });
 }
 
@@ -148,7 +162,21 @@ fetch("./data/stedsnavn.geojson")
     return r.json();
   })
   .then((data) => {
-    const geo = L.geoJSON(data, { onEachFeature }).addTo(map);
+    const geo = L.geoJSON(data, {
+      onEachFeature,
+      pointToLayer: (feature, latlng) => {
+        const type = (feature.properties?.objekttype || "").toLowerCase();
+        const iconPath = ICONS[type];
+
+        if (iconPath) {
+          return L.marker(latlng, { icon: svgIcon(iconPath, 28) });
+        }
+
+        // fallback: vanlig blå Leaflet-pin
+        return L.marker(latlng);
+      },
+    }).addTo(map);
+
     const bounds = geo.getBounds();
     if (bounds.isValid()) map.fitBounds(bounds.pad(0.1));
   })

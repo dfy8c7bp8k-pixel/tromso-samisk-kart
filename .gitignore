@@ -4,14 +4,16 @@
 # Python
 __pycache__/
 *.pyc
-*.pyo
-*.pyd
 .venv/
 venv/
-
-# Midlertidige / lokale filer
-data/ssr_rapport.json
 
 # Editor
 .vscode/
 .idea/
+
+# Build/Cache
+*.log
+
+# Data input/output you don't want in repo
+tromso_samiske_stedsnavn_input.xlsx
+ssr_rapport.json
