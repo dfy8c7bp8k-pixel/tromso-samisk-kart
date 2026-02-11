@@ -12,12 +12,37 @@ Applikasjonen krever ingen backend og kan publiseres direkte via GitHub Pages.
 
 ---
 
-## Demo
+## Prosjektstatus
+
+Dette prosjektet er utviklet **på oppdrag for Tromsø kommune** som en del av arbeid med
+synliggjøring og tilgjengeliggjøring av samiske stedsnavn i Tromsø-området.
+
+Applikasjonen er et **visningsverktøy**. Offisielle stedsnavn forvaltes av
+Kartverket gjennom SSR (Sentralt stedsnavnregister).
+
+
+### Datagrunnlag og avvik
+
+Hoveddelen av stedsnavnene i prosjektet er hentet fra
+SSR (Sentralt stedsnavnregister).
+
+Et mindre antall stedsnavn var ikke registrert i SSR på tidspunktet for
+utarbeidelse og er derfor lagt inn manuelt som del av prosjektet, basert på
+lokal kunnskap og tilgjengelige kilder.
+
+Disse oppføringene er kun ment som visning og inngår ikke i Kartverkets
+autoritative stedsnavnregister.
+
+
+## Demo / visning
 
 https://<github-bruker>.github.io/<repo-navn>/
 
 Eksempel:  
 https://dfy8c7bp8k-pixel.github.io/tromso-samisk-kart/
+
+Eksempelet viser en fungerende visning av løsningen slik den er implementert.
+
 
 ---
 

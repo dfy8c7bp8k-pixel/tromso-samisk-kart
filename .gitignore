@@ -17,3 +17,6 @@ venv/
 # Data input/output you don't want in repo
 tromso_samiske_stedsnavn_input.xlsx
 ssr_rapport.json
+
+# Local notes / scratch
+notes.md
