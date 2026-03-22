@@ -25,7 +25,7 @@ L.tileLayer(
 
 function getScaleForZoom(zoom) {
   const baseSize = 2;
-  const scaleFactor = 45;
+  const scaleFactor = 40;
 
   const size = baseSize + (zoom - 8) * scaleFactor;
 
@@ -177,6 +177,14 @@ const ICONS = {
   gaisi_tromso: "assets/icons/spraksenter/gaisi_tromso.svg",
 };
 
+// OVERRIDE: base size per icon before zoom scaling.
+// Value is percent/pixels relative to the standard 100 base size.
+const ICON_OVERRIDES = {
+  offerplass: 30,   // Sieidi smaller
+  fjell: 80, 
+  gaisi_tromso: 50       // fjell bigger
+};
+
 // ===== Språk: ikon + lenketekst =====
 function linkTextFor(lang) {
   if (lang === "sme") return "Lohkka sámegillii";
@@ -257,7 +265,8 @@ fetch("./data/stedsnavn.geojson")
         const iconPath = ICONS[iconKey];
 
         if (iconPath) {
-          return L.marker(latlng, { icon: svgIcon(iconPath, 100) });
+          const baseSize = ICON_OVERRIDES[iconKey] || 100;
+          return L.marker(latlng, { icon: svgIcon(iconPath, baseSize) });
         }
 
         // fallback: vanlig blå Leaflet-pin
