@@ -134,6 +134,14 @@ const ICONS = {
   fjell: "assets/icons/natur/fjell.svg",
   gard: "assets/icons/bosetting/gard.svg",
   offerplass: "assets/icons/kultur/offerplass.svg",
+
+  breivikeidet: "assets/icons/reindrift/breivikeidet.svg",
+  groennaasen_skole: "assets/icons/skoler/groennaasen_skole.svg",
+  prestvannet_skole: "assets/icons/skoler/prestvannet_skole.svg",
+  finnheia: "assets/icons/sommerboplasser/finnheia.svg",
+  straumhella: "assets/icons/sommerboplasser/straumhella.svg",
+  gaisi_lakselvbukt: "assets/icons/spraksenter/gaisi_lakselvbukt.svg",
+  gaisi_tromso: "assets/icons/spraksenter/gaisi_tromso.svg",
 };
 
 // ===== Språk: ikon + lenketekst =====
@@ -209,8 +217,11 @@ fetch("./data/stedsnavn.geojson")
     const geo = L.geoJSON(data, {
       onEachFeature,
       pointToLayer: (feature, latlng) => {
-        const type = clean(feature.properties?.objekttype).toLowerCase();
-        const iconPath = ICONS[type];
+        const iconKey = clean(
+          feature.properties?.icon_id || feature.properties?.objekttype
+          ).toLowerCase();
+
+        const iconPath = ICONS[iconKey];
 
         if (iconPath) {
           return L.marker(latlng, { icon: svgIcon(iconPath, 100) });

@@ -2279,7 +2279,7 @@
     {
       "type": "Feature",
       "properties": {
-       "samisk_navn": "Sieidi",
+        "samisk_navn": "Sieidi",
         "norsk_navn": "Siedestein",
         "objekttype": "offerplass",
         "nivaa": "nan",
@@ -2299,6 +2299,139 @@
           19.08464,
           69.60250
         ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "samisk_navn": "",
+        "norsk_navn": "Prestvannet skole",
+        "objekttype": "skole",
+        "icon_id": "prestvannet_skole",
+        "infotekst_no": "Prestvannet skole: Alle samiske elever i Tromsø kommune har rett til opplæring i samisk. De samiske elevene kan velge opplæring i samisk som førstespråk eller samisk som andrespråk. I rundskriv Udir-01-2016 er det åpnet for at elever kan ha opplæring i både samisk og norsk som førstespråk. Prestvannet skole har ansvar for organisering av all samisk- og kvensk/finskopplæring i Tromsø kommune.",
+        "infotekst_sme": "",
+        "infotekst_en": "",
+        "notion_url_no": "",
+        "notion_url_sme": "",
+        "notion_url_en": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [18.94377234107789, 69.6600161363619]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "samisk_navn": "",
+        "norsk_navn": "Grønnåsen skole",
+        "objekttype": "skole",
+        "icon_id": "groennaasen_skole",
+        "infotekst_no": "Grønnåsen skole: Alle samiske elever i Tromsø kommune har rett til opplæring i samisk. Grønnnåsen skole er stolte av å være den første skolen i Tromsø kommune som tilbyr et eget opplæringstilbud for samiske elever på ungdomstrinnet. Elevene følger den samiske læreplanen i fire fag: samisk, norsk, samfunnsfag og duodji.\nI tillegg får elevene ekstra språkstøtte i fire andre fag: matematikk, naturfag, engelsk og KRLE. Dette gir dem mulighet til å forstå vanskelige fagbegreper, samtidig som de utvikler seg sammen som sterke språkbærere av et samisk fagspråk.",
+        "infotekst_sme": "",
+        "infotekst_en": "",
+        "notion_url_no": "",
+        "notion_url_sme": "",
+        "notion_url_en": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [18.96457081448756, 69.67651067019733]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "samisk_navn": "",
+        "norsk_navn": "Gáisi språksenter Tromsø",
+        "objekttype": "spraksenter",
+        "icon_id": "gaisi_tromso",
+        "infotekst_no": "Språksenteret har lokaler i Tromsø og Lakselvbukt og ble offisielt åpnet i april 2004.\nGáisi språksenter har som hovedmål å være et lokalt- og regionalt kompetansesenter for hele Tromsø kommune og regionen for øvrig. Språksenteret skal være en aktiv pådriver for å ivareta, revitalisere, videreutvikle, dokumentere og formidle samisk språk og kultur, spesielt i de sjøsamiske områder. Språksenteret skal arbeide for å fremme samisk språk og kultur, i form av tiltak i egen regi eller i samarbeid med andre. Gáisi språksenter skal være åpent og inkluderende for hele befolkningen i sitt virkeområde. Språksenteret driver oppsøkende virksomhet, og det bestrebes å gjennomføre språksenterets aktiviteter geografisk spredt i virkeområdet.",
+        "infotekst_sme": "",
+        "infotekst_en": "",
+        "notion_url_no": "",
+        "notion_url_sme": "",
+        "notion_url_en": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [18.96428374788196, 69.65303978489385]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "samisk_navn": "",
+        "norsk_navn": "Gáisi språksenter Lakselvbukt",
+        "objekttype": "spraksenter",
+        "icon_id": "gaisi_lakselvbukt",
+        "infotekst_no": "Språksenteret har lokaler i Tromsø og Lakselvbukt og ble offisielt åpnet i april 2004.\nGáisi språksenter har som hovedmål å være et lokalt- og regionalt kompetansesenter for hele Tromsø kommune og regionen for øvrig. Språksenteret skal være en aktiv pådriver for å ivareta, revitalisere, videreutvikle, dokumentere og formidle samisk språk og kultur, spesielt i de sjøsamiske områder. Språksenteret skal arbeide for å fremme samisk språk og kultur, i form av tiltak i egen regi eller i samarbeid med andre. Gáisi språksenter skal være åpent og inkluderende for hele befolkningen i sitt virkeområde. Språksenteret driver oppsøkende virksomhet, og det bestrebes å gjennomføre språksenterets aktiviteter geografisk spredt i virkeområdet.",
+        "infotekst_sme": "",
+        "infotekst_en": "",
+        "notion_url_no": "",
+        "notion_url_sme": "",
+        "notion_url_en": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [19.64711137533612, 69.43364098052048]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "samisk_navn": "Guohcavuopmi",
+        "norsk_navn": "Breivikeidet",
+        "objekttype": "reindrift",
+        "icon_id": "breivikeidet",
+        "infotekst_no": "Fangstanlegget på Guohcavuopmi/Breivikeidet er ett av de største vi kjenner til. Reinen har i tusenvis av år fulgt samme trekkruter mellom vinterbeiter i innlandet og vår- og sommerbeiter ved havet. Langs trekkveiene finner vi tallrike fangstanlegg for villrein. Disse kulturminnetypene består både av gropsystemer på slett mark og av oppmurte ledegjerder og skyteskjul i ur og morene. De fleste ligger i fjell- og viddeområder i innlandet, i reinens høstbeiteland. Men de fins også helt ut mot kysten. Bruken av fangstanlegg antas å spenne fra steinalder til middelalder. Villrein-fangsten var innrettet mot så vel selvforsyning som pelsvarehandel med nabofolk.",
+        "infotekst_sme": "",
+        "infotekst_en": "",
+        "notion_url_no": "https://sametinget.no/kulturminne-og-bygningsvern/samiske-kulturminner-og-landskap/reindrifts-og-fangstlandskap/",
+        "notion_url_sme": "",
+        "notion_url_en": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [19.56087142380283, 69.6547369988224]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "samisk_navn": "Rávdnjevággi",
+        "norsk_navn": "Finnheia, Kvaløya",
+        "objekttype": "sommerboplasser",
+        "icon_id": "finnheia",
+        "infotekst_no": "Sommerboplassen er en stor lokalitet med godt bevarte gammeboplasser, reingjerdeplasser og andre kulturminner som strekker seg over hele høyderyggen på toppen av Finnheia. Sommerboplassen er ikke fullstendig undersøkt. Den er i dag uberørt av inngrep. Trykk «Les mer» for å lese mer om kulturminneundersøkelser på Rávdnjevággi/Finnheia, Sállir/Kvaløya, Tromsø kommune, geassi/sommeren 2018.",
+        "infotekst_sme": "",
+        "infotekst_en": "",
+        "notion_url_no": "https://sametinget.no/_f/p1/i146a5391-a26c-446a-aad9-2ed027bfeb31/kulturminneundersokelser-finnheia-2.pdf",
+        "notion_url_sme": "",
+        "notion_url_en": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [18.14, 69.61]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "samisk_navn": "",
+        "norsk_navn": "Straumhella",
+        "objekttype": "sommerboplasser",
+        "icon_id": "straumhella",
+        "infotekst_no": "Fram til 1922 foregikk reinflyttingen mellom vinterbeiter i innlandet på svensk side og vår- og sommerbeiter på øyene med svømming over Rávdnji / Rystraumen. Strømmen har gitt navn til hele det omkringliggende landskapet på både samisk og norsk: Rávdnjeluokta / Straumsbukta, Rávdnjevággi / Straumsdalen, Rávdnjemuotki / Straumseidet. Straumhella lå helt sentralt i forhold til flytteveien. Her svømte reinen i land.\nPå 1950-tallet kjøpte Tromsø Arbeiderforening opp arealer ved Straumhella, og senere ble flere rivningstruede bygninger fra «Gamle Tromsø» flyttet til stedet slik at de skulle bli tatt vare på for de kommende generasjoner.\nOm Straumhella, samisk historie og flyttvegene, trykk på «Les mer».",
+        "infotekst_sme": "",
+        "infotekst_en": "",
+        "notion_url_no": "https://lokalhistoriewiki.no/wiki/Straumhella_(Troms%C3%B8)",
+        "notion_url_sme": "",
+        "notion_url_en": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [18.723460125853613, 69.55971561003399]
       }
     }
   ]
