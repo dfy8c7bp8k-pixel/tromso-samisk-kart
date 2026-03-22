@@ -7,7 +7,11 @@
 let currentLang = "sme"; // standard: samisk
 
 // ===== Kart =====
-const map = L.map("map").setView([69.65, 18.95], 10);
+const map = L.map("map", {
+  zoomAnimation: true,
+  zoomSnap: 0.75,
+  zoomDelta: 0.75
+}).setView([69.65, 18.95], 10);
 
 L.tileLayer(
   "https://cache.kartverket.no/v1/wmts/1.0.0/topo/default/webmercator/{z}/{y}/{x}.png",
@@ -18,6 +22,31 @@ L.tileLayer(
       'Stedsnavn: <a href="https://www.kartverket.no/til-lands/stadnamn/sok-stadnamn-i-kart" target="_blank" rel="noopener">SSR</a>',
   }
 ).addTo(map);
+
+function getScaleForZoom(zoom) {
+  const baseSize = 2;
+  const scaleFactor = 45;
+
+  const size = baseSize + (zoom - 8) * scaleFactor;
+
+  return Math.max(30, size) / 100;
+}
+
+function applyMarkerScale(scale) {
+  document.querySelectorAll(".marker-inner").forEach((el) => {
+    el.style.transform = `scale(${scale})`;
+  });
+}
+
+// Smooth animated zoom
+map.on("zoomanim", (e) => {
+  applyMarkerScale(getScaleForZoom(e.zoom));
+});
+
+// Final correction after zoom ends
+map.on("zoomend", () => {
+  applyMarkerScale(getScaleForZoom(map.getZoom()));
+});
 
 // ===== Språk-knapper i Leaflet (øverst til høyre) =====
 const LangControl = L.Control.extend({
@@ -97,7 +126,6 @@ function normalizeHttpsUrl(input) {
   if (!u) return "";
 
   // If input has no scheme, default to https://
-  // (We only check for "scheme://" pattern.)
   if (!/^[a-zA-Z][a-zA-Z0-9+.-]*:\/\//.test(u)) {
     u = "https://" + u;
   }
@@ -119,11 +147,16 @@ function normalizeHttpsUrl(input) {
 }
 
 // ===== Ikoner (SVG) for punkter =====
-// (fikset: dynamisk størrelse + riktig anchor)
 function svgIcon(path, size = 100) {
   const s = Number.isFinite(size) ? size : 100;
-  return L.icon({
-    iconUrl: path,
+
+  return L.divIcon({
+    className: "custom-svg-marker",
+    html: `
+      <div class="marker-shell" style="width:${s}px; height:${s}px;">
+        <img src="${path}" class="marker-inner" alt="" />
+      </div>
+    `,
     iconSize: [s, s],
     iconAnchor: [s / 2, s / 2],
     popupAnchor: [0, -s / 2],
@@ -219,7 +252,7 @@ fetch("./data/stedsnavn.geojson")
       pointToLayer: (feature, latlng) => {
         const iconKey = clean(
           feature.properties?.icon_id || feature.properties?.objekttype
-          ).toLowerCase();
+        ).toLowerCase();
 
         const iconPath = ICONS[iconKey];
 
@@ -233,7 +266,12 @@ fetch("./data/stedsnavn.geojson")
     }).addTo(map);
 
     const bounds = geo.getBounds();
-    if (bounds.isValid()) map.fitBounds(bounds.pad(0.1));
+    if (bounds.isValid()) {
+      map.fitBounds(bounds.pad(0.1));
+    }
+
+    // Run once after markers exist
+    applyMarkerScale(getScaleForZoom(map.getZoom()));
   })
   .catch((err) => {
     console.error(err);
