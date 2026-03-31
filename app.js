@@ -194,7 +194,9 @@ const ICONS = {
 // Value is percent/pixels relative to the standard 100 base size.
 const ICON_OVERRIDES = {
   offerplass: 30,   // Sieidi smaller
-  fjell: 80, 
+  fjell: 80,
+  groennaasen_skole: 60, //skole mindre
+  prestvannet_skole: 60, //skole mindre
   gaisi_tromso: 50       // fjell bigger
 };
 
