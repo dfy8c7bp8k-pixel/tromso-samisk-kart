@@ -162,7 +162,20 @@ function svgIcon(path, size = 100) {
     popupAnchor: [0, -s / 2],
   });
 }
+function defaultBlueIcon(size = 25) {
+  const s = Number.isFinite(size) ? size : 25;
 
+  return L.icon({
+    iconUrl: "https://unpkg.com/leaflet@1.9.4/dist/images/marker-icon.png",
+    iconRetinaUrl: "https://unpkg.com/leaflet@1.9.4/dist/images/marker-icon-2x.png",
+    shadowUrl: "https://unpkg.com/leaflet@1.9.4/dist/images/marker-shadow.png",
+    iconSize: [s, s * 1.65],
+    iconAnchor: [s / 2, s * 1.65],
+    popupAnchor: [0, -s * 1.45],
+    shadowSize: [s * 1.65, s * 1.65],
+    shadowAnchor: [s * 0.55, s * 1.65],
+  });
+}
 const ICONS = {
   fjell: "assets/icons/natur/fjell.svg",
   gard: "assets/icons/bosetting/gard.svg",
@@ -263,14 +276,17 @@ fetch("./data/stedsnavn.geojson")
         ).toLowerCase();
 
         const iconPath = ICONS[iconKey];
-
         if (iconPath) {
           const baseSize = ICON_OVERRIDES[iconKey] || 100;
           return L.marker(latlng, { icon: svgIcon(iconPath, baseSize) });
         }
 
-        // fallback: vanlig blå Leaflet-pin
-        return L.marker(latlng);
+        // fallback: skalerbar blå Leaflet-pin
+        const blueBaseSize = 16;
+        const blueScale = getScaleForZoom(map.getZoom());
+        return L.marker(latlng, {
+          icon: defaultBlueIcon(blueBaseSize * blueScale),
+        });
       },
     }).addTo(map);
 
