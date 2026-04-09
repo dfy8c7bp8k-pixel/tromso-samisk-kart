@@ -2433,6 +2433,82 @@
         "type": "Point",
         "coordinates": [18.723460125853613, 69.55971561003399]
       }
+    },
+        {
+      "type": "Feature",
+      "properties": {
+        "samisk_navn": "Ájluovta skåvllå",
+        "norsk_navn": "Drag skole",
+        "objekttype": "skoler",
+        "icon_id": "drag_skole",
+        "infotekst_no": "Ájluovta skåvllå - Drag skole underviser etter L-20S og har lulesamisk og norsk som førstespråk. Det gis undervisning i samisk 2 og samisk 3. Skolen er aktiv innen friluftsliv.",
+        "infotekst_sme": "",
+        "infotekst_en": "",
+        "notion_url_no": "https://www.hamaroy.kommune.no/tjenester/skoler/drag-skole",
+        "notion_url_sme": "",
+        "notion_url_en": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.08132, 68.04022]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "samisk_navn": "Árran",
+        "norsk_navn": "Árran",
+        "objekttype": "spraksenter",
+        "icon_id": "arran_lulesamisk_senter",
+        "infotekst_no": "Árran er et nasjonalt lulesamisk senter, med flere utstillinger åpent for publikum.",
+        "infotekst_sme": "",
+        "infotekst_en": "",
+        "notion_url_no": "https://arran.no/aktuelt",
+        "notion_url_sme": "",
+        "notion_url_en": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.08227, 68.04802]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "samisk_navn": "Suoksavuomjávrre",
+        "norsk_navn": "Makkvatnet",
+        "objekttype": "kultur",
+        "icon_id": "anna_plaque",
+        "infotekst_no": "Her bodde Anna i Makkvatnet. Hun var et viktig ledd i et nettverk av samiske loser på flyktingeruta fra Makkvatnet. Les historien om Anna her:",
+        "infotekst_sme": "",
+        "infotekst_en": "",
+        "notion_url_no": "https://learnlabacademy.notion.site/Anna-i-makkvannet-33d2c336afd680269ba9c878a4c022bc",
+        "notion_url_sme": "",
+        "notion_url_en": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [15.80300, 67.83260]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "samisk_navn": "",
+        "norsk_navn": "Leirelv",
+        "objekttype": "kultur",
+        "icon_id": "leirelv",
+        "infotekst_no": "Her bodde Petra og Nils Knutsen, som var grenseloser under 2. verdenskrig. Les historien om Petra og Nils her:",
+        "infotekst_sme": "",
+        "infotekst_en": "",
+        "notion_url_no": "https://learnlabacademy.notion.site/Grenselosene-33d2c336afd680128152d8a5afeaf88f",
+        "notion_url_sme": "",
+        "notion_url_en": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.16426, 67.89978]
+      }
     }
   ]
 }

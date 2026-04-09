@@ -188,6 +188,10 @@ const ICONS = {
   straumhella: "assets/icons/sommerboplasser/straumhella.svg",
   gaisi_lakselvbukt: "assets/icons/spraksenter/gaisi_lakselvbukt.svg",
   gaisi_tromso: "assets/icons/spraksenter/gaisi_tromso.svg",
+  anna_plaque: "assets/icons/kultur/anna_plaque.svg",
+  leirelv: "assets/icons/kultur/leirelv.svg",
+  drag_skole: "assets/icons/skoler/drag_skole.svg",
+  arran_lulesamisk_senter: "assets/icons/spraksenter/arran_lulesamisk_senter.svg",
 };
 
 // OVERRIDE: base size per icon before zoom scaling.
@@ -197,7 +201,9 @@ const ICON_OVERRIDES = {
   fjell: 80,
   groennaasen_skole: 60, //skole mindre
   prestvannet_skole: 60, //skole mindre
-  gaisi_tromso: 50       // fjell bigger
+  gaisi_tromso: 50,       // fjell bigger
+  drag_skole: 50,
+  arran_lulesamisk_senter: 50
 };
 
 // ===== Språk: ikon + lenketekst =====
