@@ -202,8 +202,8 @@ const ICON_OVERRIDES = {
   groennaasen_skole: 60, //skole mindre
   prestvannet_skole: 60, //skole mindre
   gaisi_tromso: 50,       // fjell bigger
-  drag_skole: 50,
-  arran_lulesamisk_senter: 50
+  drag_skole: 40,
+  arran_lulesamisk_senter: 40
 };
 
 // ===== Språk: ikon + lenketekst =====
