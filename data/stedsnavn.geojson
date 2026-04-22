@@ -2494,7 +2494,7 @@
     {
       "type": "Feature",
       "properties": {
-        "samisk_navn": "",
+        "samisk_navn": "Smájlle",
         "norsk_navn": "Leirelv",
         "objekttype": "kultur",
         "icon_id": "leirelv",
