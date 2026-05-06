@@ -2509,6 +2509,43 @@
         "type": "Point",
         "coordinates": [16.16426, 67.89978]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "samisk_navn": "",
+        "norsk_navn": "Samisk hus Tromsø",
+        "objekttype": "kultur",
+        "icon_id": "samisk_hus_tromso",
+        "infotekst_no": "Samisk Hus er et sted hvor tradisjon og samtid møtes, og hvor både unge og eldre kan delta i aktiviteter som styrker vår kulturelle identitet.",
+        "infotekst_en": "",
+        "notion_url_no": "https://www.romssasamiviessu.no/",
+        "notion_url_sme": "",
+        "notion_url_en": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [18.959301414084017, 69.65305382608852]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "samisk_navn": "",
+        "norsk_navn": "UiT Norges arktiske universitet – Senter for samiske studier",
+        "objekttype": "kultur",
+        "icon_id": "sesam_uit",
+        "infotekst_no": "Senter for samiske studier (Sesam) er en felles ressurs for samisk og urfolksforskning, utdanning og kompetansebygging ved UiT Norges arktiske universitet. Vi skal styrke universitetets samlede forsknings- og utdanningsvirksomhet på samiske og urfolksrelaterte tema på tvers av faggrenser. Senteret er organisatorisk knyttet til Fakultet for humaniora, samfunnsvitenskap og lærerutdanning, men har hele UiT som sitt arbeidsområde.",
+        "infotekst_sme": "",
+        "infotekst_en": "",
+        "notion_url_no": "https://uit.no/enhet/forsiden?p_dimension_id=88182",
+        "notion_url_sme": "",
+        "notion_url_en": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [18.97098541771422, 69.68099829765218]
+      }
     }
   ]
 }
