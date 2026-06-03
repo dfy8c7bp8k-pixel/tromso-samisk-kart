@@ -2546,6 +2546,25 @@
         "type": "Point",
         "coordinates": [18.97098541771422, 69.68099829765218]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "samisk_navn": "",
+        "norsk_navn": "Straumen Gård",
+        "objekttype": "kultur",
+        "icon_id": "straumen_gaard",
+        "infotekst_no": "Straumen gård ligger vakkert til i Straumsbukta på Kvaløya, ca. 3,5 mil fra Tromsø sentrum. Den autentiske kystgården inneholder de fleste husene som var vanlig på et gårdsbruk langs kysten i nord, og forteller om et liv med fiske, dyrehold og dyrking.",
+        "infotekst_sme": "",
+        "infotekst_en": "",
+        "notion_url_no": "https://perspektivet.no/om-museet/straumen-gard/",
+        "notion_url_sme": "",
+        "notion_url_en": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [18.671050611622743, 69.56394254179718]
+      }
     }
   ]
 }

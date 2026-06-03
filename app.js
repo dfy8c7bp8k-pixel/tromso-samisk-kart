@@ -180,7 +180,7 @@ const ICONS = {
   fjell: "assets/icons/natur/fjell.svg",
   gard: "assets/icons/bosetting/gard.svg",
   offerplass: "assets/icons/kultur/offerplass.svg",
-
+  straumen_gaard: "assets/icons/kultur/straumen_gaard.svg",
   breivikeidet: "assets/icons/reindrift/breivikeidet.svg",
   groennaasen_skole: "assets/icons/skoler/groennaasen_skole.svg",
   prestvannet_skole: "assets/icons/skoler/prestvannet_skole.svg",
@@ -207,7 +207,9 @@ const ICON_OVERRIDES = {
   drag_skole: 40,
   arran_lulesamisk_senter: 40,
   samisk_hus_tromso: 40,
-  sesam_uit: 40
+  sesam_uit: 40,
+  straumhella: 50,
+  straumen_gaard: 50
 };
 
 // ===== Språk: ikon + lenketekst =====
