@@ -2584,6 +2584,25 @@
         "type": "Point",
         "coordinates": [19.695, 69.74194444444444]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "samisk_navn": "Náhkkennourri",
+        "norsk_navn": "Storstraumen / Sjursnes bønnestein",
+        "objekttype": "kultur",
+        "icon_id": "sjursnes_bonnestein",
+        "infotekst_no": "Bønnestein. Náhkkennourri (Storstraumen) ved Sjursnes ble oppfattet som en «dør» til storhavet. Landskapet ble forstått som et hjem med dører og porter som kunne åpnes og lukkes, og med terskler som måtte krysses. Det er i slike overgangssoner vi finner sieidier, også kalt offersteiner. Disse ligger ofte ved sterke strømmer eller trange passasjer i fjorden, slik som Bønnesteinene ved Storstraumen.",
+        "infotekst_sme": "",
+        "infotekst_en": "",
+        "notion_url_no": "",
+        "notion_url_sme": "",
+        "notion_url_en": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [19.63963, 69.53797]
+      }
     }
   ]
 }
