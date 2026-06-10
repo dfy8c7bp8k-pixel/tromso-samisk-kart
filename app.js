@@ -196,6 +196,7 @@ const ICONS = {
   arran_lulesamisk_senter: "assets/icons/spraksenter/arran_lulesamisk_senter.svg",
   sjursnes_bonnestein: "assets/icons/kultur/sjursnes_bonnestein.svg",
   oldervik_offerplass: "assets/icons/kultur/oldervik_offerplass.svg",
+  ebeltoftgaarden: "assets/icons/kultur/ebeltoftgaarden.svg",
 };
 
 // OVERRIDE: base size per icon before zoom scaling.
@@ -205,13 +206,14 @@ const ICON_OVERRIDES = {
   fjell: 80,
   groennaasen_skole: 60, //skole mindre
   prestvannet_skole: 60, //skole mindre
-  gaisi_tromso: 50,       // fjell bigger
+  gaisi_tromso: 40,       
   drag_skole: 40,
   arran_lulesamisk_senter: 40,
   samisk_hus_tromso: 40,
   sesam_uit: 40,
   straumhella: 50,
-  straumen_gaard: 50
+  straumen_gaard: 50,
+  ebeltoftgaarden: 50
 };
 
 // ===== Språk: ikon + lenketekst =====

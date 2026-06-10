@@ -2603,6 +2603,25 @@
         "type": "Point",
         "coordinates": [19.63963, 69.53797]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "samisk_navn": "",
+        "norsk_navn": "Ebeltoftgården",
+        "objekttype": "kultur",
+        "icon_id": "ebeltoftgaarden",
+        "infotekst_no": "Ebeltoftfamilien spesialiserte seg på salg av samiske produkter omkring denne gården. Ved brygga lå en bårstue der reindriftssamene hadde gratis losji. Adresse: Strandgata 36.",
+        "infotekst_sme": "",
+        "infotekst_en": "",
+        "notion_url_no": "https://experience.arcgis.com/experience/9ccbb04a28ca4d949b9f8848d748fad1/page/Kart#data_s=id%3AdataSource_13-18b3c8387c3-layer-15%3A557&widget_467=active_datasource_id:dataSource_13,center:663500.0373%2C7726652.451950001%2C25833,scale:84555.96764282382,level:8.943050404464703,rotation:0,viewpoint:%7B%22rotation%22%3A0%2C%22scale%22%3A84555.96764282382%2C%22targetGeometry%22%3A%7B%22spatialReference%22%3A%7B%22latestWkid%22%3A25833%2C%22wkid%22%3A25833%7D%2C%22x%22%3A663500.0373%2C%22y%22%3A7726652.451950001%7D%7D&widget_630=active_datasource_id:dataSource_18,center:-790335.9085744396%2C8007019.05003806%2C25833,scale:9876543.209876547,level:2.070987654320987,rotation:0,viewpoint:%7B%22rotation%22%3A0%2C%22scale%22%3A9876543.209876547%2C%22targetGeometry%22%3A%7B%22spatialReference%22%3A%7B%22latestWkid%22%3A25833%2C%22wkid%22%3A25833%7D%2C%22x%22%3A-790335.9085744396%2C%22y%22%3A8007019.05003806%7D%7D&widget_807=active_datasource_id:dataSource_19,center:654200.0350654175%2C7737166.1694830945%2C25833,scale:315893.5948921374,level:7.025665031924142,rotation:0,viewpoint:%7B%22rotation%22%3A0%2C%22scale%22%3A315893.5948921374%2C%22targetGeometry%22%3A%7B%22spatialReference%22%3A%7B%22latestWkid%22%3A25833%2C%22wkid%22%3A25833%7D%2C%22x%22%3A654200.0350654175%2C%22y%22%3A7737166.1694830945%7D%7D",
+        "notion_url_sme": "",
+        "notion_url_en": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [18.95635, 69.64823]
+      }
     }
   ]
 }
