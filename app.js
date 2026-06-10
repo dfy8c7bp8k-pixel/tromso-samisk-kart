@@ -194,6 +194,7 @@ const ICONS = {
   leirelv: "assets/icons/kultur/leirelv.svg",
   drag_skole: "assets/icons/skoler/drag_skole.svg",
   arran_lulesamisk_senter: "assets/icons/spraksenter/arran_lulesamisk_senter.svg",
+  oldervik_offerplass: "assets/icons/kultur/oldervik_offerplass.svg",
 };
 
 // OVERRIDE: base size per icon before zoom scaling.

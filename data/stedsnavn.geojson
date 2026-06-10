@@ -2565,6 +2565,25 @@
         "type": "Point",
         "coordinates": [18.671050611622743, 69.56394254179718]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "samisk_navn": "Leaibbásluokta",
+        "norsk_navn": "Oldervik",
+        "objekttype": "kultur",
+        "icon_id": "oldervik_offerplass",
+        "infotekst_no": "Offersteinen ved Finnkjerka ligger i overgangen mellom land og hav, på et nes, akkurat i flomålet.",
+        "infotekst_sme": "",
+        "infotekst_en": "",
+        "notion_url_no": "https://experience.arcgis.com/experience/9ccbb04a28ca4d949b9f8848d748fad1/page/kapittel_-2?block_id=layout_258_block_39",
+        "notion_url_sme": "",
+        "notion_url_en": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [19.695, 69.74194444444444]
+      }
     }
   ]
 }
