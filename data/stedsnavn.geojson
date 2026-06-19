@@ -2304,7 +2304,7 @@
     {
       "type": "Feature",
       "properties": {
-        "samisk_navn": "",
+        "samisk_navn": "Báhpajávrri skuvla",
         "norsk_navn": "Prestvannet skole",
         "objekttype": "skole",
         "icon_id": "prestvannet_skole",
@@ -2323,7 +2323,7 @@
     {
       "type": "Feature",
       "properties": {
-        "samisk_navn": "",
+        "samisk_navn": "Grønnåsen skuvla",
         "norsk_navn": "Grønnåsen skole",
         "objekttype": "skole",
         "icon_id": "groennaasen_skole",
@@ -2342,7 +2342,7 @@
     {
       "type": "Feature",
       "properties": {
-        "samisk_navn": "",
+        "samisk_navn": "Gáisi giellaguovddáš",
         "norsk_navn": "Gáisi språksenter Tromsø",
         "objekttype": "spraksenter",
         "icon_id": "gaisi_tromso",
@@ -2513,7 +2513,7 @@
     {
       "type": "Feature",
       "properties": {
-        "samisk_navn": "",
+        "samisk_navn": "Romssa Sámi Viessu",
         "norsk_navn": "Samisk hus Tromsø",
         "objekttype": "kultur",
         "icon_id": "samisk_hus_tromso",
@@ -2531,7 +2531,7 @@
     {
       "type": "Feature",
       "properties": {
-        "samisk_navn": "",
+        "samisk_navn": "UiT – Sámi dutkamiid guovddáš",
         "norsk_navn": "UiT Norges arktiske universitet – Senter for samiske studier",
         "objekttype": "kultur",
         "icon_id": "sesam_uit",
