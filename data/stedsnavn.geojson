@@ -2641,6 +2641,24 @@
         "type": "Point",
         "coordinates": [18.95035, 69.64435]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "samisk_navn": "",
+        "norsk_navn": "Bårdsvik kulturlandskap",
+        "objekttype": "kultur",
+        "icon_id": "baardsvik_kulturlandskap",
+        "infotekst_no": "Hele Bårdvika er et kulturmiljø med stor tidsdybde. Det består av flere naust og enetasjes våningshus og det er registrert flere tufter ned mot stranda som er fra førreformatorisk tid, dvs. en gang før 1536.",
+        "infotekst_sme": "",
+        "infotekst_en": "",
+        "notion_url_no": "https://experience.arcgis.com/experience/9ccbb04a28ca4d949b9f8848d748fad1/page/Kart#data_s=id%3AdataSource_13-18b3c8387c3-layer-15%3A29&widget_467=active_datasource_id:dataSource_13,center:640064.3019563869%2C7744860.388530495%2C25833,scale:1849.9868438430142,level:14.520010524925588,rotation:0,viewpoint:%7B%22rotation%22%3A0%2C%22scale%22%3A1849.9868438430142%2C%22targetGeometry%22%3A%7B%22spatialReference%22%3A%7B%22wkid%22%3A25833%7D%2C%22x%22%3A640064.3019563869%2C%22y%22%3A7744860.388530495%7D%7D",
+        "notion_url_en": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [18.63433, 69.77458]
+      }
     }
   ]
 }

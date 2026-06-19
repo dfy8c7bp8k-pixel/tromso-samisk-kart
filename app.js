@@ -198,6 +198,7 @@ const ICONS = {
   oldervik_offerplass: "assets/icons/kultur/oldervik_offerplass.svg",
   ebeltoftgaarden: "assets/icons/kultur/ebeltoftgaarden.svg",
   finngamgrunn: "assets/icons/kultur/finngamgrunn.svg",
+  baardsvik_kulturlandskap: "assets/icons/kultur/baardsvik.svg",
 };
 
 // OVERRIDE: base size per icon before zoom scaling.
