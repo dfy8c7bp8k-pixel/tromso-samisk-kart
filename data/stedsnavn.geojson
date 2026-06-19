@@ -2622,6 +2622,25 @@
         "type": "Point",
         "coordinates": [18.95635, 69.64823]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "samisk_navn": "",
+        "norsk_navn": "Finngamgrunn og Finngamsletta",
+        "objekttype": "kultur",
+        "icon_id": "finngamgrunn",
+        "infotekst_no": "På en fargelagt tegning fra 1806, som er signert konsul Lorentz G. Skancke, er det tegnet inn gammer både i Hansjordnesbukta og i et område sør for sentrum. Dette var trolig stedet som i en periode har blitt kalt Finngamsletta.",
+        "infotekst_sme": "",
+        "infotekst_en": "",
+        "notion_url_no": "https://experience.arcgis.com/experience/9ccbb04a28ca4d949b9f8848d748fad1/page/Kart#data_s=id%3AdataSource_13-18b3c8387c3-layer-15%3A127",
+        "notion_url_sme": "",
+        "notion_url_en": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [18.95035, 69.64435]
+      }
     }
   ]
 }

@@ -197,6 +197,7 @@ const ICONS = {
   sjursnes_bonnestein: "assets/icons/kultur/sjursnes_bonnestein.svg",
   oldervik_offerplass: "assets/icons/kultur/oldervik_offerplass.svg",
   ebeltoftgaarden: "assets/icons/kultur/ebeltoftgaarden.svg",
+  finngamgrunn: "assets/icons/kultur/finngamgrunn.svg",
 };
 
 // OVERRIDE: base size per icon before zoom scaling.
@@ -213,7 +214,8 @@ const ICON_OVERRIDES = {
   sesam_uit: 40,
   straumhella: 50,
   straumen_gaard: 50,
-  ebeltoftgaarden: 50
+  ebeltoftgaarden: 50,
+  finngamgrunn: 50
 };
 
 // ===== Språk: ikon + lenketekst =====
