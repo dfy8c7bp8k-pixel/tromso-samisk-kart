@@ -2659,6 +2659,120 @@
         "type": "Point",
         "coordinates": [18.63433, 69.77458]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "samisk_navn": "",
+        "norsk_navn": "Brattfjell gård",
+        "objekttype": "gard",
+        "icon_id": "brattfjell_gaard",
+        "infotekst_no": "Friis-kartet fra 1861 viser at det var to gårder på Brattfjell: en familie bor i tømmerhus og kan snakke norsk og finsk. De andre bor i gamme og kan norsk. Friis-kartet fra 1890 viser to samiske husholdninger som bor i tømmerhus.",
+        "infotekst_sme": "",
+        "infotekst_en": "",
+        "notion_url_no": "https://experience.arcgis.com/experience/9ccbb04a28ca4d949b9f8848d748fad1/page/Kart#data_s=id%3AdataSource_13-18b3c8387c3-layer-15%3A73&widget_467=active_datasource_id:dataSource_13,center:681442.3465500004%2C7742701.733550001%2C25833,scale:821.8501682984602,level:15.685039730722464,rotation:0,viewpoint:%7B%22rotation%22%3A0%2C%22scale%22%3A821.8501682984602%2C%22targetGeometry%22%3A%7B%22spatialReference%22%3A%7B%22wkid%22%3A25833%7D%2C%22x%22%3A681442.3465500004%2C%22y%22%3A7742701.733550001%7D%7D&widget_630=active_datasource_id:dataSource_18,center:-790335.9085744396%2C8007019.05003806%2C25833,scale:9876543.209876547,level:2.070987654320987,rotation:0,viewpoint:%7B%22rotation%22%3A0%2C%22scale%22%3A9876543.209876547%2C%22targetGeometry%22%3A%7B%22spatialReference%22%3A%7B%22latestWkid%22%3A25833%2C%22wkid%22%3A25833%7D%2C%22x%22%3A-790335.9085744396%2C%22y%22%3A8007019.05003806%7D%7D&widget_807=active_datasource_id:dataSource_19,center:654200.0350654175%2C7737166.1694830945%2C25833,scale:315893.5948921374,level:7.025665031924142,rotation:0,viewpoint:%7B%22rotation%22%3A0%2C%22scale%22%3A315893.5948921374%2C%22targetGeometry%22%3A%7B%22spatialReference%22%3A%7B%22latestWkid%22%3A25833%2C%22wkid%22%3A25833%7D%2C%22x%22%3A654200.0350654175%2C%22y%22%3A7737166.1694830945%7D%7D",
+        "notion_url_sme": "",
+        "notion_url_en": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [19.69618, 69.72955]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "samisk_navn": "",
+        "norsk_navn": "Lakselv ytre gård",
+        "objekttype": "gard",
+        "icon_id": "lakselv_ytre_gaard",
+        "infotekst_no": "Gårdens historie går tilbake til tidlig 1900-tall, mens naustbygningen skal være fra tidlig 1800-tall og flyttet fra andre siden av Sørfjorden. Sjå, fjøs og sommarfjøs er fra tidlig 1900-tall, mens et våningshus fra 1919 skal ha blitt erstattet av dagens våningshus rundt 1974.",
+        "infotekst_sme": "",
+        "infotekst_en": "",
+        "notion_url_no": "https://experience.arcgis.com/experience/9ccbb04a28ca4d949b9f8848d748fad1/page/Kart#data_s=id%3AdataSource_13-18b3c8387c3-layer-15%3A99&widget_467=active_datasource_id:dataSource_13,center:682020.9509%2C7709959.1194%2C25833,scale:1989.8691556746833,level:14.408104675460253,rotation:0,viewpoint:%7B%22rotation%22%3A0%2C%22scale%22%3A1989.8691556746833%2C%22targetGeometry%22%3A%7B%22spatialReference%22%3A%7B%22wkid%22%3A25833%7D%2C%22x%22%3A682020.9509%2C%22y%22%3A7709959.1194%7D%7D&widget_630=active_datasource_id:dataSource_18,center:-790335.9085744396%2C8007019.05003806%2C25833,scale:9876543.209876547,level:2.070987654320987,rotation:0,viewpoint:%7B%22rotation%22%3A0%2C%22scale%22%3A9876543.209876547%2C%22targetGeometry%22%3A%7B%22spatialReference%22%3A%7B%22latestWkid%22%3A25833%2C%22wkid%22%3A25833%7D%2C%22x%22%3A-790335.9085744396%2C%22y%22%3A8007019.05003806%7D%7D&widget_807=active_datasource_id:dataSource_19,center:654200.0350654175%2C7737166.1694830945%2C25833,scale:315893.5948921374,level:7.025665031924142,rotation:0,viewpoint:%7B%22rotation%22%3A0%2C%22scale%22%3A315893.5948921374%2C%22targetGeometry%22%3A%7B%22spatialReference%22%3A%7B%22latestWkid%22%3A25833%2C%22wkid%22%3A25833%7D%2C%22x%22%3A654200.0350654175%2C%22y%22%3A7737166.1694830945%7D%7D",
+        "notion_url_sme": "",
+        "notion_url_en": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [19.64447, 69.43635]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "samisk_navn": "",
+        "norsk_navn": "Musneset kulturlandskap",
+        "objekttype": "kultur",
+        "icon_id": "musneset_kulturlandskap",
+        "infotekst_no": "Musnesets bebyggelsestruktur er karakterisert av en øvre rekke med fjøs med gavlveggen mot fjorden, mens våningshusene og andre uthus ligger på rekke nedenfor med møneretningen parallell med strandlinja.",
+        "infotekst_sme": "",
+        "infotekst_en": "",
+        "notion_url_no": "https://experience.arcgis.com/experience/9ccbb04a28ca4d949b9f8848d748fad1/page/Kart#data_s=id%3AdataSource_13-18b3c8387c3-layer-15%3A107&widget_467=active_datasource_id:dataSource_13,center:682812.2359000002%2C7727589.997600002%2C25833,scale:2707.7678902390094,level:13.916892843904396,rotation:0,viewpoint:%7B%22rotation%22%3A0%2C%22scale%22%3A2707.7678902390094%2C%22targetGeometry%22%3A%7B%22spatialReference%22%3A%7B%22wkid%22%3A25833%7D%2C%22x%22%3A682812.2359000002%2C%22y%22%3A7727589.997600002%7D%7D&widget_630=active_datasource_id:dataSource_18,center:-790335.9085744396%2C8007019.05003806%2C25833,scale:9876543.209876547,level:2.070987654320987,rotation:0,viewpoint:%7B%22rotation%22%3A0%2C%22scale%22%3A9876543.209876547%2C%22targetGeometry%22%3A%7B%22spatialReference%22%3A%7B%22latestWkid%22%3A25833%2C%22wkid%22%3A25833%7D%2C%22x%22%3A-790335.9085744396%2C%22y%22%3A8007019.05003806%7D%7D&widget_807=active_datasource_id:dataSource_19,center:654200.0350654175%2C7737166.1694830945%2C25833,scale:315893.5948921374,level:7.025665031924142,rotation:0,viewpoint:%7B%22rotation%22%3A0%2C%22scale%22%3A315893.5948921374%2C%22targetGeometry%22%3A%7B%22spatialReference%22%3A%7B%22latestWkid%22%3A25833%2C%22wkid%22%3A25833%7D%2C%22x%22%3A654200.0350654175%2C%22y%22%3A7737166.1694830945%7D%7D",
+        "notion_url_sme": "",
+        "notion_url_en": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [19.70279, 69.59408]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "samisk_navn": "",
+        "norsk_navn": "Nordeng gård ytterst i Susannejord",
+        "objekttype": "gard",
+        "icon_id": "nordeng_gaard",
+        "infotekst_no": "Bygningsmiljøet har stor tidsdybde og hver bygning har et autentisk uttrykk som kan fortelle om en kontinuerlig bruk fra begynnelsen av 1800-tallet til rundt 1960 da bruket ble nedlagt. Den eldste bygningen er automatisk freda som samisk kulturminne med en sikringssone rundt bygningen.",
+        "infotekst_sme": "",
+        "infotekst_en": "",
+        "notion_url_no": "https://experience.arcgis.com/experience/9ccbb04a28ca4d949b9f8848d748fad1/page/Kart#data_s=id%3AdataSource_13-18b3c8387c3-layer-15%3A28&widget_467=active_datasource_id:dataSource_13,center:641228.5035999999%2C7738014.179900002%2C25833,scale:968.7825295912253,level:15.449947952654039,rotation:0,viewpoint:%7B%22rotation%22%3A0%2C%22scale%22%3A968.7825295912253%2C%22targetGeometry%22%3A%7B%22spatialReference%22%3A%7B%22wkid%22%3A25833%7D%2C%22x%22%3A641228.5035999999%2C%22y%22%3A7738014.179900002%7D%7D&widget_630=active_datasource_id:dataSource_18,center:-790335.9085744396%2C8007019.05003806%2C25833,scale:9876543.209876547,level:2.070987654320987,rotation:0,viewpoint:%7B%22rotation%22%3A0%2C%22scale%22%3A9876543.209876547%2C%22targetGeometry%22%3A%7B%22spatialReference%22%3A%7B%22latestWkid%22%3A25833%2C%22wkid%22%3A25833%7D%2C%22x%22%3A-790335.9085744396%2C%22y%22%3A8007019.05003806%7D%7D&widget_807=active_datasource_id:dataSource_19,center:654200.0350654175%2C7737166.1694830945%2C25833,scale:315893.5948921374,level:7.025665031924142,rotation:0,viewpoint:%7B%22rotation%22%3A0%2C%22scale%22%3A315893.5948921374%2C%22targetGeometry%22%3A%7B%22spatialReference%22%3A%7B%22latestWkid%22%3A25833%2C%22wkid%22%3A25833%7D%2C%22x%22%3A654200.0350654175%2C%22y%22%3A7737166.1694830945%7D%7D",
+        "notion_url_sme": "",
+        "notion_url_en": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [18.6518, 69.71234]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "samisk_navn": "",
+        "norsk_navn": "Sommarsæte gård på Vengsøy",
+        "objekttype": "gard",
+        "icon_id": "sommarsaete_gaard",
+        "infotekst_no": "Årstidsnavn på boplasser, slik som Sommarsæte, har trolig opphav i en eldre sjøsamisk veidekultur hvor en viktig oppgave var å høste av naturens overskudd.",
+        "infotekst_sme": "",
+        "infotekst_en": "",
+        "notion_url_no": "https://experience.arcgis.com/experience/9ccbb04a28ca4d949b9f8848d748fad1/page/Kart#data_s=id%3AdataSource_13-18b3c8387c3-layer-15%3A15&widget_467=active_datasource_id:dataSource_13,center:632330.17955%2C7750580.955150001%2C25833,scale:768.5213758530216,level:15.770365798635165,rotation:0,viewpoint:%7B%22rotation%22%3A0%2C%22scale%22%3A768.5213758530216%2C%22targetGeometry%22%3A%7B%22spatialReference%22%3A%7B%22wkid%22%3A25833%7D%2C%22x%22%3A632330.17955%2C%22y%22%3A7750580.955150001%7D%7D&widget_630=active_datasource_id:dataSource_18,center:-790335.9085744396%2C8007019.05003806%2C25833,scale:9876543.209876547,level:2.070987654320987,rotation:0,viewpoint:%7B%22rotation%22%3A0%2C%22scale%22%3A9876543.209876547%2C%22targetGeometry%22%3A%7B%22spatialReference%22%3A%7B%22latestWkid%22%3A25833%2C%22wkid%22%3A25833%7D%2C%22x%22%3A-790335.9085744396%2C%22y%22%3A8007019.05003806%7D%7D&widget_807=active_datasource_id:dataSource_19,center:654200.0350654175%2C7737166.1694830945%2C25833,scale:315893.5948921374,level:7.025665031924142,rotation:0,viewpoint:%7B%22rotation%22%3A0%2C%22scale%22%3A315893.5948921374%2C%22targetGeometry%22%3A%7B%22spatialReference%22%3A%7B%22latestWkid%22%3A25833%2C%22wkid%22%3A25833%7D%2C%22x%22%3A654200.0350654175%2C%22y%22%3A7737166.1694830945%7D%7D",
+        "notion_url_sme": "",
+        "notion_url_en": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [18.43998, 69.82942]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "samisk_navn": "",
+        "norsk_navn": "Strandbakken gård i Sjursnes",
+        "objekttype": "gard",
+        "icon_id": "strandbakken_gaard_sjursnes",
+        "infotekst_no": "Terrenget har strukturert bebyggelsens størrelse og beliggenhet slik at det fremstår som et rekketun og gården er et godt eksempel på hvordan bonden i sin tid tilpasset bebyggelsen og strukturerte gården etter landskapet. Gammetufta, fjøset, bua, våningshuset, smia og naustet er automatisk freda samiske kulturminner.",
+        "infotekst_sme": "",
+        "infotekst_en": "",
+        "notion_url_no": "https://experience.arcgis.com/experience/9ccbb04a28ca4d949b9f8848d748fad1/page/Kart#data_s=id%3AdataSource_13-18b3c8387c3-layer-15%3A102&widget_467=active_datasource_id:dataSource_13,center:681074.9782000002%2C7716940.931150001%2C25833,scale:877.6902287660673,level:15.595695633974293,rotation:0,viewpoint:%7B%22rotation%22%3A0%2C%22scale%22%3A877.6902287660673%2C%22targetGeometry%22%3A%7B%22spatialReference%22%3A%7B%22wkid%22%3A25833%7D%2C%22x%22%3A681074.9782000002%2C%22y%22%3A7716940.931150001%7D%7D&widget_630=active_datasource_id:dataSource_18,center:-790335.9085744396%2C8007019.05003806%2C25833,scale:9876543.209876547,level:2.070987654320987,rotation:0,viewpoint:%7B%22rotation%22%3A0%2C%22scale%22%3A9876543.209876547%2C%22targetGeometry%22%3A%7B%22spatialReference%22%3A%7B%22latestWkid%22%3A25833%2C%22wkid%22%3A25833%7D%2C%22x%22%3A-790335.9085744396%2C%22y%22%3A8007019.05003806%7D%7D&widget_807=active_datasource_id:dataSource_19,center:654200.0350654175%2C7737166.1694830945%2C25833,scale:315893.5948921374,level:7.025665031924142,rotation:0,viewpoint:%7B%22rotation%22%3A0%2C%22scale%22%3A315893.5948921374%2C%22targetGeometry%22%3A%7B%22spatialReference%22%3A%7B%22latestWkid%22%3A25833%2C%22wkid%22%3A25833%7D%2C%22x%22%3A654200.0350654175%2C%22y%22%3A7737166.1694830945%7D%7D",
+        "notion_url_sme": "",
+        "notion_url_en": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [19.63692, 69.49928]
+      }
     }
   ]
 }

@@ -199,6 +199,12 @@ const ICONS = {
   ebeltoftgaarden: "assets/icons/kultur/ebeltoftgaarden.svg",
   finngamgrunn: "assets/icons/kultur/finngamgrunn.svg",
   baardsvik_kulturlandskap: "assets/icons/kultur/baardsvik.svg",
+  brattfjell_gaard: "assets/icons/bosetting/brattfjell_gaard.svg",
+  lakselv_ytre_gaard: "assets/icons/bosetting/lakselv_ytre_gaard.svg",
+  nordeng_gaard: "assets/icons/bosetting/nordeng_gaard.svg",
+  sommarsaete_gaard: "assets/icons/bosetting/sommarsaete_gaard.svg",
+  strandbakken_gaard_sjursnes: "assets/icons/bosetting/strandbakken_gaard_sjursnes.svg",
+  musneset_kulturlandskap: "assets/icons/natur/musneset_kulturlandskap.svg",
 };
 
 // OVERRIDE: base size per icon before zoom scaling.
@@ -208,7 +214,8 @@ const ICON_OVERRIDES = {
   fjell: 80,
   groennaasen_skole: 60, //skole mindre
   prestvannet_skole: 60, //skole mindre
-  gaisi_tromso: 40,       
+  gaisi_tromso: 40, 
+  gaisi_lakselvbukt: 40,      
   drag_skole: 40,
   arran_lulesamisk_senter: 40,
   samisk_hus_tromso: 40,
@@ -216,7 +223,13 @@ const ICON_OVERRIDES = {
   straumhella: 50,
   straumen_gaard: 50,
   ebeltoftgaarden: 50,
-  finngamgrunn: 50
+  finngamgrunn: 50,
+  brattfjell_gaard: 60,
+  lakselv_ytre_gaard: 60,
+  nordeng_gaard: 60,
+  sommarsaete_gaard: 60,
+  strandbakken_gaard_sjursnes: 60,
+  musneset_kulturlandskap: 60
 };
 
 // ===== Språk: ikon + lenketekst =====
