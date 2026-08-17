@@ -7,19 +7,46 @@
 let currentLang = "sme"; // standard: samisk
 
 // ===== Kart =====
+
+// Starting extent for the wider Sápmi area.
+// Format: [south-west], [north-east]
+const SAPMI_BOUNDS = L.latLngBounds(
+  [62.0, 3.5],
+  [72.2, 41.5]
+);
+
 const map = L.map("map", {
   zoomAnimation: true,
   zoomSnap: 0.75,
   zoomDelta: 0.75
-}).setView([69.65, 18.95], 10);
+});
 
-L.tileLayer(
+map.fitBounds(SAPMI_BOUNDS, {
+  padding: [20, 20]
+});
+
+// OSM is the continuous background for the whole region
+const osmLayer = L.tileLayer(
+  "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+  {
+    maxZoom: 19,
+    zIndex: 0,
+    attribution:
+      '© <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener">OpenStreetMap contributors</a>'
+  }
+).addTo(map);
+
+
+// Kartverket is drawn above OSM.
+// Areas outside Norwegian coverage are transparent.
+const kartverketLayer = L.tileLayer(
   "https://cache.kartverket.no/v1/wmts/1.0.0/topo/default/webmercator/{z}/{y}/{x}.png",
   {
     maxZoom: 19,
+    zIndex: 10,
     attribution:
       '© <a href="https://www.kartverket.no/" target="_blank" rel="noopener">Kartverket</a> | ' +
-      'Stedsnavn: <a href="https://www.kartverket.no/til-lands/stadnamn/sok-stadnamn-i-kart" target="_blank" rel="noopener">SSR</a>',
+      'Stedsnavn: <a href="https://www.kartverket.no/til-lands/stadnamn/sok-stadnamn-i-kart" target="_blank" rel="noopener">SSR</a>'
   }
 ).addTo(map);
 
@@ -316,18 +343,13 @@ fetch("./data/stedsnavn.geojson")
         }
 
         // fallback: skalerbar blå Leaflet-pin
-        const blueBaseSize = 16;
+        const blueBaseSize = 26;
         const blueScale = getScaleForZoom(map.getZoom());
         return L.marker(latlng, {
           icon: defaultBlueIcon(blueBaseSize * blueScale),
         });
       },
     }).addTo(map);
-
-    const bounds = geo.getBounds();
-    if (bounds.isValid()) {
-      map.fitBounds(bounds.pad(0.1));
-    }
 
     // Run once after markers exist
     applyMarkerScale(getScaleForZoom(map.getZoom()));
