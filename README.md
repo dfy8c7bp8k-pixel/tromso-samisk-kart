@@ -1,7 +1,9 @@
 # Samiske stedsnavn – Tromsø (Leaflet)
 
-En enkel **statisk webapplikasjon** som viser samiske stedsnavn i Tromsø-området på kart.  
-Kartet er bygget med **Leaflet** og **Kartverkets bakgrunnskart**, med popup-innhold på flere språk.
+
+En enkel **statisk webapplikasjon** som viser samiske stedsnavn i Tromsø-området på kart. Stedsnavndataene dekker foreløpig Tromsø-området.
+
+Kartet er bygget med **Leaflet**, **Kartverkets topografiske bakgrunnskart for Norge** og **OpenStreetMap for Sverige, Finland og Russland**. Ved åpning viser kartet et oversiktsutsnitt over store deler av Sápmi. Utsnittet er ikke ment som en formell avgrensning av Sápmi.
 
 Popupene støtter:
 - Samisk (sme)
@@ -50,6 +52,7 @@ Eksempelet viser en fungerende visning av løsningen slik den er implementert.
 
 - **Leaflet** – kartbibliotek (MIT-lisens)
 - **Kartverket WMTS** – bakgrunnskart
+- **OpenStreetMap** – bakgrunnskart utenfor norsk kartdekning
 - **SSR (Sentralt stedsnavnregister)** – stedsnavndata
 - **GeoJSON** – dataformat
 - Ren HTML og JavaScript (ingen rammeverk)
@@ -82,7 +85,7 @@ http://localhost:8000
 
 ---
 
-## Dataprosess (valgfritt)
+## Dataprosess
 
 Excel-input:
 tromso_samiske_stedsnavn_input.xlsx
@@ -98,9 +101,19 @@ data/stedsnavn.geojson
 
 ## Rettigheter og kreditering
 
-### Kartbakgrunn
+### Kartbakgrunn – Norge
+
 © Kartverket  
 WMTS levert via https://cache.kartverket.no/
+
+Kartverket vises over Norge. Områder utenfor Kartverkets dekning er transparente.
+
+### Kartbakgrunn – øvrige områder
+
+© OpenStreetMap contributors
+https://www.openstreetmap.org/copyright
+
+Kartfliser leveres via https://tile.openstreetmap.org/
 
 ### Stedsnavn
 SSR (Sentralt stedsnavnregister) © Kartverket  
@@ -118,4 +131,4 @@ https://leafletjs.com/
 ## Lisens
 
 Koden i dette repoet kan brukes fritt med kreditering.  
-Kart- og stedsnavndata følger Kartverkets egne vilkår.
+Kartgrunnlag og stedsnavndata følger vilkårene og lisensene til de respektive dataleverandørene.
