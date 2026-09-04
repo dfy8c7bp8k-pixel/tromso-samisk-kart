@@ -284,7 +284,7 @@ function langIconFor(lang) {
 
 function articleButtonTextFor(lang, availableLanguages) {
   if (availableLanguages.includes(lang)) return linkTextFor(lang);
-  if (lang === "sme") return "Lohkka eambbo (dárogillii)";
+  if (lang === "sme") return "Les mer (norsk)";
   if (lang === "en") return "Read more (Norwegian)";
   return "Les mer";
 }
@@ -394,10 +394,8 @@ function renderArticle(articleId) {
   if (articleLang !== currentLang) {
     notices.push(
       currentLang === "en"
-        ? "This article is currently available only in Norwegian."
-        : currentLang === "sme"
-          ? "Dát artihkal lea dál dušše dárogillii."
-          : "Artikkelen finnes foreløpig bare på norsk."
+        ? "This article is available only in Norwegian."
+        : "Artikkelen er bare tilgjengelig på norsk."
     );
   }
   if (article.status === "draft") {

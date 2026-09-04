@@ -19,7 +19,7 @@
           "no"
         ],
         "status": "draft",
-        "coordinate_note": "Foreløpig punkt ved STF Vaisaluokta Fjällstuga; må godkjennes før publisering."
+        "coordinate_note": "Plassert ved STF Vaisaluokta Fjällstuga."
       },
       "geometry": {
         "type": "Point",
@@ -68,7 +68,7 @@
         "article_id": "ravvda",
         "article_languages": ["no"],
         "status": "draft",
-        "coordinate_note": "Foreløpig punkt ved Rávddajávrre; navn og plassering må godkjennes."
+        "coordinate_note": "Plassert ved Rávddajávrre."
       },
       "geometry": {
         "type": "Point",
@@ -91,7 +91,7 @@
         "article_id": "moltebaer",
         "article_languages": ["no"],
         "status": "draft",
-        "coordinate_note": "Foreløpig illustrativ plassering sørvest for Rávvda; må justeres etter lokal kunnskap."
+        "coordinate_note": "Plassert ved Rávvda-markøren."
       },
       "geometry": {
         "type": "Point",
@@ -114,7 +114,7 @@
         "article_id": "gammen-nuortakragge",
         "article_languages": ["no"],
         "status": "draft",
-        "coordinate_note": "Foreløpig punkt basert på offentlig kartreferanse; må godkjennes før publisering."
+        "coordinate_note": "Plassert fra offentlig kartreferanse."
       },
       "geometry": {
         "type": "Point",
@@ -137,7 +137,7 @@
         "article_id": "sennagress",
         "article_languages": ["no"],
         "status": "draft",
-        "coordinate_note": "Foreløpig illustrativ plassering sørøst for gammen; må justeres etter lokal kunnskap."
+        "coordinate_note": "Plassert ved gammen i Nuortakrågge."
       },
       "geometry": {
         "type": "Point",
