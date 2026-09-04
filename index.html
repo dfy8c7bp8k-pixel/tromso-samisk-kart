@@ -23,6 +23,7 @@
   <style>
     body {
       margin: 0;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
     }
 
     #map {
@@ -58,7 +59,7 @@
     }
 
     .popup-text {
-      font-size: 13px;
+      font-size: 14px;
       line-height: 1.4;
     }
 
@@ -73,6 +74,23 @@
 
     .popup-text a:hover {
       text-decoration: underline;
+    }
+
+    .popup-article-button {
+      border: 0;
+      border-radius: 4px;
+      background: #075d67;
+      color: #fff;
+      cursor: pointer;
+      font: inherit;
+      font-weight: 700;
+      margin-top: 2px;
+      padding: 8px 12px;
+    }
+
+    .popup-article-button:hover,
+    .popup-article-button:focus-visible {
+      background: #064a52;
     }
 
     #lang-switcher {
@@ -134,11 +152,168 @@
       will-change: transform;
       transition: none;
     }
+
+    .article-dialog {
+      background: #fff;
+      border: 0;
+      box-shadow: -8px 0 28px rgba(0, 0, 0, 0.24);
+      color: #172326;
+      height: 100dvh;
+      margin: 0 0 0 auto;
+      max-height: none;
+      max-width: 560px;
+      padding: 0;
+      width: min(560px, 100vw);
+    }
+
+    .article-dialog::backdrop {
+      background: rgba(13, 27, 31, 0.34);
+    }
+
+    .article-panel__header {
+      background: #f2f7f6;
+      border-bottom: 1px solid #d8e2df;
+      padding: 24px 64px 20px 28px;
+      position: sticky;
+      top: 0;
+      z-index: 1;
+    }
+
+    .article-panel__kicker {
+      color: #075d67;
+      font-size: 13px;
+      font-weight: 800;
+      letter-spacing: 0.06em;
+      margin: 0 0 8px;
+      text-transform: uppercase;
+    }
+
+    .article-panel__title {
+      font-size: clamp(24px, 4vw, 34px);
+      line-height: 1.14;
+      margin: 0;
+    }
+
+    .article-panel__close {
+      align-items: center;
+      background: #fff;
+      border: 1px solid #bccbc7;
+      border-radius: 999px;
+      color: #172326;
+      cursor: pointer;
+      display: flex;
+      font-size: 26px;
+      height: 40px;
+      justify-content: center;
+      line-height: 1;
+      position: absolute;
+      right: 18px;
+      top: 18px;
+      width: 40px;
+    }
+
+    .article-panel__notice {
+      background: #fff7d6;
+      border-left: 4px solid #d49a00;
+      font-size: 14px;
+      line-height: 1.45;
+      margin: 24px 28px 0;
+      padding: 10px 12px;
+    }
+
+    .article-panel__body {
+      font-size: 16px;
+      line-height: 1.68;
+      padding: 24px 28px 48px;
+    }
+
+    .article-panel__lead {
+      font-size: 18px;
+      font-weight: 600;
+      line-height: 1.55;
+      margin: 0 0 26px;
+    }
+
+    .article-panel__body h2 {
+      font-size: 21px;
+      line-height: 1.3;
+      margin: 32px 0 10px;
+    }
+
+    .article-panel__body p {
+      margin: 0 0 18px;
+    }
+
+    .article-panel__body blockquote {
+      border-left: 4px solid #075d67;
+      color: #30474c;
+      font-size: 19px;
+      margin: 4px 0 28px;
+      padding: 2px 0 2px 18px;
+    }
+
+    .article-panel__body blockquote p {
+      white-space: pre-line;
+    }
+
+    .article-panel__body cite {
+      display: block;
+      font-size: 14px;
+      font-style: normal;
+      margin-top: 10px;
+    }
+
+    .article-panel__sources {
+      border-top: 1px solid #d8e2df;
+      margin-top: 34px;
+      padding-top: 20px;
+    }
+
+    .article-panel__sources a {
+      color: #075d67;
+      overflow-wrap: anywhere;
+    }
+
+    @media (max-width: 600px) {
+      .article-panel__header {
+        padding: 20px 58px 16px 20px;
+      }
+
+      .article-panel__notice {
+        margin: 18px 20px 0;
+      }
+
+      .article-panel__body {
+        padding: 20px 20px 40px;
+      }
+
+      .article-panel__close {
+        right: 12px;
+        top: 12px;
+      }
+    }
   </style>
 </head>
 <body>
 
   <div id="map"></div>
+
+  <dialog id="article-dialog" class="article-dialog" aria-labelledby="article-title">
+    <article>
+      <header class="article-panel__header">
+        <p id="article-kicker" class="article-panel__kicker"></p>
+        <h1 id="article-title" class="article-panel__title"></h1>
+        <button
+          id="article-close"
+          class="article-panel__close"
+          type="button"
+          aria-label="Lukk"
+        >×</button>
+      </header>
+      <p id="article-notice" class="article-panel__notice" hidden></p>
+      <div id="article-body" class="article-panel__body"></div>
+    </article>
+  </dialog>
 
   <!-- App -->
   <script src="./app.js"></script>

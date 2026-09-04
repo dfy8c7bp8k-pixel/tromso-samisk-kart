@@ -107,6 +107,10 @@ const LangControl = L.Control.extend({
         // Popup-innhold bygges på nytt ved åpning (se bindPopup(() => ...)).
         // Vi lukker bare popup, så brukeren kan klikke markør på nytt.
         map.closePopup();
+
+        if (articleDialog.open && activeArticleId) {
+          renderArticle(activeArticleId);
+        }
       });
     });
 
@@ -278,6 +282,206 @@ function langIconFor(lang) {
   return `<span class="lang-icon-inline" aria-hidden="true">🇬🇧</span>`;
 }
 
+function articleButtonTextFor(lang, availableLanguages) {
+  if (availableLanguages.includes(lang)) return linkTextFor(lang);
+  if (lang === "sme") return "Lohkka eambbo (dárogillii)";
+  if (lang === "en") return "Read more (Norwegian)";
+  return "Les mer";
+}
+
+// ===== Lokale artikler =====
+const articleDialog = document.querySelector("#article-dialog");
+const articleClose = document.querySelector("#article-close");
+const articleKicker = document.querySelector("#article-kicker");
+const articleTitle = document.querySelector("#article-title");
+const articleNotice = document.querySelector("#article-notice");
+const articleBody = document.querySelector("#article-body");
+
+let articlesById = new Map();
+let activeArticleId = "";
+let articleTrigger = null;
+
+const articlesReady = fetch("./data/articles.json")
+  .then((response) => {
+    if (!response.ok) {
+      throw new Error(`Klarte ikke å laste artikler (${response.status})`);
+    }
+    return response.json();
+  })
+  .then((data) => {
+    const articles = Array.isArray(data.articles) ? data.articles : [];
+    articlesById = new Map(
+      articles
+        .filter((article) => clean(article.id))
+        .map((article) => [clean(article.id), article])
+    );
+  })
+  .catch((error) => {
+    console.error("Artikkelfeil:", error);
+    return null;
+  });
+
+function appendArticleBlock(block) {
+  const type = clean(block?.type);
+
+  if (type === "heading") {
+    const heading = document.createElement("h2");
+    heading.textContent = clean(block.text);
+    articleBody.append(heading);
+    return;
+  }
+
+  if (type === "quote") {
+    const quote = document.createElement("blockquote");
+    const text = document.createElement("p");
+    text.textContent = clean(block.text);
+    quote.append(text);
+
+    if (clean(block.credit)) {
+      const credit = document.createElement("cite");
+      credit.textContent = `— ${clean(block.credit)}`;
+      quote.append(credit);
+    }
+
+    articleBody.append(quote);
+    return;
+  }
+
+  if (type === "list" && Array.isArray(block.items)) {
+    const list = document.createElement("ul");
+    block.items.forEach((item) => {
+      const listItem = document.createElement("li");
+      listItem.textContent = clean(item);
+      list.append(listItem);
+    });
+    articleBody.append(list);
+    return;
+  }
+
+  const paragraph = document.createElement("p");
+  paragraph.textContent = clean(block?.text);
+  articleBody.append(paragraph);
+}
+
+function renderArticle(articleId) {
+  const article = articlesById.get(articleId);
+  if (!article) return false;
+
+  const contentByLanguage = article.content || {};
+  const availableLanguages = Object.keys(contentByLanguage).filter(
+    (lang) => Array.isArray(contentByLanguage[lang])
+  );
+  const articleLang = availableLanguages.includes(currentLang)
+    ? currentLang
+    : availableLanguages.includes("no")
+      ? "no"
+      : availableLanguages[0];
+
+  if (!articleLang) return false;
+
+  const titleByLanguage = article.title || {};
+  articleTitle.textContent =
+    clean(titleByLanguage[articleLang]) || clean(titleByLanguage.no);
+  articleKicker.textContent = article.status === "draft"
+    ? "Utkast · Fortelling fra kartet"
+    : "Fortelling fra kartet";
+  articleClose.setAttribute(
+    "aria-label",
+    currentLang === "en" ? "Close" : "Lukk"
+  );
+
+  const notices = [];
+  if (articleLang !== currentLang) {
+    notices.push(
+      currentLang === "en"
+        ? "This article is currently available only in Norwegian."
+        : currentLang === "sme"
+          ? "Dát artihkal lea dál dušše dárogillii."
+          : "Artikkelen finnes foreløpig bare på norsk."
+    );
+  }
+  if (article.status === "draft") {
+    notices.push("Tekst, kilder, navn og rettigheter må kvalitetssikres før publisering.");
+  }
+  articleNotice.textContent = notices.join(" ");
+  articleNotice.hidden = notices.length === 0;
+
+  articleBody.replaceChildren();
+
+  const lead = clean(article.lead?.[articleLang] || article.lead?.no);
+  if (lead) {
+    const leadParagraph = document.createElement("p");
+    leadParagraph.className = "article-panel__lead";
+    leadParagraph.textContent = lead;
+    articleBody.append(leadParagraph);
+  }
+
+  contentByLanguage[articleLang].forEach(appendArticleBlock);
+
+  if (Array.isArray(article.sources) && article.sources.length) {
+    const sourceSection = document.createElement("section");
+    sourceSection.className = "article-panel__sources";
+    const sourceHeading = document.createElement("h2");
+    sourceHeading.textContent = "Kilder og merknader";
+    sourceSection.append(sourceHeading);
+
+    article.sources.forEach((source) => {
+      const sourceParagraph = document.createElement("p");
+      const safeUrl = normalizeHttpsUrl(source.url);
+      if (safeUrl) {
+        const link = document.createElement("a");
+        link.href = safeUrl;
+        link.target = "_blank";
+        link.rel = "noopener noreferrer";
+        link.textContent = clean(source.label) || safeUrl;
+        sourceParagraph.append(link);
+      } else {
+        sourceParagraph.textContent = clean(source.label);
+      }
+      sourceSection.append(sourceParagraph);
+    });
+
+    articleBody.append(sourceSection);
+  }
+
+  return true;
+}
+
+async function openArticle(articleId, trigger) {
+  articleTrigger = trigger;
+  try {
+    await articlesReady;
+    if (!renderArticle(articleId)) {
+      throw new Error(`Fant ikke artikkelen: ${articleId}`);
+    }
+    activeArticleId = articleId;
+    articleDialog.showModal();
+    articleClose.focus();
+  } catch (error) {
+    console.error(error);
+    alert("Klarte ikke å åpne artikkelen.");
+  }
+}
+
+articleClose.addEventListener("click", () => articleDialog.close());
+
+articleDialog.addEventListener("click", (event) => {
+  if (event.target === articleDialog) articleDialog.close();
+});
+
+articleDialog.addEventListener("close", () => {
+  activeArticleId = "";
+  if (articleTrigger instanceof HTMLElement) articleTrigger.focus();
+  articleTrigger = null;
+});
+
+document.addEventListener("click", (event) => {
+  if (!(event.target instanceof Element)) return;
+  const button = event.target.closest(".popup-article-button");
+  if (!button) return;
+  openArticle(clean(button.dataset.articleId), button);
+});
+
 // ===== Popup builder (køres ved åpning) =====
 function buildPopupHtml(p) {
   const samiskNavn = escapeHtml(clean(p.samisk_navn));
@@ -293,8 +497,12 @@ function buildPopupHtml(p) {
 
   const infotekst = clean(p[`infotekst_${lang}`]);
   const url = normalizeHttpsUrl(p[`notion_url_${lang}`]);
+  const articleId = clean(p.article_id);
+  const articleLanguages = Array.isArray(p.article_languages)
+    ? p.article_languages.map((value) => clean(value)).filter(Boolean)
+    : [];
 
-  if (infotekst || url) {
+  if (infotekst || url || articleId) {
     html += `
       <div class="popup-lang" lang="${escapeHtml(lang)}">
         ${langIconFor(lang)}
@@ -307,6 +515,15 @@ function buildPopupHtml(p) {
                 )}" target="_blank" rel="noopener noreferrer">${escapeHtml(
                   linkTextFor(lang)
                 )}</a></p>`
+              : ""
+          }
+          ${
+            articleId
+              ? `<button class="popup-article-button" type="button" data-article-id="${escapeHtml(
+                  articleId
+                )}">${escapeHtml(
+                  articleButtonTextFor(lang, articleLanguages)
+                )}</button>`
               : ""
           }
         </div>
@@ -357,4 +574,38 @@ fetch("./data/stedsnavn.geojson")
   .catch((err) => {
     console.error(err);
     alert("Feil ved lasting av GeoJSON (se konsoll).");
+  });
+
+// Educational story markers are separate from the SSR place-name data.
+fetch("./data/stories.geojson")
+  .then((response) => {
+    if (!response.ok) {
+      throw new Error(`Klarte ikke å laste fortellinger (${response.status})`);
+    }
+    return response.json();
+  })
+  .then((data) => {
+    L.geoJSON(data, {
+      onEachFeature,
+      pointToLayer: (feature, latlng) => {
+        const iconKey = clean(
+          feature.properties?.icon_id || feature.properties?.objekttype
+        ).toLowerCase();
+        const iconPath = ICONS[iconKey];
+
+        if (iconPath) {
+          const baseSize = ICON_OVERRIDES[iconKey] || 100;
+          return L.marker(latlng, { icon: svgIcon(iconPath, baseSize) });
+        }
+
+        return L.marker(latlng, {
+          icon: defaultBlueIcon(28),
+        });
+      },
+    }).addTo(map);
+
+    applyMarkerScale(getScaleForZoom(map.getZoom()));
+  })
+  .catch((error) => {
+    console.error("Fortellingsfeil:", error);
   });

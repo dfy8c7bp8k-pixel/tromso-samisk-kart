@@ -1,0 +1,148 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "samisk_navn": "Vájsáluokta",
+        "norsk_navn": "Vajsaluokta",
+        "objekttype": "vannkraft",
+        "icon_id": "vannkraft",
+        "infotekst_sme": "",
+        "infotekst_no": "Vannkraftutbyggingen rundt Luleälven førte til oversvømmelser og tap av beiteområder, flyttleier og tilknytning til land for samiske familier.",
+        "infotekst_en": "",
+        "notion_url_sme": "",
+        "notion_url_no": "",
+        "notion_url_en": "",
+        "article_id": "vajsaluokta-vannkraft",
+        "article_languages": [
+          "no"
+        ],
+        "status": "draft",
+        "coordinate_note": "Foreløpig punkt ved STF Vaisaluokta Fjällstuga; må godkjennes før publisering."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.250766,
+          67.688236
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "samisk_navn": "Harsprånget",
+        "norsk_navn": "Harsprånget kraftverk",
+        "objekttype": "vannkraft",
+        "icon_id": "vannkraft",
+        "infotekst_sme": "",
+        "infotekst_no": "Sveriges største vannkraftverk er en viktig del av energisystemet, men historien om kraftutbyggingen berører også naturinngrep og samiske rettigheter.",
+        "infotekst_en": "",
+        "notion_url_sme": "",
+        "notion_url_no": "",
+        "notion_url_en": "",
+        "article_id": "harspranget-kraftverk",
+        "article_languages": ["no"],
+        "status": "draft",
+        "coordinate_note": "Koordinat fra lenken i prosjektmaterialet; må godkjennes før publisering."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [19.814722, 66.954167]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "samisk_navn": "Rávvda",
+        "norsk_navn": "Turen fra Hellmobotn til Rávvda",
+        "objekttype": "fortelling",
+        "icon_id": "ravvda",
+        "infotekst_sme": "",
+        "infotekst_no": "En fortelling om de krevende turene fra Hellmobotn til fjellets moltebærmyrer, og om ropet som viste vei gjennom tåka.",
+        "infotekst_en": "",
+        "notion_url_sme": "",
+        "notion_url_no": "",
+        "notion_url_en": "",
+        "article_id": "ravvda",
+        "article_languages": ["no"],
+        "status": "draft",
+        "coordinate_note": "Foreløpig punkt ved Rávddajávrre; navn og plassering må godkjennes."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [17.058611, 67.768333]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "samisk_navn": "",
+        "norsk_navn": "Moltebær",
+        "objekttype": "moltebaer",
+        "icon_id": "moltebaer",
+        "infotekst_sme": "",
+        "infotekst_no": "Moltebærplukking var både hardt arbeid og en viktig ekstra inntekt for familier i fjordene.",
+        "infotekst_en": "",
+        "notion_url_sme": "",
+        "notion_url_no": "",
+        "notion_url_en": "",
+        "article_id": "moltebaer",
+        "article_languages": ["no"],
+        "status": "draft",
+        "coordinate_note": "Foreløpig illustrativ plassering sørvest for Rávvda; må justeres etter lokal kunnskap."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [17.035, 67.76]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "samisk_navn": "Nuortakrågge",
+        "norsk_navn": "Gammen i Nuortakrågge",
+        "objekttype": "gamme",
+        "icon_id": "gamme",
+        "infotekst_sme": "",
+        "infotekst_no": "Gammen viser hvordan lokale materialer og kunnskap om landskapet ga ly, varme og et samlingssted i fjellet.",
+        "infotekst_en": "",
+        "notion_url_sme": "",
+        "notion_url_no": "",
+        "notion_url_en": "",
+        "article_id": "gammen-nuortakragge",
+        "article_languages": ["no"],
+        "status": "draft",
+        "coordinate_note": "Foreløpig punkt basert på offentlig kartreferanse; må godkjennes før publisering."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.620234, 67.808559]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "samisk_navn": "",
+        "norsk_navn": "Sennagress",
+        "objekttype": "sennagress",
+        "icon_id": "sennagress",
+        "infotekst_sme": "",
+        "infotekst_no": "Kunnskapen om å høste, tørke og bruke sennagress i komager ble overført mellom generasjonene.",
+        "infotekst_en": "",
+        "notion_url_sme": "",
+        "notion_url_no": "",
+        "notion_url_en": "",
+        "article_id": "sennagress",
+        "article_languages": ["no"],
+        "status": "draft",
+        "coordinate_note": "Foreløpig illustrativ plassering sørøst for gammen; må justeres etter lokal kunnskap."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.635, 67.804]
+      }
+    }
+  ]
+}

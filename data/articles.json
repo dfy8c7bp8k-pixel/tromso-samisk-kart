@@ -1,0 +1,300 @@
+{
+  "articles": [
+    {
+      "id": "vajsaluokta-vannkraft",
+      "status": "draft",
+      "title": {
+        "no": "Vannkraftutbyggingen i Vájsáluokta og tvangsflyttingen"
+      },
+      "lead": {
+        "no": "Vannkraftutbyggingen rundt Vájsáluokta må forstås som en del av den omfattende reguleringen av Luleälven på 1900-tallet. Inngrepene fikk store følger for samiske familier, reindrift og tilknytningen til land."
+      },
+      "content": {
+        "no": [
+          {
+            "type": "quote",
+            "text": "De tok landet vårt\nog kalte det sitt\nvi måtte flytte\nmen minnene ble igjen",
+            "credit": "Paulus Utsi"
+          },
+          {
+            "type": "paragraph",
+            "text": "Utbyggingen av vannkraft i området rundt Vájsáluokta i svensk Lappland var en del av den større utbyggingen av Luleälven. Elva ble en av Sveriges viktigste kilder til vannkraft, særlig fra 1940- til 1970-årene, da industrialisering og elektrifisering økte behovet for energi. Store damanlegg og reguleringer førte til at innsjøer ble hevet og landområder oversvømt."
+          },
+          {
+            "type": "paragraph",
+            "text": "Utbyggingen fikk alvorlige konsekvenser for den samiske befolkningen, særlig reindriftssamene. Beiteområder, flyttleier og viktige sesongområder for rein ble ødelagt eller fragmentert. Dette gjorde det vanskeligere å opprettholde tradisjonell reindrift."
+          },
+          {
+            "type": "heading",
+            "text": "Tvangsflytting og tap av tilhørighet"
+          },
+          {
+            "type": "paragraph",
+            "text": "I flere tilfeller førte utbyggingen til tvangsflytting av samiske familier. De ble presset til å flytte til andre områder, ofte med dårligere beiteforhold. Prosessene var preget av lite medbestemmelse, og kompensasjonen var ofte utilstrekkelig sett i forhold til tapene. Flyttingene førte også til sosiale og kulturelle belastninger fordi tilknytningen til land, språk og tradisjonelle livsformer ble svekket."
+          },
+          {
+            "type": "paragraph",
+            "text": "Vájsáluokta ved innsjøen Áhkájávrre var et viktig samlingssted. Det var både et hjem og et knutepunkt for kulturliv, sosiale relasjoner og utveksling av kunnskap og erfaringer. Reindriften var en sentral del av økonomien og kulturen. Da vannkraftutbyggingen ble vedtatt, måtte samiske familier forlate tradisjonelle bosteder, ofte uten tilstrekkelig kompensasjon eller hensyn til hvordan flyttingen ville påvirke levebrød, kultur og identitet."
+          },
+          {
+            "type": "paragraph",
+            "text": "Flyttingen førte til store omveltninger. Reindriften ble vanskeligere å opprettholde fordi de nye områdene ikke alltid hadde like gode beiteforhold. Mange mistet kontakten med steder som hadde stor betydning for kultur og identitet, og samfunn ble fragmentert og svekket. I ettertid har flyttingen blitt beskrevet som et overgrep mot samiske rettigheter og som et eksempel på en kolonial politikk der økonomisk vekst ble prioritert foran urfolks tilknytning til land og natur."
+          },
+          {
+            "type": "heading",
+            "text": "Et historisk minne med betydning i dag"
+          },
+          {
+            "type": "paragraph",
+            "text": "Tvangsflyttingen inngår i en større diskusjon om urfolksrettigheter og statens ansvar i forvaltningen av naturressurser. Hendelsene har bidratt til politisk bevissthet og krav om anerkjennelse, medbestemmelse og rettigheter i samiske områder."
+          },
+          {
+            "type": "paragraph",
+            "text": "Konsekvensene er fortsatt merkbare. Konflikter rundt arealbruk, urfolksrettigheter og naturinngrep viser hvordan statlig ressursutnyttelse historisk har gått på bekostning av samiske samfunn."
+          }
+        ]
+      },
+      "sources": [
+        {
+          "label": "Tekstgrunnlag: prosjektmaterialet «Flere tekster til kartet»"
+        },
+        {
+          "label": "Foreløpig koordinatreferanse: STF Vaisaluokta Fjällstuga",
+          "url": "https://www.svenskaturistforeningen.se/boende/stf-vaisaluokta-fjallstuga/"
+        }
+      ]
+    },
+    {
+      "id": "harspranget-kraftverk",
+      "status": "draft",
+      "title": {
+        "no": "Harsprånget kraftverk"
+      },
+      "lead": {
+        "no": "Harsprånget ved Luleälven i Jokkmokk kommune er Sveriges største vannkraftverk og en sentral del av landets energisystem."
+      },
+      "content": {
+        "no": [
+          {
+            "type": "paragraph",
+            "text": "Kraftverket ligger omtrent åtte kilometer nedstrøms fra Porjus. Ifølge prosjektmaterialet har det en installert effekt på omtrent 977 MW og produserer rundt 2 terawattimer elektrisitet per år, tilsvarende strømforbruket til cirka 400 000 husholdninger. Tallene må kontrolleres mot oppdaterte kilder før publisering."
+          },
+          {
+            "type": "heading",
+            "text": "Energi og sosiale kostnader"
+          },
+          {
+            "type": "paragraph",
+            "text": "Vannkraftutbyggingen har gitt Sverige stabil, fossilfri elektrisitet til husholdninger og industri. Samtidig har reguleringen av Luleälven hatt store konsekvenser for lokalsamfunn og samisk reindrift. Historien reiser spørsmål om hvordan miljømessige fordeler, ressursutnyttelse og urfolks rettigheter skal veies mot hverandre."
+          }
+        ]
+      },
+      "sources": [
+        {
+          "label": "Tekstgrunnlag: prosjektmaterialet «Flere tekster til kartet»"
+        },
+        {
+          "label": "Foreløpig kartplassering",
+          "url": "https://www.google.com/maps?q=66.954167,19.814722"
+        }
+      ]
+    },
+    {
+      "id": "ravvda",
+      "status": "draft",
+      "title": {
+        "no": "Turen fra Hellmobotn til Rávvda"
+      },
+      "lead": {
+        "no": "Når molteåret var godt, dro folk fra Hellmobotn innover fjellet. Stien gjennom steinur, myr og bratte lier var lang og krevende, og de tok gjerne med hest."
+      },
+      "content": {
+        "no": [
+          {
+            "type": "paragraph",
+            "text": "Noen steder måtte de leie hesten forsiktig, mens de andre steder kunne ri. Turen tok tid, og de måtte kjenne landet godt for å finne fram. Bærene der inne var mange og store. Derfor dro de likevel, år etter år. Reisen var tung, men nødvendig."
+          },
+          {
+            "type": "heading",
+            "text": "Ropet i fjellet"
+          },
+          {
+            "type": "paragraph",
+            "text": "Det var sensommer, og moltebærene sto modne i myrene. En mann hadde gått alene opp i fjellet for å plukke. Utover dagen trakk tåka inn, tett og kald, og snart forsvant både stier og landemerker. Alt ble stille."
+          },
+          {
+            "type": "paragraph",
+            "text": "Han visste at dette kunne være farlig. I stedet for å gå planløst videre, stoppet han. Så ropte han høyt og lenge inn i fjellsiden. Ropet slo tilbake som ekko. Han ropte igjen, og denne gangen syntes han å høre et svar langt borte."
+          },
+          {
+            "type": "paragraph",
+            "text": "Slik fortsatte han, rop for rop, og beveget seg forsiktig i retning av lyden. Etter hvert fant han tilbake til de andre. Ropet hadde ført ham ut av tåka."
+          }
+        ]
+      },
+      "sources": [
+        {
+          "label": "Tekstgrunnlag: prosjektmaterialet «Flere tekster til kartet»"
+        },
+        {
+          "label": "Foreløpig koordinatreferanse: Rávddajávrre",
+          "url": "https://www.fjeldsofsweden.com/facility/R%C3%A1vddaj%C3%A1vrre"
+        }
+      ]
+    },
+    {
+      "id": "moltebaer",
+      "status": "draft",
+      "title": {
+        "no": "Moltebær"
+      },
+      "lead": {
+        "no": "Elever fra Drag skole har gått over fjellet fra Vájsáluokta til Hellmobotn. Møtet med de mange moltebærmyrene vekket spørsmål om hvordan folk tidligere klarte å gå så langt for å plukke og bære bærene hjem."
+      },
+      "content": {
+        "no": [
+          {
+            "type": "paragraph",
+            "text": "Elevene snakket med eldre som selv hadde vært på moltebærturer, og samlet historier og kunnskap om hvordan livet var den gangen."
+          },
+          {
+            "type": "heading",
+            "text": "Moltebærplukking som binæring"
+          },
+          {
+            "type": "paragraph",
+            "text": "Folk i fjordene levde av det naturen ga dem. De holdt husdyr, fisket i fjorden og brukte moltebærplukking som en viktig ekstra inntekt. På gode år kunne en familie ifølge prosjektmaterialet plukke 700–800 kilo bær. Bærene ble solgt i store tønner eller i mindre mengder."
+          },
+          {
+            "type": "paragraph",
+            "text": "Arbeidet var tungt. Mange gikk langt til fjells, ofte over grensen til Sverige, for å finne gode myrer. Hele familien kunne delta fordi sesongen var kort og det var viktig å få med seg mest mulig bær."
+          },
+          {
+            "type": "heading",
+            "text": "Å greie seg til fjells"
+          },
+          {
+            "type": "paragraph",
+            "text": "Uten moderne telt, soveposer eller regntøy sov folk under steiner eller ved bål og laget liggeplasser av kvister og ris. Kalde netter, regn, mygg og knott gjorde arbeidet krevende. Samtidig måtte de kjenne skikkene for å oppholde seg i naturen og vise respekt for omgivelsene."
+          },
+          {
+            "type": "heading",
+            "text": "På myra"
+          },
+          {
+            "type": "paragraph",
+            "text": "Bærene ble plukket i gryter, spann eller neverkurver. Noen år kunne myrene se ut som et rødt teppe; andre år var det nesten ingenting. Gode bærsteder ble ikke alltid avslørt til andre, og enkelte plukket om natta for å slippe unna varme og insekter."
+          },
+          {
+            "type": "heading",
+            "text": "Å bære moltebærene hjem"
+          },
+          {
+            "type": "paragraph",
+            "text": "Etter plukkingen begynte det tyngste arbeidet. Mange bar rundt 30 kilo eller mer på ryggen og måtte gå flere turer. Senere tok noen i bruk hester, som kunne frakte langt mer. Elver i flom, skremte dyr og krevende vær kunne gjøre reisen farlig."
+          },
+          {
+            "type": "paragraph",
+            "text": "Moltebærplukking krevde styrke, kunnskap og samarbeid. For mange var inntekten en viktig del av livsgrunnlaget, og historiene viser hvor mye arbeid som lå bak bærene som ble fraktet hjem."
+          }
+        ]
+      },
+      "sources": [
+        {
+          "label": "Tekstgrunnlag: prosjektmaterialet «Flere tekster til kartet»"
+        }
+      ]
+    },
+    {
+      "id": "gammen-nuortakragge",
+      "status": "draft",
+      "title": {
+        "no": "Gammen i Nuortakrågge"
+      },
+      "lead": {
+        "no": "Gammen i Nuortakrågge viser hvordan lokale materialer og kunnskap om landskapet ble brukt til å bygge et varmt og funksjonelt oppholdssted i fjellet."
+      },
+      "content": {
+        "no": [
+          {
+            "type": "paragraph",
+            "text": "En gamme kunne legges delvis ned i bakken for å holde bedre på varmen og gi ly mot vind og uvær. Veggene kunne bygges av tre eller stein og dekkes med isolerende torv. Det lave, avrundede taket ga vinden mindre tak, og et ildsted midt på gulvet ble brukt til matlaging og varme. Røyken slapp ut gjennom en åpning i taket."
+          },
+          {
+            "type": "paragraph",
+            "text": "Gammen ble brukt av folk som oppholdt seg i fjellet under moltebærplukking, jakt eller reindrift. Den ga et sted å overnatte, lage mat, hvile og oppbevare utstyr. Rundt bålet kunne folk også spise og fortelle historier. I et hardt og værutsatt landskap kunne en slik bygning være avgjørende for å klare seg."
+          },
+          {
+            "type": "paragraph",
+            "text": "Gammen i Nuortakrågge forteller derfor både om eldre byggeskikk og om hvordan inngående kunnskap om naturen gjorde det mulig å leve og arbeide i krevende omgivelser."
+          }
+        ]
+      },
+      "sources": [
+        {
+          "label": "Tekstgrunnlag: prosjektmaterialet «Flere tekster til kartet»"
+        },
+        {
+          "label": "Gamma i Nuortakrågge på UT.no",
+          "url": "https://ut.no/hytte/101002348/gamma-i-nuortakragge"
+        }
+      ]
+    },
+    {
+      "id": "sennagress",
+      "status": "draft",
+      "title": {
+        "no": "Sennagress"
+      },
+      "lead": {
+        "no": "På sensommeren gikk Ánne sammen med bestemor ut for å samle sennagress. Kunnskapen om hvilke strå som egnet seg, hvordan de skulle tørkes og hvordan de ble brukt, ble ført videre mellom generasjonene."
+      },
+      "content": {
+        "no": [
+          {
+            "type": "paragraph",
+            "text": "De plukket de lange, lyse stråene og bandt dem i små bunter. Vel hjemme hang de gresset til tørk. Senere la bestemor det tørre gresset inn i et par komager som en myk og varm fylling."
+          },
+          {
+            "type": "quote",
+            "text": "Dette er vår sokk.",
+            "credit": "Bestemor"
+          },
+          {
+            "type": "paragraph",
+            "text": "Ánne prøvde selv. Gresset formet seg rundt foten, holdt på varmen og sugde til seg fuktighet. En dag er det hun som skal lære den samme kunnskapen videre til sine barn og barnebarn."
+          },
+          {
+            "type": "heading",
+            "text": "Tradisjonell bruk"
+          },
+          {
+            "type": "paragraph",
+            "text": "Sennagress, ofte arter i starrfamilien, har hatt en viktig funksjon i samisk tradisjonell livsform. Gresset ble høstet sent på sommeren eller tidlig på høsten og tørket grundig for å hindre råte og bevare de isolerende egenskapene."
+          },
+          {
+            "type": "list",
+            "items": [
+              "Termisk isolasjon: Luftlommer i det tørre gresset reduserer varmetap.",
+              "Fukttransport: Materialet absorberer svette og fuktighet og bidrar til å holde foten tørr.",
+              "Komfort: Gresset gir en myk og formbar polstring."
+            ]
+          },
+          {
+            "type": "paragraph",
+            "text": "Gresset måtte skiftes når det ble fuktig, og brukeren hadde derfor med ekstra på lengre turer. Det kunne også brukes som isolasjon i klær og liggeunderlag eller som midlertidig fyll- og tørkemateriale."
+          },
+          {
+            "type": "paragraph",
+            "text": "Bruken viser en effektiv utnyttelse av lokale naturressurser, basert på inngående kunnskap om materialegenskaper og klima."
+          }
+        ]
+      },
+      "sources": [
+        {
+          "label": "Tekstgrunnlag: prosjektmaterialet «Flere tekster til kartet»"
+        }
+      ]
+    }
+  ]
+}
