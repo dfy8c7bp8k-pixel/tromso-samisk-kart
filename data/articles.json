@@ -2,12 +2,12 @@
   "articles": [
     {
       "id": "vajsaluokta-vannkraft",
-      "status": "draft",
+      "status": "published",
       "title": {
-        "no": "Vannkraftutbyggingen i Vajsaluokta og tvangsflyttingen"
+        "no": "Vannkraftutbyggingen i Vájsáluokta og tvangsflyttingen"
       },
       "lead": {
-        "no": "Vannkraftutbyggingen i området rundt Vajsaluokta i svensk Lappland må forstås som en del av den større utbyggingen av Luleälven på 1900-tallet. Denne elva ble en av Sveriges viktigste kilder til vannkraft, spesielt i perioden fra 1940- til 1970-årene, da industrialisering og elektrifisering økte behovet for energi kraftig. Store damanlegg og reguleringer førte til at innsjøer ble hevet og landområder oversvømt."
+        "no": "Vannkraftutbyggingen i området rundt Vájsáluokta i svensk Lappland må forstås som en del av den større utbyggingen av Luleälven på 1900-tallet. Denne elva ble en av Sveriges viktigste kilder til vannkraft, spesielt i perioden fra 1940- til 1970-årene, da industrialisering og elektrifisering økte behovet for energi kraftig. Store damanlegg og reguleringer førte til at innsjøer ble hevet og landområder oversvømt."
       },
       "content": {
         "no": [
@@ -26,11 +26,11 @@
           },
           {
             "type": "paragraph",
-            "text": "Tvangsflyttingen av samer fra Vajsaluokta i Nord-Sverige er et kapittel i historien som belyser de omfattende konsekvensene av industrialiseringens inntog i Sápmi og statens prioriteringer på bekostning av urfolksrettigheter. I midten av 1900-tallet, da Sverige bestemte seg for å bygge ut vannkraft i området, ble samiske familier i Vajsaluokta tvunget til å forlate sine tradisjonelle bosteder. Forvaltningen av vannressurser og kraftutbyggingen ble sett på som nasjonalt nødvendige tiltak for å imøtekomme økt etterspørsel etter energi, men fikk dyptgripende konsekvenser for den samiske befolkningen som hadde bebodd disse områdene gjennom generasjoner."
+            "text": "Tvangsflyttingen av samer fra Vájsáluokta i Nord-Sverige er et kapittel i historien som belyser de omfattende konsekvensene av industrialiseringens inntog i Sápmi og statens prioriteringer på bekostning av urfolksrettigheter. I midten av 1900-tallet, da Sverige bestemte seg for å bygge ut vannkraft i området, ble samiske familier i Vájsáluokta tvunget til å forlate sine tradisjonelle bosteder. Forvaltningen av vannressurser og kraftutbyggingen ble sett på som nasjonalt nødvendige tiltak for å imøtekomme økt etterspørsel etter energi, men fikk dyptgripende konsekvenser for den samiske befolkningen som hadde bebodd disse områdene gjennom generasjoner."
           },
           {
             "type": "paragraph",
-            "text": "Vajsaluokta, som ligger ved innsjøen Akkajaure, var et viktig samlingssted for samer i denne regionen. Det var et sted som ikke bare var hjem for mennesker og dyr, men som også fungerte som et knutepunkt for kulturliv, sosiale relasjoner, og utveksling av kunnskap og erfaringer. Samene her levde i stor grad i harmoni med naturen, og reindriften var en sentral del av både økonomien og kulturen. Da beslutningen om vannkraftutbyggingen kom, ble mange samiske familier derfor tvunget til å flytte til nye områder, ofte uten tilstrekkelig kompensasjon eller hensyn til hvordan dette ville påvirke deres levebrød, kultur og identitet."
+            "text": "Vájsáluokta, som ligger ved innsjøen Akkajaure, var et viktig samlingssted for samer i denne regionen. Det var et sted som ikke bare var hjem for mennesker og dyr, men som også fungerte som et knutepunkt for kulturliv, sosiale relasjoner, og utveksling av kunnskap og erfaringer. Samene her levde i stor grad i harmoni med naturen, og reindriften var en sentral del av både økonomien og kulturen. Da beslutningen om vannkraftutbyggingen kom, ble mange samiske familier derfor tvunget til å flytte til nye områder, ofte uten tilstrekkelig kompensasjon eller hensyn til hvordan dette ville påvirke deres levebrød, kultur og identitet."
           },
           {
             "type": "paragraph",
@@ -38,7 +38,7 @@
           },
           {
             "type": "paragraph",
-            "text": "I dag anerkjennes tvangsflyttingen av samene fra Vajsaluokta som en del av en større, nasjonal problemstilling om urfolksrettigheter og statens ansvar i forvaltningen av naturressurser. Hendelsene har vært med på å styrke den samiske bevegelsen i Norden, og det har blitt reist krav om både økonomisk kompensasjon og en mer inkluderende forvaltning av naturressursene i de samiske områdene. Det historiske minnet om Vajsaluokta har derfor fått betydning som et symbol på samers kamp for selvbestemmelse og retten til eget land og kultur."
+            "text": "I dag anerkjennes tvangsflyttingen av samene fra Vájsáluokta som en del av en større, nasjonal problemstilling om urfolksrettigheter og statens ansvar i forvaltningen av naturressurser. Hendelsene har vært med på å styrke den samiske bevegelsen i Norden, og det har blitt reist krav om både økonomisk kompensasjon og en mer inkluderende forvaltning av naturressursene i de samiske områdene. Det historiske minnet om Vájsáluokta har derfor fått betydning som et symbol på samers kamp for selvbestemmelse og retten til eget land og kultur."
           },
           {
             "type": "paragraph",
@@ -51,14 +51,14 @@
           "label": "Tekstgrunnlag: prosjektmaterialet «Flere tekster til kartet»"
         },
         {
-          "label": "Kartreferanse: STF Vaisaluokta Fjällstuga",
+          "label": "Kartreferanse: STF Vájsáluokta Fjällstuga",
           "url": "https://www.svenskaturistforeningen.se/boende/stf-vaisaluokta-fjallstuga/"
         }
       ]
     },
     {
       "id": "harspranget-kraftverk",
-      "status": "draft",
+      "status": "published",
       "title": {
         "no": "Harsprånget kraftverk"
       },
@@ -69,7 +69,7 @@
         "no": [
           {
             "type": "paragraph",
-            "text": "Utbyggingen av vannkraft i Vajsaluokta har bidratt til økt tilgang på ren energi i Sverige, noe som har vært viktig for landets elektrisitetsforsyning og overgangen til bærekraftige energikilder. Vannkraften her har spilt en sentral rolle i å forsyne husholdninger og industri med stabil, fossilfri energi og har redusert avhengigheten av fossile brensler. Samtidig har denne utbyggingen hatt store konsekvenser for lokalbefolkningen, særlig den samiske befolkningen, som ble tvangsflyttet fra området, noe som har ført til viktige diskusjoner om balansegangen mellom miljømessige fordeler og sosiale kostnader."
+            "text": "Utbyggingen av vannkraft i Vájsáluokta har bidratt til økt tilgang på ren energi i Sverige, noe som har vært viktig for landets elektrisitetsforsyning og overgangen til bærekraftige energikilder. Vannkraften her har spilt en sentral rolle i å forsyne husholdninger og industri med stabil, fossilfri energi og har redusert avhengigheten av fossile brensler. Samtidig har denne utbyggingen hatt store konsekvenser for lokalbefolkningen, særlig den samiske befolkningen, som ble tvangsflyttet fra området, noe som har ført til viktige diskusjoner om balansegangen mellom miljømessige fordeler og sosiale kostnader."
           }
         ]
       },
@@ -97,7 +97,7 @@
         "src": "./assets/images/ravvda-img-6874.png",
         "alt": "Personer sitter rundt et stort bål i skogen i skumringen."
       },
-      "status": "draft",
+      "status": "published",
       "title": {
         "no": "Turen fra Hellmobotn til Rávvda"
       },
@@ -144,7 +144,7 @@
     },
     {
       "id": "moltebaer",
-      "status": "draft",
+      "status": "published",
       "title": {
         "no": "Moltebær"
       },
@@ -247,7 +247,7 @@
     },
     {
       "id": "gammen-nuortakragge",
-      "status": "draft",
+      "status": "published",
       "title": {
         "no": "Gammen i Nuortakrågge"
       },
@@ -278,7 +278,7 @@
     },
     {
       "id": "sennagress",
-      "status": "draft",
+      "status": "published",
       "title": {
         "no": "Sennagress"
       },

@@ -5,11 +5,11 @@
       "type": "Feature",
       "properties": {
         "samisk_navn": "Vájsáluokta",
-        "norsk_navn": "Vajsaluokta",
+        "norsk_navn": "Vájsáluokta",
         "objekttype": "vannkraft",
         "icon_id": "vannkraft",
         "infotekst_sme": "",
-        "infotekst_no": "Vannkraftutbyggingen i området rundt Vajsaluokta i svensk Lappland må forstås som en del av den større utbyggingen av Luleälven på 1900-tallet.",
+        "infotekst_no": "Vannkraftutbyggingen i området rundt Vájsáluokta i svensk Lappland må forstås som en del av den større utbyggingen av Luleälven på 1900-tallet.",
         "infotekst_en": "",
         "notion_url_sme": "",
         "notion_url_no": "",

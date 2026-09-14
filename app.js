@@ -383,8 +383,8 @@ function renderArticle(articleId) {
   articleTitle.textContent =
     clean(titleByLanguage[articleLang]) || clean(titleByLanguage.no);
   articleKicker.textContent = article.status === "draft"
-    ? "Utkast · Fortelling fra kartet"
-    : "Fortelling fra kartet";
+    ? "Utkast · Om stedet"
+    : "Om stedet";
   articleClose.setAttribute(
     "aria-label",
     currentLang === "en" ? "Close" : "Lukk"
