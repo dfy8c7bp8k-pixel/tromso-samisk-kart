@@ -18,7 +18,7 @@
         "article_languages": [
           "no"
         ],
-        "status": "draft",
+        "status": "published",
         "coordinate_note": "Plassert ved STF Vaisaluokta Fjällstuga."
       },
       "geometry": {
@@ -37,14 +37,14 @@
         "objekttype": "vannkraft",
         "icon_id": "vannkraft",
         "infotekst_sme": "",
-        "infotekst_no": "Harsprånget er Sveriges største vannkraftverk, beliggende ved Luleälven i Jokkmokk kommune i Norrbotten, omtrent åtte kilometer nedstrøms fra Porjus.",
+        "infotekst_no": "Harsprånget er Sveriges største vannkraftverk målt i effekt. Vattenfall oppgir dagens effekt til 811 MW med fire aggregater i drift.",
         "infotekst_en": "",
         "notion_url_sme": "",
         "notion_url_no": "",
         "notion_url_en": "",
         "article_id": "harspranget-kraftverk",
         "article_languages": ["no"],
-        "status": "draft",
+        "status": "published",
         "coordinate_note": "Koordinat fra lenken i prosjektmaterialet."
       },
       "geometry": {
@@ -67,7 +67,7 @@
         "notion_url_en": "",
         "article_id": "ravvda",
         "article_languages": ["no"],
-        "status": "draft",
+        "status": "published",
         "coordinate_note": "Plassert ved Rávddajávrre."
       },
       "geometry": {
@@ -90,7 +90,7 @@
         "notion_url_en": "",
         "article_id": "moltebaer",
         "article_languages": ["no"],
-        "status": "draft",
+        "status": "published",
         "coordinate_note": "Plassert ved Rávvda-markøren."
       },
       "geometry": {
@@ -113,7 +113,7 @@
         "notion_url_en": "",
         "article_id": "gammen-nuortakragge",
         "article_languages": ["no"],
-        "status": "draft",
+        "status": "published",
         "coordinate_note": "Plassert fra offentlig kartreferanse."
       },
       "geometry": {
@@ -136,7 +136,7 @@
         "notion_url_en": "",
         "article_id": "sennagress",
         "article_languages": ["no"],
-        "status": "draft",
+        "status": "published",
         "coordinate_note": "Plassert ved gammen i Nuortakrågge."
       },
       "geometry": {
