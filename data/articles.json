@@ -60,10 +60,10 @@
       "id": "harspranget-kraftverk",
       "status": "draft",
       "title": {
-        "no": "Hårspranget kraftverk"
+        "no": "Harsprånget kraftverk"
       },
       "lead": {
-        "no": "Harsprånget er Sveriges største vannkraftverk, beliggende ved Luleälven i Jokkmokk kommune i Norrbotten, omtrent åtte kilometer nedstrøms fra Porjus. Med en installert effekt på omtrent 977 MW er kraftstasjonen en sentral del av Sveriges energisystem og produserer rundt 2 terawattimer elektrisitet per år. Dette tilsvarer strømforbruket til cirka 400 000 husholdninger."
+        "no": "Harsprånget er Sveriges største vannkraftverk målt i effekt. Harsprånget ligger ved Luleälven i Jokkmokk kommune, omtrent åtte kilometer sør for Porjus. Vattenfall oppgir at kraftverket i dag har en effekt på 811 MW og fire aggregater i drift. Etter den planlagte oppgraderingen skal fem aggregater ha en samlet effekt på 913 MW og en årlig produksjon på litt over 2 TWh."
       },
       "content": {
         "no": [
@@ -80,6 +80,14 @@
         {
           "label": "Harsprånget i Google Maps",
           "url": "https://www.google.com/maps?q=66.954167,19.814722"
+        },
+        {
+          "label": "Vattenfall – Harsprånget",
+          "url": "https://powerplants.vattenfall.com/sv/harspranget/"
+        },
+        {
+          "label": "Vattenfall – investering i Harsprånget, 30. mai 2025",
+          "url": "https://group.vattenfall.com/se/nyheter-och-press/pressmeddelanden/2025/vattenfall-investerar-13-miljarder-kronor-i-sveriges-storsta-vattenkraftstation"
         }
       ]
     },
