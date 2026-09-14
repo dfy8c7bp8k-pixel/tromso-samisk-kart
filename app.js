@@ -414,6 +414,19 @@ function renderArticle(articleId) {
     articleBody.append(leadParagraph);
   }
 
+  if (article.image?.src) {
+    const figure = document.createElement("figure");
+    figure.className = "article-panel__figure";
+    const image = document.createElement("img");
+    image.className = "article-panel__image";
+    image.src = article.image.src;
+    image.alt = clean(article.image.alt);
+    image.loading = "lazy";
+    image.decoding = "async";
+    figure.append(image);
+    articleBody.append(figure);
+  }
+
   contentByLanguage[articleLang].forEach(appendArticleBlock);
 
   if (Array.isArray(article.sources) && article.sources.length) {

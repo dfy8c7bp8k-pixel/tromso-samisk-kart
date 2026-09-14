@@ -85,6 +85,10 @@
     },
     {
       "id": "ravvda",
+      "image": {
+        "src": "./assets/images/ravvda-img-6874.png",
+        "alt": "Personer sitter rundt et stort bål i skogen i skumringen."
+      },
       "status": "draft",
       "title": {
         "no": "Turen fra Hellmobotn til Rávvda"
