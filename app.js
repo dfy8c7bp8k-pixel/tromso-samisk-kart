@@ -208,6 +208,12 @@ function defaultBlueIcon(size = 25) {
   });
 }
 const ICONS = {
+  vajsaluokta: "assets/icons/fortellinger/marker-vajsaluokta.png",
+  harspranget: "assets/icons/fortellinger/marker-harspranget.png",
+  ravvda: "assets/icons/fortellinger/marker-ravvda.png",
+  moltebaer: "assets/icons/fortellinger/marker-moltebaer.png",
+  nuortakragge: "assets/icons/fortellinger/marker-nuortakragge.png",
+  sennagress: "assets/icons/fortellinger/marker-sennagress.png",
   fjell: "assets/icons/natur/fjell.svg",
   gard: "assets/icons/bosetting/gard.svg",
   offerplass: "assets/icons/kultur/offerplass.svg",

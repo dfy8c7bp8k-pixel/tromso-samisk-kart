@@ -7,7 +7,7 @@
         "samisk_navn": "Vájsáluokta",
         "norsk_navn": "Vájsáluokta",
         "objekttype": "vannkraft",
-        "icon_id": "vannkraft",
+        "icon_id": "vajsaluokta",
         "infotekst_sme": "",
         "infotekst_no": "Vannkraftutbyggingen i området rundt Vájsáluokta i svensk Lappland må forstås som en del av den større utbyggingen av Luleälven på 1900-tallet.",
         "infotekst_en": "",
@@ -35,7 +35,7 @@
         "samisk_navn": "Harsprånget",
         "norsk_navn": "Harsprånget kraftverk",
         "objekttype": "vannkraft",
-        "icon_id": "vannkraft",
+        "icon_id": "harspranget",
         "infotekst_sme": "",
         "infotekst_no": "Harsprånget er Sveriges største vannkraftverk målt i effekt. Vattenfall oppgir dagens effekt til 811 MW med fire aggregater i drift.",
         "infotekst_en": "",
@@ -95,7 +95,7 @@
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [17.035, 67.76]
+        "coordinates": [16.960000, 67.750000]
       }
     },
     {
@@ -104,7 +104,7 @@
         "samisk_navn": "Nuortakrågge",
         "norsk_navn": "Gammen i Nuortakrågge",
         "objekttype": "gamme",
-        "icon_id": "gamme",
+        "icon_id": "nuortakragge",
         "infotekst_sme": "",
         "infotekst_no": "Gammen i Nuortakrågge er et godt eksempel på hvordan mennesker før i tiden bygde enkle, men svært funksjonelle boliger i naturen.",
         "infotekst_en": "",
@@ -141,7 +141,7 @@
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [16.635, 67.804]
+        "coordinates": [16.700000, 67.800000]
       }
     }
   ]
