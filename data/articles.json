@@ -278,6 +278,17 @@
     },
     {
       "id": "sennagress",
+      "external_video": {
+        "provider": "youtube",
+        "url": "https://youtube.com/shorts/LNun7CXljMo?feature=share",
+        "label": {
+          "no": "Se filmen om sennagress på YouTube"
+        },
+        "thumbnail": {
+          "src": "./assets/images/sennagress-video-thumbnail.png",
+          "alt": "En mann holder opp en bunt sennagress ute i fjellet."
+        }
+      },
       "status": "published",
       "title": {
         "no": "Sennagress"

@@ -302,6 +302,29 @@ const articleKicker = document.querySelector("#article-kicker");
 const articleTitle = document.querySelector("#article-title");
 const articleNotice = document.querySelector("#article-notice");
 const articleBody = document.querySelector("#article-body");
+const videoDialog = document.querySelector("#video-dialog");
+const videoContinue = document.querySelector("#video-continue");
+let videoTrigger = null;
+
+function youtubeUrl(value) {
+  try {
+    const url = new URL(value);
+    return url.protocol === "https:" &&
+      ["youtube.com", "www.youtube.com", "youtu.be"].includes(url.hostname)
+      ? url.href
+      : "";
+  } catch {
+    return "";
+  }
+}
+
+document.querySelector("#video-cancel").addEventListener("click", () => videoDialog.close());
+document.querySelector("#video-close").addEventListener("click", () => videoDialog.close());
+videoContinue.addEventListener("click", () => videoDialog.close());
+videoDialog.addEventListener("close", () => {
+  if (videoTrigger instanceof HTMLElement) videoTrigger.focus();
+  videoTrigger = null;
+});
 
 let articlesById = new Map();
 let activeArticleId = "";
@@ -434,6 +457,43 @@ function renderArticle(articleId) {
   }
 
   contentByLanguage[articleLang].forEach(appendArticleBlock);
+
+  const video = article.external_video;
+  const videoUrl = video?.provider === "youtube" ? youtubeUrl(video.url) : "";
+  if (videoUrl && clean(video.label?.no)) {
+    const videoParagraph = document.createElement("p");
+    const videoLink = document.createElement("button");
+    videoLink.type = "button";
+    videoLink.className = "article-video-link";
+    videoLink.textContent = clean(video.label.no);
+    if (clean(video.thumbnail?.src)) {
+      videoLink.classList.add("article-video-card");
+      const preview = document.createElement("span");
+      preview.className = "article-video-card__preview";
+      const thumbnail = document.createElement("img");
+      thumbnail.src = clean(video.thumbnail.src);
+      thumbnail.alt = clean(video.thumbnail.alt);
+      thumbnail.loading = "lazy";
+      thumbnail.decoding = "async";
+      const play = document.createElement("span");
+      play.className = "article-video-card__play";
+      play.textContent = "▶";
+      play.setAttribute("aria-hidden", "true");
+      preview.append(thumbnail, play);
+      const label = document.createElement("span");
+      label.className = "article-video-card__label";
+      label.textContent = clean(video.label.no);
+      videoLink.replaceChildren(preview, label);
+    }
+    videoLink.setAttribute("aria-haspopup", "dialog");
+    videoLink.addEventListener("click", () => {
+      videoTrigger = videoLink;
+      videoContinue.href = videoUrl;
+      videoDialog.showModal();
+    });
+    videoParagraph.append(videoLink);
+    articleBody.append(videoParagraph);
+  }
 
   if (Array.isArray(article.sources) && article.sources.length) {
     const sourceSection = document.createElement("section");
