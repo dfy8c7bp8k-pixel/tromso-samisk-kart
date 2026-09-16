@@ -437,6 +437,13 @@ function renderArticle(articleId) {
 
   const lead = clean(article.lead?.[articleLang] || article.lead?.no);
   if (lead) {
+    const leadHeading = clean(article.lead_heading?.[articleLang] || article.lead_heading?.no);
+    if (leadHeading) {
+      const heading = document.createElement("h2");
+      heading.className = "article-panel__lead-heading";
+      heading.textContent = leadHeading;
+      articleBody.append(heading);
+    }
     const leadParagraph = document.createElement("p");
     leadParagraph.className = "article-panel__lead";
     leadParagraph.textContent = lead;

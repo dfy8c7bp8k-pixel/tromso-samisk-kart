@@ -48,7 +48,7 @@
       },
       "sources": [
         {
-          "label": "Tekstgrunnlag: prosjektmaterialet «Flere tekster til kartet»"
+          "label": "Prosjektmaterialet"
         },
         {
           "label": "Kartreferanse: STF Vájsáluokta Fjällstuga",
@@ -75,7 +75,7 @@
       },
       "sources": [
         {
-          "label": "Tekstgrunnlag: prosjektmaterialet «Flere tekster til kartet»"
+          "label": "Prosjektmaterialet"
         },
         {
           "label": "Harsprånget i Google Maps",
@@ -134,7 +134,7 @@
       },
       "sources": [
         {
-          "label": "Tekstgrunnlag: prosjektmaterialet «Flere tekster til kartet»"
+          "label": "Prosjektmaterialet"
         },
         {
           "label": "Kartreferanse: Rávddajávrre",
@@ -144,6 +144,9 @@
     },
     {
       "id": "moltebaer",
+      "lead_heading": {
+        "no": "Innledning"
+      },
       "status": "published",
       "title": {
         "no": "Moltebær"
@@ -241,7 +244,7 @@
       },
       "sources": [
         {
-          "label": "Tekstgrunnlag: prosjektmaterialet «Flere tekster til kartet»"
+          "label": "Prosjektmaterialet"
         }
       ]
     },
@@ -268,7 +271,7 @@
       },
       "sources": [
         {
-          "label": "Tekstgrunnlag: prosjektmaterialet «Flere tekster til kartet»"
+          "label": "Prosjektmaterialet"
         },
         {
           "label": "Gamma i Nuortakrågge på UT.no",
@@ -323,7 +326,7 @@
             "text": "Den dagen handlet det ikke om å forstå noe for første gang, men om å kjenne igjen noe hun allerede kunne. En dag er det Ánne som skal lære det samme videre til sine barn og barnebarn."
           },
           {
-            "type": "paragraph",
+            "type": "heading",
             "text": "De ulike familiene hadde sine myrer der de plukket sennagress"
           },
           {
@@ -374,7 +377,7 @@
       },
       "sources": [
         {
-          "label": "Tekstgrunnlag: prosjektmaterialet «Flere tekster til kartet»"
+          "label": "Prosjektmaterialet"
         }
       ]
     }
