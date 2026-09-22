@@ -83,6 +83,7 @@ const LangControl = L.Control.extend({
     // Static markup only (not data-driven) -> safe.
     div.innerHTML = `
       <a href="#" data-lang="sme" class="active">SME</a>
+      <a href="#" data-lang="smj">SMJ</a>
       <a href="#" data-lang="no">NO</a>
       <a href="#" data-lang="en">EN</a>
     `;
@@ -97,7 +98,7 @@ const LangControl = L.Control.extend({
 
         // Defensive: only allow expected languages even if DOM is manipulated
         const lang = (a.dataset.lang || "").toLowerCase();
-        if (!["sme", "no", "en"].includes(lang)) return;
+        if (!["sme", "smj", "no", "en"].includes(lang)) return;
 
         currentLang = lang;
 
@@ -272,14 +273,14 @@ const ICON_OVERRIDES = {
 // ===== Språk: ikon + lenketekst =====
 function linkTextFor(lang) {
   if (lang === "sme") return "Lohkka sámegillii";
-  if (lang === "no") return "Les mer";
+  if (lang === "no" || lang === "smj") return "Les mer";
   return "Read more";
 }
 
 // Samisk: SVG-ikon. Norsk/Engelsk: emoji (unicode).
 // Not data-driven -> safe to return HTML.
 function langIconFor(lang) {
-  if (lang === "sme") {
+  if (lang === "sme" || lang === "smj") {
     return `<img src="assets/sami_flag.svg" class="lang-icon" alt="" />`;
   }
   if (lang === "no") {
@@ -290,7 +291,7 @@ function langIconFor(lang) {
 
 function articleButtonTextFor(lang, availableLanguages) {
   if (availableLanguages.includes(lang)) return linkTextFor(lang);
-  if (lang === "sme") return "Les mer (norsk)";
+  if (lang === "sme" || lang === "smj") return "Les mer (norsk)";
   if (lang === "en") return "Read more (Norwegian)";
   return "Les mer";
 }
@@ -572,7 +573,7 @@ function buildPopupHtml(p) {
   const norskNavn = escapeHtml(clean(p.norsk_navn));
 
   // Defensive: constrain lang (even if currentLang is tampered with)
-  const lang = ["sme", "no", "en"].includes(currentLang) ? currentLang : "sme";
+  const lang = ["sme", "smj", "no", "en"].includes(currentLang) ? currentLang : "sme";
 
   let html = `
     <div class="popup-samisk">${samiskNavn}</div>
