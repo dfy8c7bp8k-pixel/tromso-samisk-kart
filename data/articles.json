@@ -380,6 +380,3212 @@
           "label": "Prosjektmaterialet"
         }
       ]
+    },
+    {
+      "id": "lingrasmo-gard",
+      "status": "published",
+      "title": {
+        "no": "Livet på gården i Lakselvbukt",
+        "sme": "Eallin dálus Moskaluovttas",
+        "en": "Life on the Farm in Lakselvbukt"
+      },
+      "content": {
+        "no": [
+          {
+            "type": "paragraph",
+            "inline": [
+              "Boken tar utgangspunkt i familien på Lingrasmo og i Lakselvbukt, og hvordan det var å leve på gården. ",
+              {
+                "type": "em",
+                "content": [
+                  "Fortalt av Linn Guttormsen."
+                ]
+              }
+            ]
+          },
+          {
+            "type": "image",
+            "src": "./assets/images/lingrasmo/colab-forslag-innhold-historie-2.png",
+            "alt": ""
+          },
+          {
+            "type": "heading",
+            "inline": [
+              {
+                "type": "strong",
+                "content": [
+                  "Introduksjon"
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "inline": [
+              "Det var ingen selvfølge at jeg skulle gifte meg i Lakselvbukt, og i alle fall ingen selvfølge at jeg skulle ha på meg kofte på bryllupsdagen."
+            ]
+          },
+          {
+            "type": "paragraph",
+            "inline": [
+              "Du lurer kanskje på hvorfor? Da skal jeg ta deg tilbake noen år i tid."
+            ]
+          },
+          {
+            "type": "image",
+            "src": "./assets/images/lingrasmo/skjermbilde-2025-04-30-kl-14-42-37.png",
+            "alt": ""
+          },
+          {
+            "type": "paragraph",
+            "inline": [
+              {
+                "type": "em",
+                "content": [
+                  "Brud og brudgom i Lakselvbukt"
+                ]
+              }
+            ]
+          },
+          {
+            "type": "heading",
+            "inline": [
+              {
+                "type": "strong",
+                "content": [
+                  "Folketellinga i 1920"
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "inline": [
+              "I følge folketellinga i 1920, ble det registrert følgende i Troms fylke:"
+            ]
+          },
+          {
+            "type": "list",
+            "items": [
+              [
+                "7858 nordmenn"
+              ],
+              [
+                "3221 kvener (mange kom som følge av hungersnøden i Finland)"
+              ],
+              [
+                "8671 samer"
+              ]
+            ]
+          },
+          {
+            "type": "paragraph",
+            "inline": [
+              "I følge folketellingen i 1865 bodde det 23 personer i Lakselvdalen. Bnr 1 (Lingrasmo) var den gården som holdt flest dyr."
+            ]
+          },
+          {
+            "type": "image",
+            "src": "./assets/images/lingrasmo/49416-1.jpg",
+            "alt": "",
+            "caption": [
+              {
+                "type": "em",
+                "content": [
+                  "Samer og hund foran gammer i Tromsdalen.    "
+                ]
+              },
+              "Foto: Knud Knudsen 1873 Nasjonalmuseet/Nasjonalmuseet Robert Meyer Collection ",
+              {
+                "type": "link",
+                "url": "https://creativecommons.org/licenses/by/4.0/",
+                "content": [
+                  "CC-BY"
+                ]
+              }
+            ]
+          },
+          {
+            "type": "image",
+            "src": "./assets/images/lingrasmo/skjermbilde-2025-04-30-kl-14-45-54.png",
+            "alt": "",
+            "caption": [
+              {
+                "type": "em",
+                "content": [
+                  "Familien på Lingrasmo gård"
+                ]
+              }
+            ]
+          },
+          {
+            "type": "heading",
+            "inline": [
+              {
+                "type": "strong",
+                "content": [
+                  "Lingrasmo"
+                ]
+              }
+            ]
+          },
+          {
+            "type": "image",
+            "src": "./assets/images/lingrasmo/skjermbilde-2025-04-30-kl-14-51-08.png",
+            "alt": ""
+          },
+          {
+            "type": "paragraph",
+            "inline": [
+              {
+                "type": "em",
+                "content": [
+                  "Lingrasmo gård"
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "inline": [
+              "Dette er Lingrasmo. En gård i Lakselvdalen i Ullsfjord. Her bodde mine oldeforeldre sammen med sine 7 barn. Hjemmespråket var i hovedsak samisk, men oldemor snakket også kvensk og finsk, og oldefar kunne norsk. Oldemor holdt hardt på det samiske språket gjennom hele sitt liv, mens det kvenske ble glemt litt etter litt. I det røde bygget bodde mine oldeforeldre og deres barn mens de ventet på å overta hovedhuset. Etter at de flyttet, ble det brukt som arbeidsbygg (verksted, knivsliping), lagerbygg og soveplass."
+            ]
+          },
+          {
+            "type": "heading",
+            "inline": [
+              {
+                "type": "strong",
+                "content": [
+                  "Oldemor og oldefar"
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "inline": [
+              "Oldemor var egentlig fra Oteren. Som ung begynte hun å jobbe på ulike gårder i Laksvatnområdet. En sommer hadde hun hatt en fridag, og gått hjem til Oteren. På tur hjemover, satte hun seg ned for å hvile. Mens hun satt der, benyttet oldefar anledning til å gå mot henne, og de kom i snakk der. Det sies at det var fra da de begynte å bli ordentlig kjent. Denne veien er senere kjent som «Frierstien» hos bygdefolket."
+            ]
+          },
+          {
+            "type": "image",
+            "src": "./assets/images/lingrasmo/skjermbilde-2025-04-30-kl-14-57-21.png",
+            "alt": "",
+            "caption": [
+              {
+                "type": "em",
+                "content": [
+                  "Oldemor og oldefar på kjøkkenet"
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "inline": [
+              "Etter at hun møtte oldefar, flyttet de etter hvert sammen til Lakselvdalen siden han var odelsgutt på hjemgården der. Etter at de flyttet til Lakselvdalen, gikk oldemor flere ganger til Lyngen for å besøke sine foreldre. Å gå over fjell og gjennom daler var eneste mulighet hun hadde for å komme dit. "
+            ]
+          },
+          {
+            "type": "paragraph",
+            "inline": [
+              "Hver sommer, når hovedfjøset var vasket rent, tok oldemor sommerferie hvor hun gikk hjem for å besøke sin familie. Da gikk hun over Høgda, gjennom Tverrdalen og til Oteren. Men hun sørget alltid for at noen var på Lingrasmo for å se til barna."
+            ]
+          },
+          {
+            "type": "heading",
+            "inline": [
+              {
+                "type": "strong",
+                "content": [
+                  "Å leve av det man lagde selv"
+                ]
+              }
+            ]
+          },
+          {
+            "type": "image",
+            "src": "./assets/images/lingrasmo/skjermbilde-2025-04-30-kl-15-01-07.png",
+            "alt": ""
+          },
+          {
+            "type": "paragraph",
+            "inline": [
+              {
+                "type": "em",
+                "content": [
+                  {
+                    "type": "link",
+                    "url": "https://digitaltmuseum.no/021027998555/busserull",
+                    "content": [
+                      {
+                        "type": "underline",
+                        "content": [
+                          "Hjemmevevd busserull. Bildet er hentet fra Busserull-Helgeland museum"
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "inline": [
+              "Å bo på gården betydde at man i hovedsak lagde det man trengte, enten det dreide seg om mat, klær, møbler eller andre ting."
+            ]
+          },
+          {
+            "type": "paragraph",
+            "inline": [
+              "I følge min grandtante hadde guttene alltid godt med klær, mens jentene var dårligere stelt. På gården vevde de stoff til å sy busseruller til mannfolkene og bukser av vadmel. Jentene, derimot, hadde underbukser og undertrøyer med strikkaklær utenpå."
+            ]
+          },
+          {
+            "type": "paragraph",
+            "inline": [
+              "Oldemor bar alltid på et nålehus (samisk) i beltet, klar for å fikse ting ved behov."
+            ]
+          },
+          {
+            "type": "heading",
+            "inline": [
+              {
+                "type": "strong",
+                "content": [
+                  "Rykter om fint fottøy"
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "inline": [
+              "Oldefar sydde komager (samisk fottøy) så lenge han klarte, Dette hadde han lært av sine foreldre. Oldemor kunne også dette arbeidet. De fikk stadig kommentarer om hvor fine komager de hadde, og det sies at det gikk rykter langt utover Ullsfjorden om hvor flinke de var til å sy komager på Lingrasmo. Oldemor vevde bånd til komagene. Hun hadde flere mønstre, men brukte særlig to av disse, som hun hadde lært fra sin bestemor. Sennegress, strå som blir brukt som innlegg i samisk fottøy, slo oldemor i bakken nedenfor oldefars sageri (i ene ytterenden av tomta)."
+            ]
+          },
+          {
+            "type": "image",
+            "src": "./assets/images/lingrasmo/skjermbilde-2025-04-30-kl-15-07-44.png",
+            "alt": ""
+          },
+          {
+            "type": "paragraph",
+            "inline": [
+              {
+                "type": "em",
+                "content": [
+                  "               Hjemmesydde komager"
+                ]
+              }
+            ]
+          },
+          {
+            "type": "heading",
+            "inline": [
+              {
+                "type": "strong",
+                "content": [
+                  "Oldemors arbeid"
+                ]
+              }
+            ]
+          },
+          {
+            "type": "image",
+            "src": "./assets/images/lingrasmo/skjermbilde-2025-04-30-kl-15-11-37.png",
+            "alt": ""
+          },
+          {
+            "type": "paragraph",
+            "inline": [
+              {
+                "type": "em",
+                "content": [
+                  "Tønne for farging av garn"
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "inline": [
+              "Oldemor oppdro barna og tok seg av gården. Hun var skikkelig glad i dyrene der. Om sommeren gikk hun ut i skogen og sanket urter som hun tørket. På juledagsmorgenen gav hun en liten bunt urter til hvert av dyrene så de skulle få litt ekstra til jul!"
+            ]
+          },
+          {
+            "type": "paragraph",
+            "inline": [
+              "Flere har fortalt at oldemor var et skikkelig arbeidsjern. Hun farget og vevde ull, vevde stoff, sydde klær, bakte, lagde ost, smør, syltetøy, og gjorde mye fjøsarbeid på gården."
+            ]
+          },
+          {
+            "type": "paragraph",
+            "inline": [
+              "Hun ble ofte tilkalt til andre gårder om det var behov for hjelp både når dyr og mennesker skulle fødes. Det sies at hun berget flere liv."
+            ]
+          },
+          {
+            "type": "paragraph",
+            "inline": [
+              "For å farge garn, brukte hun steinlav for å få brunfarge. Men for å få fargen mellomblå, fikk de døtrene i huset til å samle urinen sin i en 25l tønne. "
+            ]
+          },
+          {
+            "type": "paragraph",
+            "inline": [
+              "Urinen gjæret en stund (og skapte stram lukt i huset). Fra husfliden i Tromsø hadde de kjøpt en blokk med indigo (farge) som de knuste. Deretter brukte de pose av lerret, som de knyttet en lang snor til, og la den i urinen. Hver dag trakk de opp posen, klemte godt på den slik at farge kom ut til de fikk ønsket mellomblå farget. Blåfargen kunne en ofte se på herrenes klær."
+            ]
+          },
+          {
+            "type": "heading",
+            "inline": [
+              {
+                "type": "strong",
+                "content": [
+                  "Ostebua"
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "inline": [
+              "Ost og smør lagde de selv. De lagde kaffeost fra sauemelk. Det de lagde mer enn til eget bruk av, reiste de til Tromsø for å selge. Ostebua er den eldste gjenlevende bygningen, den står fortsatt i dag. Den ene delen ble brukt til å oppbevare kjøtt og ost. Den tømra delen ble kalt “Sennabua”, der oppbevarte de sennagress og alt utstyr knyttet til potetopptak. I tillegg oppbevarte de moseriver, høyriver, ljåer, melsikt og annet utendørs utstyr her."
+            ]
+          },
+          {
+            "type": "paragraph",
+            "inline": [
+              "Melk og kjøtt hadde de fra egne dyr. Mel måtte kjøpes i store sekker av gangen. Melsekkene sto i boder i ytterganger til matlager, og det hendte at mus kom inn der. Oldemor fortalte at de flere ganger måtte plukke ut muselort fra melet før de kunne bruke det. Oldemor bakte brød, flatbrød og «klappkaker» (rester av brøddeig som ble klappet passe flate og stekt på steiner ved grua). De fisket mye, så som regel stod det fisk i alle varianter på menyen."
+            ]
+          },
+          {
+            "type": "image",
+            "src": "./assets/images/lingrasmo/skjermbilde-2025-04-30-kl-15-53-17.png",
+            "alt": ""
+          },
+          {
+            "type": "paragraph",
+            "inline": [
+              {
+                "type": "em",
+                "content": [
+                  "Oldemor foran ostebua"
+                ]
+              }
+            ]
+          },
+          {
+            "type": "heading",
+            "inline": [
+              {
+                "type": "strong",
+                "content": [
+                  "Fiske, men hva var favorittmaten?"
+                ]
+              }
+            ]
+          },
+          {
+            "type": "image",
+            "src": "./assets/images/lingrasmo/skjermbilde-2025-04-30-kl-15-55-18.png",
+            "alt": ""
+          },
+          {
+            "type": "paragraph",
+            "inline": [
+              "Naustet var oppbevaringssted for båt, fiskegarn og øvrig fiskeutstyr. Det ble flittig brukt av både de eldste og de yngre i familien gjennom mange år. Det pleide å være mye fisk i Ullsfjorden. Naustet er nå et fredet bygg som er mellom 150 og 200 år gammelt."
+            ]
+          },
+          {
+            "type": "paragraph",
+            "inline": [
+              "Bestemor fortalte at noe av det beste hun visste var når de fikk noe sprøtt som tilbehør til fiskemiddagen (en kjærkommet avveksling fra kun fisk og potet). Det hun da snakket om, var fettet rundt deler av innmaten til dyrene. Dette ble samlet og oppbevart, og når de skulle ha det til middag, ble det laget slik som vi steker bacon i dag. Noe annet godt de pleide å lage, var grøt av surgras til dessert. Det syntes ungene var skikkelig godt. Hvis de hadde de grøt og spekemat til middag, ble det regnet som et skikkelig festmåltid."
+            ]
+          },
+          {
+            "type": "heading",
+            "inline": [
+              {
+                "type": "strong",
+                "content": [
+                  "Hva skjedde med godkaffen?"
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "inline": [
+              "Da bestemor og søsknene hennes var små, var det en sommer under krigen at oldemor hadde gått til Oteren. Oldefar hjalp butikkeier H. Heim med å skaffe store bjørker som skulle være støtter til ny kai i Lakselvbukt. En eldre dame var på gården for å passe barna. Sukker og kaffe måtte kjøpes, og oldemor pleide å bruke sukkersaks for å kutte sukkerbiter, saksa lignet en liten giljotin. Herr Heim kom en dag til gårds med skikkelig kaffe (i en tid hvor de drakk erstatningskaffe grunnet krigen), og oldefar hadde gitt beskjed om at den gamle damen skulle koke godkaffen og ha den klar når de kom fra skogen."
+            ]
+          },
+          {
+            "type": "paragraph",
+            "inline": [
+              "Damen gjorde som hun fikk beskjed om, men da kaffen var ferdig kokt, satte hun av en eller annen grunn kjelen på gulvet. Hun virret rundt der og jobbet, og plutselig satte spissen på skallene (sameskoene) seg fast i hanken på kaffekjelen. Godkaffen havnet utover hele gulvet. Du kan tenke deg til hvilket søl og leven det ble i huset."
+            ]
+          },
+          {
+            "type": "image",
+            "src": "./assets/images/lingrasmo/skjermbilde-2025-04-30-kl-16-02-23.png",
+            "alt": ""
+          },
+          {
+            "type": "paragraph",
+            "inline": [
+              "Til alles store fortvilelse, kom de fra skogen til erstatningskaffe. Det var de lite fornøyde med etter å ha gledet seg hele dagen til skikkelig kaffe."
+            ]
+          },
+          {
+            "type": "heading",
+            "inline": [
+              {
+                "type": "strong",
+                "content": [
+                  "Svigermors blikk"
+                ]
+              }
+            ]
+          },
+          {
+            "type": "image",
+            "src": "./assets/images/lingrasmo/skjermbilde-2025-04-30-kl-16-04-01.png",
+            "alt": ""
+          },
+          {
+            "type": "paragraph",
+            "inline": [
+              {
+                "type": "em",
+                "content": [
+                  "Oldemor og forfatteren"
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "inline": [
+              "Oldemor var blitt kjent med ei som het Inga. Inga og mannen hadde ikke så mye, og det var en dag Inga ville til Lingrasmo for å be om ull. Der hadde de alltid nok ull, og Inga overtalte oldemor til å bli med."
+            ]
+          },
+          {
+            "type": "paragraph",
+            "inline": [
+              "De kom til Lingrasmo, gikk inn og hilste. Da Inga hadde hilst på husfruen, så husfruen lenge på oldemor og målte henne opp og ned før hun plutselig sa: «Ja, nå kan jeg dø i fred, for nå har jeg sett den som skal bli Ole sin kjerring»."
+            ]
+          },
+          {
+            "type": "paragraph",
+            "inline": [
+              "Det skulle enda gå litt tid før det ble oldemor og oldefar."
+            ]
+          },
+          {
+            "type": "heading",
+            "inline": [
+              {
+                "type": "strong",
+                "content": [
+                  "Oldefars arbeid"
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "inline": [
+              "Oldefar hadde gått på yrkesskolen i Tromsø. Her lærte han alt som trengtes for å klare seg på en gård. Husbygging, tømring, møbelsnekring, tresløyd, metallforming, smedarbeid, blikkenslageri og urverk."
+            ]
+          },
+          {
+            "type": "paragraph",
+            "inline": [
+              "Oldefar hadde et eget snekkerverksted på loftet i huset, et bittelite rom i hovedsak bestående av en hjemmelaget dreiebenk. Her lagde han mange fine ting og møbler. Bord, stoler, senger, skråskap, krydderhyller, speil og mye annet. Han snekret på bestilling, og tjente noen slanter til gården."
+            ]
+          },
+          {
+            "type": "paragraph",
+            "inline": [
+              "Han hadde godt rykte på seg som husbygger, og han var med å bygge mange hus i bygdene rundt. Maling pleide han også å blande selv. Med olderbark laget han nydelig rødfarge. Og med moll, fra en myrkant i nærheten, fikk han en kjempefin brungrå farge."
+            ]
+          },
+          {
+            "type": "image",
+            "src": "./assets/images/lingrasmo/skjermbilde-2025-04-30-kl-16-06-06.png",
+            "alt": ""
+          },
+          {
+            "type": "paragraph",
+            "inline": [
+              {
+                "type": "em",
+                "content": [
+                  "Taket i uthuset slik det er nå"
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "inline": [
+              "Uthusene på gården var enkelt bygd. På takene ble det lagt torv. Under torva var det bjørkenever oppå bjelkene. Alt de brukte var ting de fant i egen skog og mark. De opplevde aldri at det dryppet regn eller smeltet snø inn."
+            ]
+          },
+          {
+            "type": "heading",
+            "inline": [
+              {
+                "type": "strong",
+                "content": [
+                  "Oldefar var ikke redd for å prøve noe nytt"
+                ]
+              }
+            ]
+          },
+          {
+            "type": "image",
+            "src": "./assets/images/lingrasmo/skjermbilde-2025-04-30-kl-16-07-54.png",
+            "alt": ""
+          },
+          {
+            "type": "paragraph",
+            "inline": [
+              {
+                "type": "em",
+                "content": [
+                  "Før traktoren kom"
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "inline": [
+              "Oldefar var den første i hele området til å prøve ut kunstgjødsel. Han tok selv kontakt med agronomen på Olderbakken, som kom med ulike typer kunstgjødsel. Oldefar delte en del av jordet opp i mindre deler, merket av for type kunstgjødsel og mengde de hadde strødd på de ulike delene. Dette ble gjort på våren. I løpet av sommeren kom agronomen tilbake og kontrollerte vekstene, det samme skjedde på sensommeren da gresset skulle slås. Etter godt resultat, ble det nye gjødselet tatt i bruk. Men de fortsatte med møkkaspredning i tillegg, slik som før. En annen måte de gjødslet jordene på, var å pumpe opp urin fra dyrene i fjøset, samle det i tønner, og spre utover jordene."
+            ]
+          },
+          {
+            "type": "heading",
+            "inline": [
+              {
+                "type": "strong",
+                "content": [
+                  "Tidsvitne"
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "inline": [
+              "Min bestemors søster forteller dette til meg over telefon:"
+            ]
+          },
+          {
+            "type": "callout",
+            "icon": "💬",
+            "content": [
+              {
+                "type": "paragraph",
+                "inline": [
+                  "«Jeg ser enda bestefar for meg. Han var alltid i vedsjåen, sagde og hogget ved. Han er kledd i vadmelsbukse og busserull og har komager på beina og skinnlue på hodet. Vadmelsstoffet var av hjemmespunnet og hjemmevevd ullgarn, som var farga svart og stampet i tønne uten lokk og bunn (for å toves tykkere). Stoffet til busserullen var også hjemmelaga og var farga i mellomblå farge.”"
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "inline": [
+              "Det kom ofte samer fra utenfor bygda til Lingrasmo for å få sennagress, ost og smør. Oldemor tok aldri betaling for det."
+            ]
+          },
+          {
+            "type": "image",
+            "src": "./assets/images/lingrasmo/skjermbilde-2025-04-30-kl-16-13-50.png",
+            "alt": ""
+          },
+          {
+            "type": "paragraph",
+            "inline": [
+              {
+                "type": "em",
+                "content": [
+                  "Forfatterens oldeforeldre og tippoldefar."
+                ]
+              }
+            ]
+          },
+          {
+            "type": "heading",
+            "inline": [
+              {
+                "type": "strong",
+                "content": [
+                  "Bekker og elver"
+                ]
+              }
+            ]
+          },
+          {
+            "type": "image",
+            "src": "./assets/images/lingrasmo/melkebekken.png",
+            "alt": "",
+            "caption": [
+              "Melkebekken"
+            ]
+          },
+          {
+            "type": "paragraph",
+            "inline": [
+              "Stedet (under tak) på bildet ble kalt for melkebekken. Her var det et iskaldt kildevann. Der pleide oldemor å avkjøle og holde melkespann kalde. Andre matvarer kunne også bli satt hit for å holdes kalde og friske."
+            ]
+          },
+          {
+            "type": "paragraph",
+            "inline": [
+              "Når klær skulle vaskes, ble de tatt med til elva og skylt der. Et helt greit arbeid, men litt av en utfordring midt på vinteren. Da gravde de trappetrinn i snøen ned mot isen på elva, hugde hull i isen og skylte klærne. Det var så kaldt at de ikke greide å vri klærne, så de la dem på snøskavelen for å renne av, og da frøs klærne seg stive. Da de kom hjem, hadde oldemor kokt opp vann, som de tinte klærne i. De fikk vridd dem, og hengt dem",
+              {
+                "type": "break"
+              },
+              "til å tørke i et av uthusene på gården."
+            ]
+          },
+          {
+            "type": "paragraph",
+            "inline": [
+              "Skinnelva kommer rett ut av fjellsida i dalen. Denne delen av elva fryser ikke om vinteren, og her renner elva slakt og stille. På dette stedet hadde de rigget til store stokker som de kunne binde skinn med hår fast – til røyting. På land hadde de en stor stokk med flat side opp. Denne brukte de til å dra skinnene opp på, så skrapte de av hårene på skinnet. Deretter la de skinnene i en halv tønne fylt med tørr bjørkebark. Videre brukte de alun (dobbeltsalt) og vann til garving av skinn. Denne prosessen førte til fin farge på skinnet. Det ble sydd komager og seletøy av skinn og lær."
+            ]
+          },
+          {
+            "type": "heading",
+            "inline": [
+              {
+                "type": "strong",
+                "content": [
+                  "Fjøset"
+                ]
+              }
+            ]
+          },
+          {
+            "type": "image",
+            "src": "./assets/images/lingrasmo/fjoset.png",
+            "alt": ""
+          },
+          {
+            "type": "paragraph",
+            "inline": [
+              "I fjøset hadde de ei grue som var murt opp av stein og leire. Her brukte det å stå ei kjempestor gryte. Den brukte de til å varme drikke til dyrene, gjerne iblanda noe godsaker som f.eks matavfall, sildemel eller høy. Dyrene var gale etter å få den varme drikken om morgenen. Grua ble også brukt når en skulle bøye skitupper eller brenne tjære fast på skiene."
+            ]
+          },
+          {
+            "type": "paragraph",
+            "inline": [
+              {
+                "type": "strong",
+                "content": [
+                  "Slakting:"
+                ]
+              },
+              " De tok vare på absolutt alt de kunne av dyrene. Av blod lagde de blodpølser, blodklubb og blodpannekaker. Kjøtt ble lagt i saltlake hele vinteren i en tønne, sider ble hengt til tørk. De skar av sidene og stekte på gloa i ovnen, noe ble hermetisert på glass, tunger ble brukt som pålegg. Talg rundt nyrene på dyr ble brukt til matfett eller som ingrediens til å lage såpe."
+            ]
+          },
+          {
+            "type": "image",
+            "src": "./assets/images/lingrasmo/fjos-vedsja.png",
+            "alt": "",
+            "caption": [
+              "Fjøs, vedsjå, sommerfjøs, naust og uthus er verneverdige bygg (Sametinget)."
+            ]
+          },
+          {
+            "type": "heading",
+            "inline": [
+              "Selge varer i Tromsø"
+            ]
+          },
+          {
+            "type": "paragraph",
+            "inline": [
+              "Når oldefar skulle selge varer (ost, smør, kjøtt, bær, skinn), kjørte de med hest og kjerre til Lakselvbukt. Herfra ble det båt til Tromsø. Det var en fast handelsmann som kjøpte varer fra oldefar, Gerhardt Knudsen. Barna fikk være med på disse turene, men bare en om gangen. Da de kom til Tromsø, var deres oppgave å passe varene mens handelsmannen hentet hest og kjerre for å frakte varene bort med. Oldefar hadde ei bok hvor han skrev ned alt han solgte, og til hvilken pris han solgte det for."
+            ]
+          },
+          {
+            "type": "image",
+            "src": "./assets/images/lingrasmo/sjogata-1870.jpg",
+            "alt": "",
+            "caption": [
+              " ",
+              {
+                "type": "em",
+                "content": [
+                  "Tromsø i gamledager."
+                ]
+              },
+              " Foto: N.A. Ytreberg: Tromsø bys historie. B. 2. Dato: 1870-tallet ",
+              {
+                "type": "link",
+                "url": "https://creativecommons.org/public-domain/pdm/",
+                "content": [
+                  "PD"
+                ]
+              }
+            ]
+          },
+          {
+            "type": "heading",
+            "inline": [
+              "Arbeid på gården"
+            ]
+          },
+          {
+            "type": "paragraph",
+            "inline": [
+              "Det var mye hardt arbeid på gården, og det aller meste ble gjort og laget for hånd. Det fantes ikke mye maskinerier på den tiden. Barna lærte tidlig verdien av hardt arbeid, da de måtte bidra så snart de var gamle nok til å kunne hjelpe til. De hadde fjøs med sauer, kyr og noen geiter, og barna hadde sine faste oppgaver."
+            ]
+          },
+          {
+            "type": "paragraph",
+            "inline": [
+              "Etter hvert ble Lingrasmo en av to gårder i området med «Maskinstasjon». Dette betydde",
+              {
+                "type": "break"
+              },
+              "at de hadde traktor, og dermed var de forpliktet til å pløye jord, slå gress, kjøre ved eller gjøre ting for gårder som ikke hadde traktor. En regner med at de fikk noe form for tilskudd for å ha denne typen ansvar, som nok ga noe inntekt. ",
+              {
+                "type": "break"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "inline": [
+              "I 1947 ble Lingrasmo talestasjon (telefon) under Lakselvbukt. Da kom det beskjeder til gården, som de måtte formidle videre til andre gårder i området."
+            ]
+          },
+          {
+            "type": "image",
+            "src": "./assets/images/lingrasmo/arbeid-pa-garden.png",
+            "alt": "",
+            "caption": [
+              "En arbeidsgjeng klar for dagens gjøremål."
+            ]
+          },
+          {
+            "type": "heading",
+            "inline": [
+              "Tid for lek"
+            ]
+          },
+          {
+            "type": "paragraph",
+            "inline": [
+              "Innimellom slagene av hardt arbeid, brukte barna å finne på ting sammen. Om vinteren gikk de på ski eller akte i bakkene. Om sommeren konkurrerte de i «Vippe pinne» og lekte gjemsel. Hvis de hadde en ball, sto en på hver sin side av en bygning hvor det var om å gjøre å sparke eller kaste ballen over taket til den andre. På vinteren hadde de blant annet et brettspill som het «Sáhkku», brettet og brikkene til spillet var laget og spikket av min tippoldefar. "
+            ]
+          },
+          {
+            "type": "callout",
+            "content": [
+              {
+                "type": "paragraph",
+                "inline": [
+                  {
+                    "type": "strong",
+                    "content": [
+                      {
+                        "type": "link",
+                        "url": "https://result.uit.no/reaidu/ressurser/aktiviteter/sahkku/",
+                        "content": [
+                          "Les mer om spillet her"
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "heading",
+            "inline": [
+              {
+                "type": "strong",
+                "content": [
+                  "Moskaluokta – Lakselvbukt"
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "inline": [
+              "Ungene gikk ikke alltid så mange år på skolen. Det første skolebygget var i en jordgamme. Her bodde barna mens de gikk på skolen. På dagtid drev familien med sitt på den ene siden av gammen, mens undervisningen pågikk på andre siden av gammen. Min oldefar gikk på skole i denne gammen."
+            ]
+          },
+          {
+            "type": "paragraph",
+            "inline": [
+              "Der Lakselvbukt skole står i dag, var det internatskole. Da bestemor var ung, var det så mange barn som gikk på internatskolen. For at det skulle være mulig å undervise alle, hadde barna skole i tre uker og var hjemme i tre uker. "
+            ]
+          },
+          {
+            "type": "image",
+            "src": "./assets/images/lingrasmo/lakselvbukt.png",
+            "alt": "",
+            "caption": [
+              "Bilde tatt fra “1000 – meteren” med utsikt ned mot min bestemors og mine foreldres hus."
+            ]
+          },
+          {
+            "type": "paragraph",
+            "inline": [
+              "Det var noen barn av reindriftssamer som kom til internatskolen. Disse barna kunne ikke noe norsk. En av disse nektet å snakke norsk, hun snakket bare samisk til sin lærer, som var sørfra, på skolen. En av bestemors søstre hjalp læreren med å oversette det denne jenta sa. Hun brukte mye tid med disse barna og hjalp dem på skolen. Etter hvert jobbet hun på skolen for å ta vare på disse barna. De dro ikke hjem etter tre uker, slik de andre barna gjorde, men var der hele året. Når bestemors søster var lei og ville hjem, tok hun like greit disse barna med seg til Lingrasmo. Her fikk de snakke samisk så fritt som de ville, og de ble tatt godt i mot."
+            ]
+          },
+          {
+            "type": "heading",
+            "inline": [
+              {
+                "type": "strong",
+                "content": [
+                  "Fornorskning"
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "inline": [
+              "På Lingrasmo merket ikke barna noe særlig til fornorskninga. De hadde foreldre som snakket samisk hjemme, og de hadde lært norsk, slik at de klarte seg helt fint på skolen. De merket nok at folk snakket mer norsk og begynte å bruke andre klær osv, men de hadde et fristed hjemme som mange andre ikke hadde. Dette kom av at oldeforeldrene mine var så fast bestemt på å holde på språket."
+            ]
+          },
+          {
+            "type": "image",
+            "src": "./assets/images/lingrasmo/nf-05689-087.png",
+            "alt": "",
+            "caption": [
+              {
+                "type": "strong",
+                "content": [
+                  "Klasse på Kautokeino internatskole."
+                ]
+              },
+              " Fotograf: ",
+              {
+                "type": "link",
+                "url": "https://digitaltmuseum.no/search?name=f89b7f23-49b3-4bca-a89c-f28b7ec080c4",
+                "content": [
+                  "Marr, Leslie"
+                ]
+              },
+              " ",
+              {
+                "type": "link",
+                "url": "https://digitaltmuseum.no/011013374451/kautokeino-skole-interior-fra-klasserom-med-laerer-og-elever-1957",
+                "content": [
+                  "Kautokeino skole. Interiør fra klasserom med lærer og elever, 1957."
+                ]
+              },
+              " ",
+              {
+                "type": "link",
+                "url": "https://creativecommons.org/licenses/by-sa/4.0/deed.no",
+                "content": [
+                  "CC BY-SA 4.0"
+                ]
+              },
+              " Eksponert."
+            ]
+          },
+          {
+            "type": "paragraph",
+            "inline": [
+              "Men de skjønte at det var skambelagt å være samisk og å være i slekt med samer, så mye av det samiske ble bare «tiet i hjel». Etter hvert begynte folk å snakke bare norsk, men oldemor svarte alltid på samisk. Hun hadde også noen venninner hun bare snakket samisk med."
+            ]
+          },
+          {
+            "type": "paragraph",
+            "inline": [
+              "Da barna på Lingrasmo ble store og flyttet ut, merket de nok mer til fornorskninga. Ingen av disse barna valgte å lære egne barn samisk. De snakket heller ikke om samisk kultur og tradisjoner. Den delen bare forsvant i det stille."
+            ]
+          },
+          {
+            "type": "paragraph",
+            "inline": [
+              "Bestemor snakket samisk med bekjente i bedehuset og på butikken, men hjemme med barna gikk det i norsk. Men hvis hun og bestefar skulle snakke sammen uten at barna forstod alt, da gikk det på samisk. Men i etterkant har pappa fortalt at de skjønte mesteparten av hva som ble sagt, men syntes det var så spennende å høre foreldrene snakke at de aldri sa noe om den saken."
+            ]
+          },
+          {
+            "type": "image",
+            "src": "./assets/images/lingrasmo/nf-05689-086-1.png",
+            "alt": "",
+            "caption": [
+              {
+                "type": "strong",
+                "content": [
+                  "Klasse på Kautokeino internatskole."
+                ]
+              },
+              " Fotograf: ",
+              {
+                "type": "link",
+                "url": "https://digitaltmuseum.no/search?name=f89b7f23-49b3-4bca-a89c-f28b7ec080c4",
+                "content": [
+                  "Marr, Leslie"
+                ]
+              },
+              " ",
+              {
+                "type": "link",
+                "url": "https://digitaltmuseum.no/011013374451/kautokeino-skole-interior-fra-klasserom-med-laerer-og-elever-1957",
+                "content": [
+                  "Kautokeino skole. Interiør fra klasserom med lærer og elever, 1957."
+                ]
+              },
+              " ",
+              {
+                "type": "link",
+                "url": "https://creativecommons.org/licenses/by-sa/4.0/deed.no",
+                "content": [
+                  "CC BY-SA 4.0"
+                ]
+              },
+              " Eksponert."
+            ]
+          },
+          {
+            "type": "heading",
+            "inline": [
+              "Hets og begraving av identitet "
+            ]
+          },
+          {
+            "type": "paragraph",
+            "inline": [
+              "Selv om språket i større eller mindre grad lenge holdt seg levende, ble andre deler av kulturen gradvis borte. Mange valgte å kvitte seg med kofter og utstyr de hadde til koftene sammen med andre typiske samiske plagg og redskaper. Det sies at noen også gravde ned sine samiske eiendeler for å skjule at slikt hadde vært på gårdene. Men ved gjennomgang av skiftedokumenter som stammer fra omtrent denne tiden, så vi at mange hadde kofter, sjal, søljer, komager, skallebånd mm i sitt eie."
+            ]
+          },
+          {
+            "type": "paragraph",
+            "inline": [
+              "Da bestemor og søsknene var med oldefar på handelsturer i Tromsø, fikk de rett som det var nedsettende kommentarer fra by-ungene. Fortsatt den dag i dag, kommer det hets rettet mot den samiske befolkningen her i Tromsø."
+            ]
+          },
+          {
+            "type": "heading",
+            "inline": [
+              "Bestemor og bestefar"
+            ]
+          },
+          {
+            "type": "paragraph",
+            "inline": [
+              "Bestemor fant sin mann i Lakselvbukt, giftet seg, fikk med seg ei ku, ei kvige og to sauer hjemmefra som medgift og som en start på gårdsdrift. De overtok en gård i Lakselvbukt etter slektninger av bestefar. Det var harde kår. Hun kom fra gården Lingrasmo, hvor de alltid hadde nok. Og de kunne dele noe med de som ikke hadde nok. Nå måtte hun klare seg med det lille de hadde. Det ble en helt annen verden for henne, men hun bet tennene sammen og gjorde det hun kunne for å bygge opp en gård hvor de hadde det nødvendige. Etter hvert opparbeidet de seg fjøs med flere sauer og kyr, samt en hest som ble delt med naboen."
+            ]
+          },
+          {
+            "type": "paragraph",
+            "inline": [
+              "Bestefar dro på fiske (Jøviktinden og Furøynes), og han var fast mannskap hos Jacobsen fra Olderbakken. Vinterfisket startet i januar når torsken kom, og han kunne være borte hele vinteren. Han fisket også mye hjemme til eget bruk. Han fisket torsk, uer, sild og alt som fantes i fjorden etter sesong."
+            ]
+          },
+          {
+            "type": "paragraph",
+            "inline": [
+              "Bestemor og bestefar snakket samisk hjemme hele tiden, men norsk til barna. De hadde samisk som «hemmelig språk» som barna ikke skulle forstå."
+            ]
+          },
+          {
+            "type": "heading",
+            "inline": [
+              "Samisk på hell"
+            ]
+          },
+          {
+            "type": "paragraph",
+            "inline": [
+              "På 1950-tallet var det kun to hus som snakket norsk, ellers var alle samisktalende. Det var vanlig med bedehussamlinger som foregikk på samisk, og norsk ved bruk av tolk. Det var fortsatt mye samisk på 70-tallet, men gradvis mindre og mindre. På 70-tallet begynte generasjonen som kunne samisk godt å dø ut. Mye av språket forsvant, og på bosenteret glemte flere norsk, så de måtte leie inn noen for å snakke samisk."
+            ]
+          },
+          {
+            "type": "paragraph",
+            "inline": [
+              "Rundt år 2000 var det et samisk språkprosjekt hvor en medarbeider hadde ukentlige treff. De hentet de eldre som ikke hadde mulighet til å komme seg dit selv, og de fikk snakke samisk sammen, noe som ble satt pris på. Det var ikke så mange deltakere hver gang, men utrolig glede for de eldre. «Endelig kan vi snakke uten å skjemmes». Bevisstheten og stoltheten fikk gro hos de som ville ha det med seg."
+            ]
+          },
+          {
+            "type": "heading",
+            "inline": [
+              {
+                "type": "strong",
+                "content": [
+                  "Min barndom på gården etter bestemor"
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "inline": [
+              "Pappa tok etter hvert over gården. Vi fortsatte på «gamlemåten» ved å gjøre alt for hånd, helt til han etter hvert fikk traktor. Det gjorde ting mye lettere. Mine barndomsår gikk også med til mange av de samme gjøremålene som både bestemor og oldemor gjorde."
+            ]
+          },
+          {
+            "type": "image",
+            "src": "./assets/images/lingrasmo/hesjer-hoy.png",
+            "alt": "",
+            "caption": [
+              "Pappa og mamma hesjer høy."
+            ]
+          },
+          {
+            "type": "image",
+            "src": "./assets/images/lingrasmo/lam.png",
+            "alt": "",
+            "caption": [
+              "Forfatteren med lam."
+            ]
+          },
+          {
+            "type": "heading",
+            "inline": [
+              {
+                "type": "strong",
+                "content": [
+                  "Refleksjonsspørsmål"
+                ]
+              }
+            ]
+          },
+          {
+            "type": "callout",
+            "content": [
+              {
+                "type": "paragraph",
+                "inline": [
+                  {
+                    "type": "strong",
+                    "content": [
+                      "Språk og identitet"
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "list",
+                "items": [
+                  [
+                    "Hvorfor tror du oldemor holdt så sterkt fast på å snakke samisk hele livet, selv når andre gikk over til norsk?"
+                  ],
+                  [
+                    "Hva kan skje med en kultur når språk og tradisjoner «ties i hjel»?"
+                  ],
+                  [
+                    "Hvordan kan vi i dag bidra til å ta vare på samisk språk og kultur i Tromsø?"
+                  ]
+                ]
+              }
+            ]
+          },
+          {
+            "type": "callout",
+            "content": [
+              {
+                "type": "paragraph",
+                "inline": [
+                  {
+                    "type": "strong",
+                    "content": [
+                      "Hverdagsliv og arbeid"
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "list",
+                "items": [
+                  [
+                    "Hvilke arbeidsoppgaver hadde oldemor og oldefar på gården? Hvordan utfylte de hverandre?"
+                  ],
+                  [
+                    "Hva forteller historien om klær, mat og byggeskikk oss om hvordan folk brukte naturressurser før i tiden?"
+                  ],
+                  [
+                    "Hvorfor var det viktig å kunne lage nesten alt selv på gården?"
+                  ]
+                ]
+              }
+            ]
+          },
+          {
+            "type": "callout",
+            "content": [
+              {
+                "type": "paragraph",
+                "inline": [
+                  {
+                    "type": "strong",
+                    "content": [
+                      "Tradisjon og kunnskap"
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "list",
+                "items": [
+                  [
+                    "Hva kan vi lære av hvordan oldemor og oldefar brukte naturen til mat, klær og farger?"
+                  ],
+                  [
+                    "Hvordan kan tradisjoner som å sy komager, farge garn eller lage ost være viktige for å forstå samisk kulturarv?"
+                  ],
+                  [
+                    "Hvilke likheter og forskjeller ser du mellom gårdslivet i Lakselvbukt og dagens liv i Tromsø?"
+                  ]
+                ]
+              }
+            ]
+          },
+          {
+            "type": "callout",
+            "content": [
+              {
+                "type": "paragraph",
+                "inline": [
+                  {
+                    "type": "strong",
+                    "content": [
+                      "Historie og fornorskning"
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "list",
+                "items": [
+                  [
+                    "Hvordan opplevde familien fornorskningen, og hvorfor tror du noen valgte å skjule samisk bakgrunn og kultur?"
+                  ],
+                  [
+                    "Hvorfor tror du bestemor og bestefar snakket samisk seg imellom, men norsk til barna?"
+                  ],
+                  [
+                    "Hva kan denne historien fortelle oss om hvordan fornorskningen påvirket enkeltfamilier i Nord-Norge?"
+                  ]
+                ]
+              }
+            ]
+          },
+          {
+            "type": "callout",
+            "content": [
+              {
+                "type": "paragraph",
+                "inline": [
+                  {
+                    "type": "strong",
+                    "content": [
+                      "Natur og bærekraft"
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "list",
+                "items": [
+                  [
+                    "Hvordan brukte familien naturen rundt seg for å overleve og klare seg på gården?"
+                  ],
+                  [
+                    "Hva kan dagens samfunn lære av denne måten å bruke naturen på?"
+                  ],
+                  [
+                    "Hvordan kan vi se spor av samisk tradisjon i måten vi forholder oss til naturen i dag?"
+                  ]
+                ]
+              }
+            ]
+          },
+          {
+            "type": "image",
+            "src": "./assets/images/lingrasmo/colab-forslag-innhold-historie-2.png",
+            "alt": ""
+          }
+        ],
+        "sme": [
+          {
+            "type": "image",
+            "src": "./assets/images/lingrasmo/colab-forslag-innhold-historie-2.png",
+            "alt": ""
+          },
+          {
+            "type": "paragraph",
+            "inline": [
+              "Girjji vuođđun lea Čuoŋogorssa (Lingrasmo) ja Moskaluovtta bearáš, ja movt lei eallit dálus. Muitaleaddji lea ",
+              {
+                "type": "em",
+                "content": [
+                  "Linn Guttormsen."
+                ]
+              }
+            ]
+          },
+          {
+            "type": "heading",
+            "inline": [
+              "Álggahan"
+            ]
+          },
+          {
+            "type": "paragraph",
+            "inline": [
+              "Ii lean diehttelas ahte mun galgen náitalit Moskaluovttas, ja ii ollinge lean diehttelas ahte mun galgen čiŋadit gávttiin náittosbeaivvi."
+            ]
+          },
+          {
+            "type": "paragraph",
+            "inline": [
+              "Don várra imaštalat manne? Mun válddán du mielde maŋos áiggis muhtun jagiid."
+            ]
+          },
+          {
+            "type": "image",
+            "src": "./assets/images/lingrasmo/skjermbilde-2025-04-30-kl-14-42-37.png",
+            "alt": "",
+            "caption": [
+              "Náittospárra Moskaluovttas."
+            ]
+          },
+          {
+            "type": "heading",
+            "inline": [
+              {
+                "type": "strong",
+                "content": [
+                  "Álbmotlohkan 1920:s"
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "inline": [
+              "1920 álbmotlohkama mielde, de registrerejedje čuovvovačča Romssa fylkkas:"
+            ]
+          },
+          {
+            "type": "list",
+            "items": [
+              [
+                "7858 norgalačča"
+              ],
+              [
+                "3221 kvena (máŋgasat bohte nealggi geažil Suomas)"
+              ],
+              [
+                "8671 sápmelačča"
+              ]
+            ]
+          },
+          {
+            "type": "paragraph",
+            "inline": [
+              "1865 álbmotlohkama mielde orro 23 olbmo Moskavuovddis. Bnr 1 (Čuoŋogorsa/Lingrasmo) lei dállu gos ledje eanemus šibihat."
+            ]
+          },
+          {
+            "type": "image",
+            "src": "./assets/images/lingrasmo/49416-1.jpg",
+            "alt": "",
+            "caption": [
+              "Sápmelaččat ja beana gođiid olggobealde Romssavákkis. ",
+              {
+                "type": "em",
+                "content": [
+                  "Samer og hund foran gammer i Tromsdalen. "
+                ]
+              },
+              "Foto: Knud Knudsen 1873 Nasjonalmuseet/Nasjonalmuseet Robert Meyer Collection ",
+              {
+                "type": "link",
+                "url": "https://creativecommons.org/licenses/by/4.0/",
+                "content": [
+                  "CC-BY"
+                ]
+              }
+            ]
+          },
+          {
+            "type": "image",
+            "src": "./assets/images/lingrasmo/skjermbilde-2025-04-30-kl-14-45-54.png",
+            "alt": "",
+            "caption": [
+              "Bearaš Čuoŋogorssa dálus."
+            ]
+          },
+          {
+            "type": "heading",
+            "inline": [
+              {
+                "type": "strong",
+                "content": [
+                  "Čuoŋogorsa"
+                ]
+              }
+            ]
+          },
+          {
+            "type": "image",
+            "src": "./assets/images/lingrasmo/skjermbilde-2025-04-30-kl-14-51-08.png",
+            "alt": "",
+            "caption": [
+              "Čuoŋogorsa"
+            ]
+          },
+          {
+            "type": "paragraph",
+            "inline": [
+              "Dá lea Čuoŋogorsa. Dállu Moskavuovddis Moskavuonas. Dáppe oruiga mu máttarváhnemat iežaska čiežain mánáin. Ruovttugiella lei eanas sámegiella, muhto máttaráhkku humai maid kvenagiela ja suomagiela, ja máttaráddjá máhtii dárogiela. Máttaráhkku humai sámegiela olles eallima áigge, seammás go kvenagiella vajálduvai vehážiid mielde. Rukses visttis oruiga mu máttaráhkku ja máttaráddjá iežaska mánáiguin dan botta go vurddiiga váldit badjelasaska váldoviesu. Maŋŋel go sii fárrejedje, de dat geavahuvvui bargovistin (divohahkan, niibbiid heidnemii), rádjun ja oađđinsadjin. Doppe orro maiddái máŋga fástaorru (johka)sápmelačča dološ áigge. Sii bivde ja guolástedje, ja sis ledje maid muhtun bohccot. Otná beaivve ge sáhttá oaidnit duktásajiid dakko gokko goađit ledje ceggejuvvon lahkalaga."
+            ]
+          },
+          {
+            "type": "heading",
+            "inline": [
+              {
+                "type": "strong",
+                "content": [
+                  "Máttaráhkku ja máttaráddjá"
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "inline": [
+              "Máttaráhkku lei rievtti mielde Čávkohis eret. Nuorran álggii son biigot iešguđet dáluin Muotkeluovtta guovllus. Ovtta geasi son lei ožžon friddjabeaivvi ja lei vázzán ruoktot Čávkohii. Váccedettiin ruoktot, čohkkedasttii son vuoiŋŋastit. Dan botta go son čohkkái das, de geavahii máttaráddjá liibba mannat su guvlui, ja nu soai humadišgođiiga. Muitaluvvo ahte dan rájes soai oahpásnuvvagođiiga. Giliolbmot gohčodišgohte dán geainnu “Irggástallanbálggisin”."
+            ]
+          },
+          {
+            "type": "image",
+            "src": "./assets/images/lingrasmo/skjermbilde-2025-04-30-kl-14-57-21.png",
+            "alt": "",
+            "caption": [
+              "Máttaráhkku ja máttaráddjá gievkkanis."
+            ]
+          },
+          {
+            "type": "paragraph",
+            "inline": [
+              "Maŋŋel go son lei deaivan máttarádjá, de soai fárriiga áiggi mielde Moskavuovdái go máttaráddjá galggai árbet dálu doppe. Maŋŋel go soai fárriiga Moskavuovdái, de máttaráhkku váccii máŋgii Ivgus mohki iežas váhnemiid guossis. Vázzit váriid badjel ja vákkiid čađa lei áidna vejolašvuohta beassat dohko."
+            ]
+          },
+          {
+            "type": "paragraph",
+            "inline": [
+              "Juohke geasi, go váldonávet lei bassojuvvon ráinnasin, de válddii máttaráhkku geasseluomu ja son váccii ruoktot bearraša guossis fitnat. De son váccii vári badjel, Doaresvákki bokte ja Čávkohii. Muhto son álo fuolahii ahte muhtin lei Čuoŋogorssa dálus bearráigeahččame mánáid."
+            ]
+          },
+          {
+            "type": "heading",
+            "inline": [
+              {
+                "type": "strong",
+                "content": [
+                  "Birget dainna maid ieš ráhkadii"
+                ]
+              }
+            ]
+          },
+          {
+            "type": "image",
+            "src": "./assets/images/lingrasmo/skjermbilde-2025-04-30-kl-15-01-07.png",
+            "alt": ""
+          },
+          {
+            "type": "paragraph",
+            "inline": [
+              {
+                "type": "strong",
+                "content": [
+                  {
+                    "type": "link",
+                    "url": "https://digitaltmuseum.no/021027998555/busserull",
+                    "content": [
+                      "Ruovttus gođđojuvvon báidi. Govva lea vižžon Busserull-Helgeland museas."
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "inline": [
+              "Dálus orrut mearkkašii ahte ráhkadii dan maid dárbbašii, ležžet dal biepmut, biktasat, viessogálvvut dahje eará diŋggat."
+            ]
+          },
+          {
+            "type": "paragraph",
+            "inline": [
+              "Mu áhku oabbá muitalii ahte bártniin ledje álo buorit biktasat, ja nieiddain eai lean nu buorit biktasat. Dálus sii gođđe ávdnasiid mas gorro báiddiid dievdduide ja gákkesbuvssaid. Nieiddain fas ledje gođabiktasiid vuolde vuollebuvssat ja vuollebáiddit."
+            ]
+          },
+          {
+            "type": "paragraph",
+            "inline": [
+              "Máttaráhkus lei álo nállogoahti (sámi) boahkánis, ja son lei gearggus divvulit diŋggaid go lei dárbu."
+            ]
+          },
+          {
+            "type": "heading",
+            "inline": [
+              {
+                "type": "strong",
+                "content": [
+                  "Ságat fiinna čázehiid birra"
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "inline": [
+              {
+                "type": "highlight-red",
+                "content": [
+                  {
+                    "type": "strong",
+                    "content": [
+                      "Oldefar sydde komager (samisk fottøy) så lenge han klarte, Dette hadde han lært av sine foreldre. Oldemor kunne også dette arbeidet. De fikk stadig kommentarer om hvor fine komager de hadde, og det sies at det gikk rykter langt utover Ullsfjorden om hvor flinke de var til å sy komager på Lingrasmo. Oldemor vevde bånd til komagene. Hun hadde flere mønstre, men brukte særlig to av disse, som hun hadde lært fra sin bestemor. Sennegress, strå som blir brukt som innlegg i samisk fottøy, slo oldemor i bakken nedenfor oldefars sageri (i ene ytterenden av tomta)."
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "image",
+            "src": "./assets/images/lingrasmo/skjermbilde-2025-04-30-kl-15-07-44.png",
+            "alt": "",
+            "caption": [
+              "Ruovttus gorrojuvvon čázehat"
+            ]
+          },
+          {
+            "type": "heading",
+            "inline": [
+              {
+                "type": "strong",
+                "content": [
+                  "Máttaráhku bargu"
+                ]
+              }
+            ]
+          },
+          {
+            "type": "image",
+            "src": "./assets/images/lingrasmo/skjermbilde-2025-04-30-kl-15-11-37.png",
+            "alt": "",
+            "caption": [
+              "Fárppal man siste ivdnejedje láiggiid."
+            ]
+          },
+          {
+            "type": "paragraph",
+            "inline": [
+              "Máttaráhkku gohkkii mánáid ja fuolahii dálu. Son lei duođaid buorre dálu šibihiidda. Geasset son manai meahccái ja čokkii urtasiid maid son goikadii. Juovlabeaiiđida attii son urttasgihpu juohke šibihii vai dat maid ožžo veaháš juovlaherskkuid!"
+            ]
+          },
+          {
+            "type": "paragraph",
+            "inline": [
+              "Máŋgasat leat dadjan ahte máttaráhkku lei duođaid garas bargat. Son ivdnii ja bánii láiggiid, gođii ávdnasiid, goarui biktasiid, láibbui, vustii vuosttáid, girtnui vuoja, ráhkadii muorjemeasttu, ja son barggai ollu návetbargguid."
+            ]
+          },
+          {
+            "type": "paragraph",
+            "inline": [
+              "Su gohččo dávjá eará dáluide go dárbbašedje veahki, sihke dalle go eallit galge guoddit ja go olbmot galge riegádahttit. Muitaluvvo ahte son gájui máŋga heakka."
+            ]
+          },
+          {
+            "type": "paragraph",
+            "inline": [
+              "Go galggai ivdnet láiggiid, de son geavahii gana oažžut ruškes ivnni. Muhto go galggai oažžut gaskaalit ivnni, de fertejedje dálu nieiddat čohkket iežaset gučča 25 l fárpalii. Gužža geavai oanehaš (ja háissui miehtá viesu). "
+            ]
+          },
+          {
+            "type": "paragraph",
+            "inline": [
+              "Báikkálaš duodjegávppis Romssas ledje sii oastán indigo (ivnni) blohka man cuvkejedje. Dan sii cogge liidneseahkažii masa čatne guhkes bátti, ja bidje dan gučča sisa. Juohke beaivvi sii gaiko bajás liidneseahkaža, čárvo dan vai ivdni bođii olggos, ja dán dahke dassážiigo ožžo sávahahtti gaskaalit ivnni. Alit ivdni oidnui dávjá almmáiolbmuid biktasiin."
+            ]
+          },
+          {
+            "type": "heading",
+            "inline": [
+              {
+                "type": "strong",
+                "content": [
+                  "Vuostábuvri"
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "inline": [
+              "Vuosttá vustejedje ja vuoja girdno ieža. Sii vustejedje gáfevuosttá sávzzamielkkis. Go ráhkadedje eanet go ieža dárbbašedje, de manne Romsii vuovdit. Vuostábuvri lea boarráseamos visti mii doppe ain lean. Ovtta oasis vurkkodedje bierggu ja vuosttá. Dimbbaroasi gohčodedje “Gámasuoidnebuvrin” go doppe vurkkodedje gámasuinniid ja buot biergasiid maiguin rogge buđehiid. Dasa lassin doppe sii vurkkodedje hárábiid, riiffuid, liššáid, sevlliid ja eará olgobiergasiid."
+            ]
+          },
+          {
+            "type": "paragraph",
+            "inline": [
+              "Mielkki ja bierggu ožžo iežaset šibihiin. Sii oste stuora jáffoseahkaid ain hávális. Jáffoseahkaid vurkkodedje buvrriin biebmovuorkkáid olgofeaskáris, ja muhtumin besse sáhpánat dohko sisa. Máttaráhkku muitalii ahte sii máŋgii fertejedje čoaggit sáhpánbáikkiid jáfus ovdal go sáhtte láibut dainna. Máttaráhkku láibbui láibbi, beasseláibbi ja gáhkuid (láibedáigebázahusat maid dulbejedje duolbbasin ja basse geđggiid alde dollagáttis). Sii guolástedje olu, nu ahte borramuššan lei dábálaččat vaikko makkár guolli."
+            ]
+          },
+          {
+            "type": "image",
+            "src": "./assets/images/lingrasmo/skjermbilde-2025-04-30-kl-15-53-17.png",
+            "alt": ""
+          },
+          {
+            "type": "paragraph",
+            "inline": [
+              "Máttaráhkku vuostábuvrri olggobealde."
+            ]
+          },
+          {
+            "type": "heading",
+            "inline": [
+              {
+                "type": "strong",
+                "content": [
+                  "﻿Guolásteapmi, muhto mii lei oiddotborramuš?"
+                ]
+              }
+            ]
+          },
+          {
+            "type": "image",
+            "src": "./assets/images/lingrasmo/skjermbilde-2025-04-30-kl-15-55-18.png",
+            "alt": ""
+          },
+          {
+            "type": "paragraph",
+            "inline": [
+              "Návsttus vurkkodedje fatnasiid, firpmiid ja eará guolástanreaidduid. Daid geavahedje olu sihke bearraša boarrásat ja nuorat máŋggaid jagiid. Ovdal lávii leat ollu guolli Moskavuonas. Návstu lea dál ráfáidahtton visti mii lea gaskal 150 ja 200 jagi boaris."
+            ]
+          },
+          {
+            "type": "paragraph",
+            "inline": [
+              "Áhkku muitalii ahte buoremus maid son diđii lei go oaččui juoidá mii smierru guollemállásiidda (buorre molssaeaktu dušše guollái ja buđehiidda). Man birra son de humai, lei dat buoidi mii lei šibihiid čoliid birra. Dan čogge ja vurkkodedje, ja go galge borrat dan mállásiidda, de báiste dan seamma ládje go mii dál báisit suovasspiinnebuoiddi. Juoga eará maid sii lávejedje ráhkadit, lei juomus vuoššat buvrru bajálužžan. Mánáid mielas dat lei hui njálggat. Jus sis lei buvru ja spihkebiergu málisin, de ledje dat albma mállásat."
+            ]
+          },
+          {
+            "type": "heading",
+            "inline": [
+              {
+                "type": "strong",
+                "content": [
+                  "Mii dáhpáhuvai albma gáfiin?"
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "inline": [
+              "Go áhkku ja su oappát ja vieljat ledje mánát, de lei muhtin geassi soađi áigge go mu máttaráhkku lei mannan Čávkohii. Máttaráddjá veahkehii gávpeeaiggáda H. Heima háhkat stuora sogiid mat galge leat caggin Moskaluovtta ođđa káijai. Boares nisu lei dálus geahččamin mánáid. Sohkkara ja gáfe fertii oastit, ja máttaráhkku lávii sohkarskárriiguin čuohppat sohkarbihtáid. Skárrit sulastahtte unna giljotiinna. Hearrá Heim bođii muhtun beaivvi dállui albma gáfiin (lei dalle go sii juhke buhtadusgáfe soađi geažil), ja máttaráddjá lei gohččon boares áhku vuoššat albma gáfe válmmasin dassážii go máhcce vuovddis."
+            ]
+          },
+          {
+            "type": "paragraph",
+            "inline": [
+              "Boares áhkku dagai nu movt lei gohččojuvvon, muhto go gáffe lei gárvvis, de son juoga man sivas bijai gáfegievnni láhttái. Barggadettiin son jorahalai gievkkanis, ja fáhkka su gámanjunit darvánedje gáfegievnni gevjii. Albma gáffe golggai miehtá láhtti. Jurddaš mat dan sturjji ja rieja mii viesus šattai."
+            ]
+          },
+          {
+            "type": "image",
+            "src": "./assets/images/lingrasmo/skjermbilde-2025-04-30-kl-16-02-23.png",
+            "alt": ""
+          },
+          {
+            "type": "paragraph",
+            "inline": [
+              "Stuora váivin buohkaide, de máhcce sii vuovddis buhtadusgáffii. Dainna eai lean nu duhtavaččat go beaivvi ledje illudan albma gáfe juhkat."
+            ]
+          },
+          {
+            "type": "heading",
+            "inline": [
+              {
+                "type": "strong",
+                "content": [
+                  "Vuotnáma geahčastat"
+                ]
+              }
+            ]
+          },
+          {
+            "type": "image",
+            "src": "./assets/images/lingrasmo/skjermbilde-2025-04-30-kl-16-04-01.png",
+            "alt": "",
+            "caption": [
+              "Máttaráhkku ja čálli"
+            ]
+          },
+          {
+            "type": "paragraph",
+            "inline": [
+              "Máttaráhkku lei oahpásnuvvan muhtimiin gean namma lei Iŋgá. Iŋggás ja su isidis ii lean nu ollu, ja muhtun beaivvi áiggui Iŋgá vuolgit Čuoŋogorssa dállui jearahit ullu. Doppe sis lei álo doarvái ullu, ja Iŋgá humahii máttaráhku vuolgit mielde."
+            ]
+          },
+          {
+            "type": "paragraph",
+            "inline": [
+              "Soai joavddaiga Čuoŋogorssa dállui, manaiga sisa ja dearvvaheigga. Go Iŋgá lei dearvvahan dálueamida, de dálueamit geahčai guhká máttaráhkkui ja mihtádalai su ovdal go fáhkka dajai: \"Juo, dál gal sáhtán jápmit ráfis, go dál lean oaidnán dan gii galgá šaddat Ole eamidin.\""
+            ]
+          },
+          {
+            "type": "paragraph",
+            "inline": [
+              "Manai ain muhtin áigi ovdal go máttaráhkku ja máttaráddjá šattaiga párran."
+            ]
+          },
+          {
+            "type": "heading",
+            "inline": [
+              "Máttarádjá bargu"
+            ]
+          },
+          {
+            "type": "paragraph",
+            "inline": [
+              "Máttaráddjá lei vázzán ámmátskuvlla Romssas. Doppe son oahpai visot",
+              {
+                "type": "break"
+              },
+              "maid dárbbašii vai birge dálus. Viessohuksema, snihkkárbarggu,",
+              {
+                "type": "break"
+              },
+              "viessogálvosnihkkema, garraduoji, metállahábmema, rávdebarggu, spellerávdebarggu ja diibmobuvttadeapmi."
+            ]
+          },
+          {
+            "type": "paragraph",
+            "inline": [
+              "Máttarádjás lei iežas snihkkenlatnja viesu lovttas, unna lanjažis gos lei dušše ruovttus dahkkon jorahanbeaŋka. Dáppe son ráhkadii olu fiinna diŋggaid ja viessogálvvuid. Bevddiid, stuoluid, seaŋggaid, skábiid, hildožiid, speadjaliid ja ja olu eará. Son snihkkii go olbmot diŋgojedje sus, ja dinii moadde ruvnno dállodollui."
+            ]
+          },
+          {
+            "type": "paragraph",
+            "inline": [
+              "Sus lei buorre namma viessohuksejeaddjin, ja son lei mielde huksemin ollu viesuid ránnjágiliin. Son maid lávii ieš seaguhit mála. Leaibebárkkuin son ráhkadii fiinna rukses ivnni. Ja muoldduin, maid vieččai jeaggeravddas lahkosis, son oaččui issoras finna ruškes-ránes ivnni."
+            ]
+          },
+          {
+            "type": "image",
+            "src": "./assets/images/lingrasmo/skjermbilde-2025-04-30-kl-16-06-06.png",
+            "alt": "",
+            "caption": [
+              "Giehtagilvvut njárggas nu go dat lea dál."
+            ]
+          },
+          {
+            "type": "paragraph",
+            "inline": [
+              "Dálu áittit ledje eaŋkilit huksejuvvon. Dáhkis lei darfi. Darffiid vuolde ledje beassit bielkkaid alde. Buot maid sii geavahedje, ledje ávdnasat maid sii gávdne iežaset vuovddis ja eatnamiin. Sii eai goassege vásihan ahte golggai arvečáhci sisa dahje ahte muohta suttai ja golggai sisa."
+            ]
+          },
+          {
+            "type": "heading",
+            "inline": [
+              "Máttaráddjá ii ballan geahččaleames ođđa diŋggaid"
+            ]
+          },
+          {
+            "type": "image",
+            "src": "./assets/images/lingrasmo/skjermbilde-2025-04-30-kl-16-07-54.png",
+            "alt": "",
+            "caption": [
+              "Ovdal go tráktor bođii"
+            ]
+          },
+          {
+            "type": "paragraph",
+            "inline": [
+              "Máttaráddjá lei vuosttaš olles guovllus gii geahččalii veahkamuhki. Son válddii ieš oktavuođa Leaibedievá agronomain, gii bođii iešguđetlágán veahkamuhkiiguin. Máttaráddjá jugii oasi giettis smávit osiide, ja merkii guđe veahkamuhki lea geavahan gosge. Dán son dagai giđđat. Geasset bođii agronoma ruovttoluotta ja iskkai rásiid, ja seamma dagai čakčageasi go álge suidnet. Jus lei buorre boađus, de geavahišgohte dan ođđa veahkamuhki. Muhto sii jotke maid muhkiiguin duktet, nugo ovdal. Eará vuohki movt duktejedje gittiid, lei go čohkkejedje šibihiid gučča návehis ja duktejedje gittiid dainna."
+            ]
+          },
+          {
+            "type": "heading",
+            "inline": [
+              "Áigevihtan"
+            ]
+          },
+          {
+            "type": "paragraph",
+            "inline": [
+              "Mu áhku oabbá muitala dán telefovnnas munnje:"
+            ]
+          },
+          {
+            "type": "callout",
+            "icon": "💬",
+            "content": [
+              {
+                "type": "paragraph",
+                "inline": [
+                  "«Mun oainnán ain mu ádjá. Son lei álo muorraviesus, sahemin ja čuollamin muoraid. Sus ledje gákkesbuvssat ja báidi, čázehat juolggis ja náhkkegahpir oaivvis. Gákkis lei gođđon ruovttus batnon ulloláiggiin, mii lei ivdnejuvvon čáhppadin ja duhppejuvvon fárpalis mas ii lean vuođđu iige lohkki (vai dat duohpahuvai ja šattai assábun). Báiddi ávdnasat ledje maiddái ruovttus dahkkon ja ledje ivdnejuvvon gaskaalit ivnniin.”"
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "inline": [
+              "Ránnjágiliid sápmelaččat bohte dávjá Čuoŋogorssa dállui viežžat gámasuinniid, vuosttá ja vuoja. Máttaráhkku ii goassege váldán mávssu dan ovddas."
+            ]
+          },
+          {
+            "type": "image",
+            "src": "./assets/images/lingrasmo/skjermbilde-2025-04-30-kl-16-13-50.png",
+            "alt": "",
+            "caption": [
+              "Čálli máttarváhnemat ja máttarmáttaráddjá."
+            ]
+          },
+          {
+            "type": "heading",
+            "inline": [
+              "Ádjagat ja jogat"
+            ]
+          },
+          {
+            "type": "image",
+            "src": "./assets/images/lingrasmo/melkebekken.png",
+            "alt": "",
+            "caption": [
+              "Gohčoduvvui mielkeájan."
+            ]
+          },
+          {
+            "type": "paragraph",
+            "inline": [
+              "Dat báiki (dáhki vuolde) mii lea govas, gohčoduvvui mielkeájan. Doppe lei jiekŋagalbma ájačáhci. Doppe lávii áhkku galmmihit ja doallat mielkespánnjaid galmmasin. Deike lávejedje maid bidjat eará biepmuid vai bisso galmmasin eaige billahuvvan."
+            ]
+          },
+          {
+            "type": "paragraph",
+            "inline": [
+              "Go biktasiid lávejedje bassat, de dolvo daid johkii ja doide daid doppe. Áibbas vuogas bargu, muhto veaháš hástalus gasku dálvvi. Dalle sii rogge cehkiid muohttagii gitta jieŋa ala, čulle ráiggi jikŋii ja doide biktasiid. Lei nu galmmas ahte eai nagodan bohčit biktasiid, nu ahte sii bidje daid skálvvi ala vai čáhci golggai eret, ja de jikŋo biktasat. Go sii bohte ruoktot, de lei máttaráhkku vuoššan čázi, mas sii suddjejedje biktasiid. Sii bohče daid ja heŋgejedje daid goikat áitái."
+            ]
+          },
+          {
+            "type": "paragraph",
+            "inline": [
+              "Go biktasiid lávejedje bassat, de dolvo daid johkii ja doide daid doppe. Áibbas vuogas bargu, muhto veaháš hástalus gasku dálvvi. Dalle sii rogge cehkiid muohttagii gitta jieŋa ala, čulle ráiggi jikŋii ja doide biktasiid. Lei nu galmmas ahte eai nagodan bohčit biktasiid, nu ahte sii bidje daid skálvvi ala vai čáhci golggai eret, ja de jikŋo biktasat. Go sii bohte ruoktot, de lei máttaráhkku",
+              {
+                "type": "break"
+              },
+              "vuoššan čázi, mas sii suddjejedje biktasiid. Sii bohče daid ja heŋgejedje daid goikat áitái."
+            ]
+          },
+          {
+            "type": "heading",
+            "inline": [
+              {
+                "type": "strong",
+                "content": [
+                  "Návet"
+                ]
+              }
+            ]
+          },
+          {
+            "type": "image",
+            "src": "./assets/images/lingrasmo/fjoset.png",
+            "alt": ""
+          },
+          {
+            "type": "paragraph",
+            "inline": [
+              "Návehis lei biise mii lei muvrejuvvon geađggis ja láirris. Das lávii leat hirbmat stuora ruitu. Dan sii geavahedje ligget juhkamuša omiide, ja dávjá seaguhedje dasa maid muhtun herskkuid nugo biebmobázahusaid, sallitjáfuid dahje suinniid. Oamit ledje ilus go ožžo liegga juhkamuša iđđes. Biisse maid geavahedje go galge sabetnjuniid hábmet dahje bihkkadit sabehiid."
+            ]
+          },
+          {
+            "type": "paragraph",
+            "inline": [
+              {
+                "type": "strong",
+                "content": [
+                  "Njuovvan:"
+                ]
+              },
+              " Sii ávkkástalle elliid nu ollu go vejolaš. Varas ráhkadedje márffiid, gumposiid ja varrabánnogáhkuid. Bierggu sáltejedje olles dálvvi fárpalis, ja erttegiid heŋgejedje goikat. Sii čuhppe erttegiid ja basse uvnnas, oasi hermetiserejedje lásiid siste, njuokčamiid geavahedje bajožin. Maninbuoiddi geavahedje biebmoráhkadeapmái dahje ávnnasin ráhkadit sáibbu."
+            ]
+          },
+          {
+            "type": "image",
+            "src": "./assets/images/lingrasmo/fjos-vedsja.png",
+            "alt": "",
+            "caption": [
+              "Návet, muorravisti, geassenávet, návstu ja áittit leat ráfáidahtton visttit (Sámediggi)."
+            ]
+          },
+          {
+            "type": "heading",
+            "inline": [
+              {
+                "type": "strong",
+                "content": [
+                  "Gálvvuid vuovdit Romssas"
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "inline": [
+              "Go máttaráddjá galggai vuovdit gálvvuid (vuosttá, vuoja, bierggu, murjjiid, náhkiid), de sii vudje heasttain ja skearruin Moskaluktii. Doppe manne fatnasiin Romsii. Lei fásta gávpealmmái guhte gávppašii máttarádjáin, Gerhardt Knudsen. Mánát besse leat mielde dain mátkkiin, muhto dušše okta ain hávális. Go sii ollejedje Romsii, de lei sin bargun doallat gálvvuid čalmmis dan botta go gávpealmmái vieččai heastta ja skearru mainna fievrridii gálvvuid. Máttarádjás lei girji masa čálii buot maid son vuvddii ja makkár haddái son vuvddii dan."
+            ]
+          },
+          {
+            "type": "image",
+            "src": "./assets/images/lingrasmo/sjogata-1870.jpg",
+            "alt": "",
+            "caption": [
+              "Romsa dološ áigge. ",
+              {
+                "type": "em",
+                "content": [
+                  "Tromsø i gamledager. "
+                ]
+              },
+              "Foto: N.A. Ytreberg: Tromsø bys historie. B. 2. Dato: 1870-tallet ",
+              {
+                "type": "link",
+                "url": "https://creativecommons.org/public-domain/pdm/",
+                "content": [
+                  "PD"
+                ]
+              }
+            ]
+          },
+          {
+            "type": "heading",
+            "inline": [
+              "Bargu oapmedálus"
+            ]
+          },
+          {
+            "type": "paragraph",
+            "inline": [
+              "Dálus lei ollu garra bargu, ja eanaš bargguid barge ja duddjojedje gieđaiguin. Dan áigge eai lean ollu mašiinnat. Mánát ohppe árrat man mávssolaš garra bargu lea, go sii fertejedje veahkehit nu jođánit go ledje doarvái boarrásat veahkehit. Sis lei návet gos ledje sávzzat, gusat ja muhtun gáiccat, ja mánáin ledje iežaset fásta barggut."
+            ]
+          },
+          {
+            "type": "paragraph",
+            "inline": [
+              "Áiggi mielde šattai Čuoŋogorssa dállu okta guovtti dálus guovllus gos lei \"Mašiidnastašuvdna\". Dat mearkkašii ahte sis lei tráktor, ja nu ledje sii geatnegahtton ploget eatnamiid, suidnet, muoraid geasehit dahje bargat bargguid daid dáluid ovddas, main ii lean tráktor. Sii várra ožžo juogalágan doarjaga go lei dákkár ovddasvástádus, mii gal várra attii veahtá dietnasa."
+            ]
+          },
+          {
+            "type": "paragraph",
+            "inline": [
+              "1947:s šattai Čuoŋogorssa dállu hupmanstašuvdnan (telefovdna) Moskaluovttas. Dalle bohte dieđut dállui, maid sii fertejedje gaskkustit viidáseappot guovllu eará dáluide."
+            ]
+          },
+          {
+            "type": "image",
+            "src": "./assets/images/lingrasmo/arbeid-pa-garden.png",
+            "alt": "",
+            "caption": [
+              "Bargojoavku gearggus otná bargguide dálus."
+            ]
+          },
+          {
+            "type": "heading",
+            "inline": [
+              "Stoahkanáigi"
+            ]
+          },
+          {
+            "type": "paragraph",
+            "inline": [
+              "Vaikko lei ollu bargu, de lávejedje mánát hutkat áššiid ovttas. Dálvet sii čuige dahje čierastalle luohkáin. Geasset sii gilvaledje “Galkalahttit sákki” stohkosis ja čiehkástalle. Jus sis lei spáppa, de čužžo goabbat bealde vistti ja de galggai juogo čievččastit dahje bálkestit spáppa dáhki badjel nubbái. Dálvet sis lei earret eará lávdespeallu man namma lei \"Sáhkku\", lávddi ja speallanboaluid lei mu máttarmáttaráddjá duddjon."
+            ]
+          },
+          {
+            "type": "callout",
+            "content": [
+              {
+                "type": "paragraph",
+                "inline": [
+                  {
+                    "type": "strong",
+                    "content": [
+                      {
+                        "type": "link",
+                        "url": "https://result.uit.no/reaidu/ressurser/aktiviteter/sahkku/",
+                        "content": [
+                          "Loga eambbo spealu birra dás"
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "heading",
+            "inline": [
+              {
+                "type": "strong",
+                "content": [
+                  "Moskaluokta"
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "inline": [
+              "Mánát eai álo vázzán nu máŋga jagi skuvlla. Vuosttaš skuvlavisti lei darfegoahti. Dáppe orro mánát dan botta go vázze skuvlla. Beaivet barggai bearaš iežas bargguid goađi nuppi bealde, ja oahpahus lei fas goađi nuppi bealde. Mu máttaráddjá váccii skuvlla dán goađis."
+            ]
+          },
+          {
+            "type": "paragraph",
+            "inline": [
+              "Doppe gos Moskaluovtta skuvla dál lea, lei internáhttaskuvla. Dalle go áhkku lei mánná, de vázze máŋga máná internáhttaskuvlla. Vai galggai leat vejolaš oahpahit buohkaid, de lei mánáin skuvla golbma vahku ja sii ledje ruovttus golbma vahku."
+            ]
+          },
+          {
+            "type": "image",
+            "src": "./assets/images/lingrasmo/lakselvbukt.png",
+            "alt": "",
+            "caption": [
+              "Govva lea váldon \"1000 - mehteris\" gos oaidná áhku ja mu váhnemiid viesu."
+            ]
+          },
+          {
+            "type": "paragraph",
+            "inline": [
+              "Ledje muhtun boazosápmelaččaid mánát geat bohte internáhttaskuvlii. Dát mánát eai máhttán dárogiela. Okta sis ii áigon hupmat dárogiela, son humai skuvllas dušše sámegiela iežas oahpaheaddjái, gii lei lulde eret. Okta áhku oappáin veahkehii oahpaheaddji jorgalit dan maid nieida dajai. S on geavahii ollu áiggi dáiguin mánáiguin ja veahkehii sin skuvllas. Maŋŋil son barggai skuvllas daid mánáid áimmahuššamin. Sii eai mannan ruoktot golmma vahku maŋŋel, nu go eará mánát dahke, muhto ledje doppe birra jagi. Go áhku oabbá dolkkai ja háliidii ruoktot, de válddii son liikká bures mánáid mielde Čuoŋogorssa dállui. Dáppe sii besse sámástit nu ollu go háliidedje, ja sii váldojuvvojedje bures vuostá."
+            ]
+          },
+          {
+            "type": "heading",
+            "inline": [
+              "Dáruiduhttin"
+            ]
+          },
+          {
+            "type": "paragraph",
+            "inline": [
+              "Čuoŋogorssa dálus eai fuomášan mánát dáruiduhttima nu ollu. Sis ledje váhnemat geat sámástedje ruovttus, ja sii ledje oahppan dárogiela, nu ahte sii birgejedje bures skuvllas. Sii fuomášedje várra ahte olbmot hupmagohte eambbo dárogiela ja geavahišgohte eará biktasiid ja nu ain, muhto sis lei friddjabáiki ruovttus mii máŋgasiin ii lean. Dat bođii das go mu",
+              {
+                "type": "break"
+              },
+              "máttarváhnemat leigga mearridan doalahit giela."
+            ]
+          },
+          {
+            "type": "image",
+            "src": "./assets/images/lingrasmo/nf-05689-087.png",
+            "alt": "",
+            "caption": [
+              {
+                "type": "strong",
+                "content": [
+                  "Klasse på Kautokeino internatskole."
+                ]
+              },
+              " Fotograf: ",
+              {
+                "type": "link",
+                "url": "https://digitaltmuseum.no/search?name=f89b7f23-49b3-4bca-a89c-f28b7ec080c4",
+                "content": [
+                  "Marr, Leslie"
+                ]
+              },
+              " ",
+              {
+                "type": "link",
+                "url": "https://digitaltmuseum.no/011013374451/kautokeino-skole-interior-fra-klasserom-med-laerer-og-elever-1957",
+                "content": [
+                  "Kautokeino skole. Interiør fra klasserom med lærer og elever, 1957."
+                ]
+              },
+              " ",
+              {
+                "type": "link",
+                "url": "https://creativecommons.org/licenses/by-sa/4.0/deed.no",
+                "content": [
+                  "CC BY-SA 4.0"
+                ]
+              },
+              " Eksponert."
+            ]
+          },
+          {
+            "type": "paragraph",
+            "inline": [
+              "Muhto sii ipmirdedje ahte lei heahpat leat sápmelaš ja sápmelaččaid sogalaš, nu ahte ollu sápmelašvuođas dušše \"jávohuvai\". Dađistaga álge olbmot dušše dárustit, muhto máttaráhkku vástidii álo sámegillii. Sus ledje maid muhtun ustibat geaiguin son dušše sámástii."
+            ]
+          },
+          {
+            "type": "paragraph",
+            "inline": [
+              "Go Čuoŋogorssa dálu mánát sturro ja fárrejedje ruovttus, de várra eambbo fuobmášedje dáruiduhttima. Ii oktage dáin mánáin válljen oahpahit iežas mánáide sámegiela. Eaige sii hupman sámi kultuvrra ja árbevieruid birra. Dat oassi dušše jávkkai jávohaga."
+            ]
+          },
+          {
+            "type": "paragraph",
+            "inline": [
+              "Áhkku sámástii oahppásiiguin rohkosviesus ja gávppis, muhto ruovttus mánáiguin dárustii. Muhto jus soai ádjáin galggaiga humadit nu ahte mánát eai ipmirdan, de gal sámásteigga. Muhto maŋŋel lea áhčči muitalan ahte sii ipmirdedje eanaš das mii daddjui, muhto sin mielas lei nu miellagiddevaš gullat váhnemiid hupmamin ahte sii eai goassege dadjan maidege dan birra."
+            ]
+          },
+          {
+            "type": "image",
+            "src": "./assets/images/lingrasmo/nf-05689-086-1.png",
+            "alt": "",
+            "caption": [
+              {
+                "type": "strong",
+                "content": [
+                  "Klasse på Kautokeino internatskole."
+                ]
+              },
+              " Fotograf: ",
+              {
+                "type": "link",
+                "url": "https://digitaltmuseum.no/search?name=f89b7f23-49b3-4bca-a89c-f28b7ec080c4",
+                "content": [
+                  "Marr, Leslie"
+                ]
+              },
+              " ",
+              {
+                "type": "link",
+                "url": "https://digitaltmuseum.no/011013374451/kautokeino-skole-interior-fra-klasserom-med-laerer-og-elever-1957",
+                "content": [
+                  "Kautokeino skole. Interiør fra klasserom med lærer og elever, 1957."
+                ]
+              },
+              " ",
+              {
+                "type": "link",
+                "url": "https://creativecommons.org/licenses/by-sa/4.0/deed.no",
+                "content": [
+                  "CC BY-SA 4.0"
+                ]
+              },
+              " Eksponert."
+            ]
+          },
+          {
+            "type": "heading",
+            "inline": [
+              "Identitehta fuotnun ja hávdádeapmi"
+            ]
+          },
+          {
+            "type": "paragraph",
+            "inline": [
+              "Vaikko giella eanet dahje unnit elii guhká, de duššadedje kultuvrra eará osiid dađistaga. Ollugat válljejedje bálkestit gávttiid ja gáktebiergasiid, ja eará dábálaš sámi biktasiid ja reaidduid. Daddjo ahte muhtin maid rokkai eatnamii iežas sámi biergasiid čiehkan dihte ahte dat ledje leamaš dálus. Muhto go geahčadeimmet juohkindokumeanttaid mat ledje sullii dien áiggis, de oinniimet ahte ollugiin ledje gávttit, liinnit, riskkut, čázehat, vuoddagat ja eará."
+            ]
+          },
+          {
+            "type": "paragraph",
+            "inline": [
+              "Go áhkku ja su oappát ja vieljat ledje máttarádjá mielde gávppašeamen Romssas, de gávpotmánát njulgestaga cielahedje sin. Otná dan beaivvi de cielahuvvojit sápmelaččat Romssas."
+            ]
+          },
+          {
+            "type": "heading",
+            "inline": [
+              {
+                "type": "strong",
+                "content": [
+                  "Áhkku ja áddjá"
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "inline": [
+              "Áhkku gávnnai guoimmi Moskaluovttas, náitalii, ja oaččui gusa, guiggu ja guokte sávzza ruovttus rádjun ja oapmedoalu álgun. Soai válddiiga badjelasaska dálu Moskaluovttas ádjá fulkkiid maŋis. Lei garra dilli. Áhkku bođii Čuoŋogorssa dálus, gos sis lei álo doarvái. Ja sii sáhtte juogadit singuin geain ii lean doarvái. Dál son fertii birget dainna unnánaččain mii sudnos lei. Sutnje šattai áibbas eará máilbmi, muhto son gaskkii bániid oktii ja dagai dan maid sáhtii hukset dálu gos sis lei visot maid dárbbašedje. Loahpas sudnos lei návet gos ledje máŋga sávzza ja gusa, ja maiddái heastta man juogadedje ránnjáin."
+            ]
+          },
+          {
+            "type": "paragraph",
+            "inline": [
+              "Áddjá manai guollebivdui (fatnasiiguin Jøviktinden ja Furøynes), ja son lei Leaibedievá Jacobsena fásta bargi. Dálvebivdu álggii ođđajagimánus go dorski bođii, ja son sáhtii jávkat olles dálvvi. Son maid guolástii olu ruovttus alcces. Son bivddii dorski, hága, sallidiid ja buot eará mii gávdnui vuonas áigodaga mielde."
+            ]
+          },
+          {
+            "type": "paragraph",
+            "inline": [
+              "Áhkku ja áddjá humaiga ruovttus čađat sámegiela, muhto mánáide dárusteigga. Sudnos lei sámegiella \"čiegus giellan\" maid mánát eai galgan ipmirdit."
+            ]
+          },
+          {
+            "type": "heading",
+            "inline": [
+              "Sámegiella jávká"
+            ]
+          },
+          {
+            "type": "paragraph",
+            "inline": [
+              "1950-logus ledje dušše guokte viesu gos hupme dárogiela, muđui ledje buohkat sámegielagat. Lei dábálaš ahte rohkosviesu čoagganeamit ledje sámegillii, ja dulkojuvvui dárogillii. 70-logus lei ain ollu sámegiella, muhto dađistaga unnit ja unnit. 70-logus álggii jávkat dat buolva mii máhtii sámegiela bures. Ollu giella jávkkai, ja ássanguovddážis vajálduhtte máŋgasat dárogiela, nu ahte fertejedje bálkáhit muhtima gii humai sámegiela."
+            ]
+          },
+          {
+            "type": "paragraph",
+            "inline": [
+              "Birrasiid 2000:s lei sámegielprošeakta mas ovtta bargis ledje vahkkosaš deaivvadeamit. Sii vižže boarrásiid geat eai beassan ieža dohko, ja sii besse ovttas sámástit, juoga maid atne árvvus. Eai lean nu ollu oasseváldit juohke háve, muhto boares olbmuide lei hirbmat hávski. \"Viimmat mii beassat humadit heahpankeahttá.\" Diđolašvuohta ja rámisvuohta stuorui sin gaskkas geat háliidedje váldit dan mielde."
+            ]
+          },
+          {
+            "type": "heading",
+            "inline": [
+              {
+                "type": "strong",
+                "content": [
+                  "Mu mánnávuohta áhku dálus"
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "inline": [
+              "Áhčči válddii áiggi mielde badjelasas dálu. Mii jotkkiimet \"boares vugiin\" ja barggaimet visot gieđaiguin, dassážii go son loahpas oaččui tráktora. Dat dagahii áššiid olu álkibun. Mu mánnávuođas mun bargen maiddái olu seamma bargguid maid sihke mu áhkku ja máttaráhkku barggaiga."
+            ]
+          },
+          {
+            "type": "image",
+            "src": "./assets/images/lingrasmo/hesjer-hoy.png",
+            "alt": "",
+            "caption": [
+              "Áhčči ja eadni áhcuba suinniid."
+            ]
+          },
+          {
+            "type": "image",
+            "src": "./assets/images/lingrasmo/lam.png",
+            "alt": "",
+            "caption": [
+              "Čálli lábbáin."
+            ]
+          },
+          {
+            "type": "image",
+            "src": "./assets/images/lingrasmo/colab-forslag-innhold-historie-2.png",
+            "alt": ""
+          }
+        ],
+        "en": [
+          {
+            "type": "image",
+            "src": "./assets/images/lingrasmo/colab-forslag-innhold-historie-2.png",
+            "alt": ""
+          },
+          {
+            "type": "paragraph",
+            "inline": [
+              "A story of a Sea Sámi family through generations. This book tells the story of the family at Lingrasmo in Lakselvbukt, and what life on the farm was like. Told by ",
+              {
+                "type": "em",
+                "content": [
+                  "Linn Guttormsen."
+                ]
+              }
+            ]
+          },
+          {
+            "type": "heading",
+            "inline": [
+              "Introduction"
+            ]
+          },
+          {
+            "type": "paragraph",
+            "inline": [
+              "It was by no means certain that I would get married in Lakselvbukt, and even less certain that I would wear a Sámi gákti on my wedding day."
+            ]
+          },
+          {
+            "type": "paragraph",
+            "inline": [
+              "You may be wondering why. Let me take you back a few years."
+            ]
+          },
+          {
+            "type": "image",
+            "src": "./assets/images/lingrasmo/skjermbilde-2025-04-30-kl-14-42-37.png",
+            "alt": "",
+            "caption": [
+              "Bride and Groom in Lakselvbukt."
+            ]
+          },
+          {
+            "type": "heading",
+            "inline": [
+              {
+                "type": "strong",
+                "content": [
+                  "The 1920 Census"
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "inline": [
+              "According to the 1920 census, the following were recorded in Troms county:"
+            ]
+          },
+          {
+            "type": "list",
+            "items": [
+              [
+                "7,858 Norwegians"
+              ],
+              [
+                "3,221 Kvens (many of whom came as a result of the famine in Finland)"
+              ],
+              [
+                "8,671 Sámi"
+              ]
+            ]
+          },
+          {
+            "type": "paragraph",
+            "inline": [
+              "According to the 1865 census, 23 people were living in Lakselvdalen. Farm number 1 (Lingrasmo) was the farm with the largest number of livestock."
+            ]
+          },
+          {
+            "type": "image",
+            "src": "./assets/images/lingrasmo/49416-1.jpg",
+            "alt": "",
+            "caption": [
+              "Sámi and Dog in Front of gammer, Traditional Huts, in Tromsdalen. ",
+              {
+                "type": "em",
+                "content": [
+                  "Samer og hund foran gammer i Tromsdalen. "
+                ]
+              },
+              "Foto: Knud Knudsen 1873 Nasjonalmuseet/Nasjonalmuseet Robert Meyer Collection ",
+              {
+                "type": "link",
+                "url": "https://creativecommons.org/licenses/by/4.0/",
+                "content": [
+                  "CC-BY"
+                ]
+              }
+            ]
+          },
+          {
+            "type": "image",
+            "src": "./assets/images/lingrasmo/skjermbilde-2025-04-30-kl-14-45-54.png",
+            "alt": "",
+            "caption": [
+              "The Family at Lingrasmo Farm."
+            ]
+          },
+          {
+            "type": "heading",
+            "inline": [
+              {
+                "type": "strong",
+                "content": [
+                  "Lingrasmo"
+                ]
+              }
+            ]
+          },
+          {
+            "type": "image",
+            "src": "./assets/images/lingrasmo/skjermbilde-2025-04-30-kl-14-51-08.png",
+            "alt": "",
+            "caption": [
+              "Lingrasmo farm."
+            ]
+          },
+          {
+            "type": "paragraph",
+            "inline": [
+              "This is Lingrasmo, a farm in Lakselvdalen in Ullsfjord. My great-grandparents lived here with their seven children. The main language spoken at home was Sámi, but my great-grandmother also spoke Kven and Finnish, while my great-grandfather spoke Norwegian. My great-grandmother held firmly to the Sámi language throughout her life, while the Kven language gradually faded from use. The red building was where my great-grandparents and their children lived while waiting to move into the main house. After they moved, it was used as a work shed (for tasks like knife sharpening), a storage building, and a sleeping area."
+            ]
+          },
+          {
+            "type": "paragraph",
+            "inline": [
+              "In earlier times, several permanently settled River Sámi also lived here. They made their living through hunting and fishing, and kept a small herd of reindeer. To this day, you can still see small mounds in the ground where their earthen huts once stood in neat rows."
+            ]
+          },
+          {
+            "type": "heading",
+            "inline": [
+              "Great-grandmother and Great-grandfather"
+            ]
+          },
+          {
+            "type": "paragraph",
+            "inline": [
+              "My great-grandmother was originally from Oteren, a nearby village. As a young woman, she began working on various farms in the Laksvatn area. One summer, she had a day off and walked home to Oteren. On her way back, she stopped to rest. While she was sitting there, my great-grandfather took the opportunity to approach her, and they started talking. It is said that this was when they first truly got to know each other. Ever since, that path has been known among the locals as the \"Courting Trail.\""
+            ]
+          },
+          {
+            "type": "image",
+            "src": "./assets/images/lingrasmo/skjermbilde-2025-04-30-kl-14-57-21.png",
+            "alt": "",
+            "caption": [
+              "Great-grandmother and Great-grandfather in the Kitchen."
+            ]
+          },
+          {
+            "type": "paragraph",
+            "inline": [
+              "After meeting my great-grandfather, she eventually moved with him to Lakselvdalen, as he was the heir to the family farm there. After settling in Lakselvdalen, my great-grandmother often walked to Lyngen to visit her parents. The only way to get there was to cross mountains and valleys on foot."
+            ]
+          },
+          {
+            "type": "paragraph",
+            "inline": [
+              "Every summer, once the main cowshed had been thoroughly cleaned, my great-grandmother would take her summer holiday and walk home to visit her family. She would travel over Høgda, through Tverrdalen, and on to Oteren. However, she always made sure that someone stayed at Lingrasmo to look after the children."
+            ]
+          },
+          {
+            "type": "heading",
+            "inline": [
+              "A Self-sufficient Life"
+            ]
+          },
+          {
+            "type": "image",
+            "src": "./assets/images/lingrasmo/skjermbilde-2025-04-30-kl-15-01-07.png",
+            "alt": ""
+          },
+          {
+            "type": "paragraph",
+            "inline": [
+              {
+                "type": "link",
+                "url": "https://digitaltmuseum.org/021027998555/busserull",
+                "content": [
+                  "Handwoven busserull. The photo is from the Busserull Helgeland Museum."
+                ]
+              },
+              " A busserull is a traditional Norwegian work shirt, typically handwoven from wool or cotton."
+            ]
+          },
+          {
+            "type": "paragraph",
+            "inline": [
+              "Living on the farm meant that you mostly produced what you needed yourself, whether it was food, clothing, furniture, or other items."
+            ]
+          },
+          {
+            "type": "paragraph",
+            "inline": [
+              "According to my grandaunt, the boys were always well dressed, while the girls had fewer clothes. On the farm, they wove fabric to make work shirts for the men and trousers from homespun wool. The girls, on the other hand, wore knitted garments over simple underpants and undershirts."
+            ]
+          },
+          {
+            "type": "paragraph",
+            "inline": [
+              "My great-grandmother always carried a traditional Sámi needle case on her belt, ready to mend whatever needed fixing."
+            ]
+          },
+          {
+            "type": "heading",
+            "inline": [
+              "Rumours of Fine Footwear"
+            ]
+          },
+          {
+            "type": "paragraph",
+            "inline": [
+              "My great-grandfather made traditional Sámi footwear for as long as he was able, a skill he had learned from his parents. My great-grandmother also knew this craft. They often received compliments on how fine their komager were, and it is said that word spread far beyond Ullsfjord about how skilled they were at sewing komager at Lingrasmo. Komager are traditional Sámi shoes made from reindeer skin, typically worn with woven bands and insulated with natural grass. My great-grandmother wove bands for the komager. She knew several patterns but mainly used two that she had learned from her grandmother. "
+            ]
+          },
+          {
+            "type": "image",
+            "src": "./assets/images/lingrasmo/skjermbilde-2025-04-30-kl-15-07-44.png",
+            "alt": "",
+            "caption": [
+              "    Handmade ",
+              {
+                "type": "em",
+                "content": [
+                  "komager."
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "inline": [
+              "She gathered sedge grass, used as insulation in Sámi footwear, in the field below my great-grandfather’s sawmill at one end of the property."
+            ]
+          },
+          {
+            "type": "heading",
+            "inline": [
+              "Great-grandmother’s Work"
+            ]
+          },
+          {
+            "type": "image",
+            "src": "./assets/images/lingrasmo/skjermbilde-2025-04-30-kl-15-11-37.png",
+            "alt": "",
+            "caption": [
+              "Barrel for Dyeing Yarn."
+            ]
+          },
+          {
+            "type": "paragraph",
+            "inline": [
+              "My great-grandmother raised the children and took care of the farm. She loved the animals dearly. In the summer, she would go into the forest to gather herbs, which she dried. On Christmas morning, she gave a small bundle of herbs to each of the animals as a special treat for the holiday."
+            ]
+          },
+          {
+            "type": "paragraph",
+            "inline": [
+              "Many people have said that my great-grandmother was an exceptionally hard worker. She dyed and wove wool, wove fabric, sewed clothes, baked, made cheese, butter and jam, and did much of the farm’s work in the cowshed.",
+              {
+                "type": "break"
+              },
+              "She was often called upon by neighbouring farms whenever help was needed, whether with the birth of animals or with childbirth. It is said that she saved several lives."
+            ]
+          },
+          {
+            "type": "paragraph",
+            "inline": [
+              "To dye yarn, she used rock lichen to produce a brown colour. But to achieve a medium blue colour, the daughters of the household were asked to collect their urine in a 25-litre barrel. The urine would ferment for a while, filling the house with a strong smell. They had purchased a block of indigo dye from Husfliden in Tromsø, a shop that specializes in traditional Norwegian crafts and materials, and crushed it. The crushed dye was placed into a cloth bag, tied with a long string, and lowered into the barrel of urine. Each day, they would pull the bag up, squeeze it thoroughly to release the colour, and repeat the process until they reached the right shade of medium blue. This blue colour could often be seen in the men’s clothing."
+            ]
+          },
+          {
+            "type": "heading",
+            "inline": [
+              "Cheese Shed"
+            ]
+          },
+          {
+            "type": "paragraph",
+            "inline": [
+              "They made their own cheese and butter. One specialty was coffee cheese made from sheep’s milk. Anything they produced beyond their own needs was taken to Tromsø to be sold. The cheese shed is the oldest surviving building on the farm and still stands today. One part of the building was used to store meat and cheese. The timbered section, known as the \"Senna shed,\" was where they stored sedge grass and all the equipment related to potato harvesting. They also kept moss rakes, hay rakes, scythes, flour sieves, and other outdoor tools there."
+            ]
+          },
+          {
+            "type": "paragraph",
+            "inline": [
+              "They had their own animals for milk and meat. Flour, however, had to be purchased in large sacks. The sacks of flour were stored in pantries off the outer hallways of the food storage rooms, and occasionally mice would get in. My great-grandmother said they often had to pick mouse droppings out of the flour before they could use it.",
+              {
+                "type": "break"
+              },
+              "She baked bread, flatbread, and klappkaker, which were small, flattened pieces of leftover bread dough baked on stones by the hearth. They also did a great deal of fishing, so fish in various forms was almost always on the menu."
+            ]
+          },
+          {
+            "type": "image",
+            "src": "./assets/images/lingrasmo/skjermbilde-2025-04-30-kl-15-53-17.png",
+            "alt": "",
+            "caption": [
+              "Great-grandmother in Front of the Cheese Shed."
+            ]
+          },
+          {
+            "type": "heading",
+            "inline": [
+              "Fishing, but What Was the Favourite Food?"
+            ]
+          },
+          {
+            "type": "image",
+            "src": "./assets/images/lingrasmo/skjermbilde-2025-04-30-kl-15-55-18.png",
+            "alt": ""
+          },
+          {
+            "type": "paragraph",
+            "inline": [
+              "The boathouse was used to store the boat, fishing nets and other fishing equipment. It was well used by both the older and younger members of the family for many years. There used to be plenty of fish in Ullsfjord. Today, the boathouse is a protected building and is between 150 and 200 years old."
+            ]
+          },
+          {
+            "type": "paragraph",
+            "inline": [
+              "My grandmother told me that one of her favourite things was when they had something crispy to go with a fish dinner. This was a welcome change from having only fish and potatoes. What she was referring to was the fat surrounding parts of the animals’ innards. They would collect and store this fat, and when it was served, it was prepared much like we fry bacon today.",
+              {
+                "type": "break"
+              },
+              "Another treat they often made was porridge from sour grass, served as dessert. The children thought it was a real delicacy. If they had porridge and cured meat for dinner, it was considered a true feast."
+            ]
+          },
+          {
+            "type": "heading",
+            "inline": [
+              "What Happened to the Good Coffee?"
+            ]
+          },
+          {
+            "type": "paragraph",
+            "inline": [
+              "When my grandmother and her siblings were young, there was one summer during the war when my great-grandmother had gone to Oteren.",
+              {
+                "type": "strong",
+                "content": [
+                  " "
+                ]
+              },
+              "My great-grandfather was helping the shopkeeper H. Heim collect large birch trees to be used as supports for a new pier in Lakselvbukt. An older woman was staying at the farm to look after the children. Sugar and coffee had to be purchased, and my great-grandmother used special sugar shears to cut sugar cubes. The shears looked like a small guillotine."
+            ]
+          },
+          {
+            "type": "paragraph",
+            "inline": [
+              "One day, Mr. Heim arrived at the farm with real coffee. At the time, they had been drinking coffee substitutes because of the war. My great-grandfather had instructed the old woman to brew the good coffee and have it ready for them when they returned from the forest."
+            ]
+          },
+          {
+            "type": "image",
+            "src": "./assets/images/lingrasmo/skjermbilde-2025-04-30-kl-16-02-23.png",
+            "alt": ""
+          },
+          {
+            "type": "paragraph",
+            "inline": [
+              "She did as she was told. But when the coffee was finished, for some reason she set the pot on the floor. She moved about the room doing other tasks, and at some point, the tip of her Sámi shoes caught the handle of the coffee pot. The good coffee spilled all over the floor. You can imagine the mess and the commotion that followed."
+            ]
+          },
+          {
+            "type": "paragraph",
+            "inline": [
+              "To everyone’s great disappointment, when they came back from the forest, there was only coffee substitute to be had. They were not pleased at all, after having looked forward to proper coffee all day."
+            ]
+          },
+          {
+            "type": "heading",
+            "inline": [
+              "My Mother-in-law’s Gaze"
+            ]
+          },
+          {
+            "type": "image",
+            "src": "./assets/images/lingrasmo/skjermbilde-2025-04-30-kl-16-04-01.png",
+            "alt": ""
+          },
+          {
+            "type": "paragraph",
+            "inline": [
+              "My great-grandmother had become friends with a woman named Inga. Inga and her husband did not have much, and one day Inga wanted to go to Lingrasmo to ask for some wool. There was always plenty of wool there, and she persuaded my great-grandmother to come along."
+            ]
+          },
+          {
+            "type": "paragraph",
+            "inline": [
+              "They arrived at Lingrasmo, went inside, and greeted everyone. When Inga had greeted the mistress of the house, the woman looked at my great-grandmother for a long time, sizing her up and down, before suddenly saying, \"Now I can die in peace, for I have seen the one who will become Ole’s wife.\""
+            ]
+          },
+          {
+            "type": "paragraph",
+            "inline": [
+              "It would still be some time before my great-grandmother and great-grandfather became a couple."
+            ]
+          },
+          {
+            "type": "heading",
+            "inline": [
+              "Great-grandfather’s Work"
+            ]
+          },
+          {
+            "type": "paragraph",
+            "inline": [
+              "My great-grandfather attended a vocational school in Tromsø. That’s where he learned everything he needed to run a farm. House building, carpentry, furniture making, woodcraft, metalwork, blacksmithing, tinwork, and clockmaking."
+            ]
+          },
+          {
+            "type": "paragraph",
+            "inline": [
+              "My great-grandfather had his own woodworking shop in the attic of the house, a tiny room that mostly consisted of a homemade lathe. He made many beautiful items and pieces of furniture. Tables, chairs, beds, slant-front cabinets, spice racks, mirrors and much more. He also made items to order, earning a little extra money for the farm."
+            ]
+          },
+          {
+            "type": "paragraph",
+            "inline": [
+              "He had a strong reputation as a house builder and helped construct many houses in the surrounding villages. He also used to mix his own paint. With alder bark he made a beautiful red colour. With clay from the edge of a nearby bog, he produced a very fine brown-grey tone."
+            ]
+          },
+          {
+            "type": "image",
+            "src": "./assets/images/lingrasmo/skjermbilde-2025-04-30-kl-16-06-06.png",
+            "alt": ""
+          },
+          {
+            "type": "paragraph",
+            "inline": [
+              "The outbuildings on the farm were built simply. The roofs were covered with sod, with layers of birch bark underneath, laid on top of the beams. Everything they used came from their own forest and land. They never experienced rain or melting snow leaking inside."
+            ]
+          },
+          {
+            "type": "heading",
+            "inline": [
+              "Great-grandfather was not afraid to try new things"
+            ]
+          },
+          {
+            "type": "image",
+            "src": "./assets/images/lingrasmo/skjermbilde-2025-04-30-kl-16-07-54.png",
+            "alt": "",
+            "caption": [
+              "Before the tractor arrived."
+            ]
+          },
+          {
+            "type": "paragraph",
+            "inline": [
+              "My great-grandfather was the first in the entire area to experiment with artificial fertiliser. He contacted the agronomist at Olderbakken, a nearby village, who provided different types of fertiliser. My great-grandfather divided one section of the field into smaller plots, marking each one to indicate the type and amount of fertiliser that had been applied. This was done in the spring. During the summer, the agronomist returned to check the growth, and again later in the season when the grass was to be cut. After seeing good results, they decided to start using the new fertiliser. However, they continued spreading manure as before. Another method they used to fertilise the fields was to pump urine from the animals in the cowshed, collect it in barrels, and spread it over the land."
+            ]
+          },
+          {
+            "type": "heading",
+            "inline": [
+              "Witness to History"
+            ]
+          },
+          {
+            "type": "paragraph",
+            "inline": [
+              "My grandmother’s sister told me this over the phone:"
+            ]
+          },
+          {
+            "type": "callout",
+            "icon": "💬",
+            "content": [
+              {
+                "type": "paragraph",
+                "inline": [
+                  "“ I can still picture my grandfather. He was always in the woodshed, sawing and chopping wood. He wore a ",
+                  {
+                    "type": "em",
+                    "content": [
+                      "vadmelsbukse"
+                    ]
+                  },
+                  ", a pair of heavy wool trousers, and a ",
+                  {
+                    "type": "em",
+                    "content": [
+                      "busserull"
+                    ]
+                  },
+                  ", with ",
+                  {
+                    "type": "em",
+                    "content": [
+                      "komager"
+                    ]
+                  },
+                  " on his feet and a leather cap on his head. The ",
+                  {
+                    "type": "em",
+                    "content": [
+                      "vadmel"
+                    ]
+                  },
+                  " fabric was made from hand-spun and handwoven wool yarn, dyed black and felted in a barrel without a top or bottom to make it thicker. The fabric for the ",
+                  {
+                    "type": "em",
+                    "content": [
+                      "busserull"
+                    ]
+                  },
+                  " was also homemade and dyed a medium blue. ”"
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "inline": [
+              "Sámi from outside the village often came to Lingrasmo for sennagress, a type of soft grass used to insulate footwear, as well as for cheese and butter. My great-grandmother never took payment for it."
+            ]
+          },
+          {
+            "type": "image",
+            "src": "./assets/images/lingrasmo/skjermbilde-2025-04-30-kl-16-13-50.png",
+            "alt": "",
+            "caption": [
+              "The Author’s Great-grandparents and Great-great-grandfather,"
+            ]
+          },
+          {
+            "type": "heading",
+            "inline": [
+              "Streams and Rivers"
+            ]
+          },
+          {
+            "type": "image",
+            "src": "./assets/images/lingrasmo/melkebekken.png",
+            "alt": ""
+          },
+          {
+            "type": "paragraph",
+            "inline": [
+              "The place in the photo (under a roof) was called the “milk stream.” The spring water there was ice-cold. My great-grandmother used it to cool and keep the milk pails cold. Other food items were also placed here to stay cool and fresh."
+            ]
+          },
+          {
+            "type": "paragraph",
+            "inline": [
+              "When it was time to wash clothes, they were taken to the river and rinsed there. This was manageable work, but quite a challenge in the middle of winter. They would carve steps in the snow down to the river ice, cut a hole in the ice, and rinse the clothes. It was so cold that they could not wring the clothes out. Instead, they placed them on a snowbank to drain, where the clothes would freeze stiff. When they got home, my great-grandmother had boiled water ready. The clothes were thawed in the hot water, wrung out, and hung to dry in one of the outbuildings on the farm."
+            ]
+          },
+          {
+            "type": "paragraph",
+            "inline": [
+              "The Skinnelva river flows straight out of the mountainside in the valley. This section of the river does not freeze in winter, and the water runs slowly and calmly. At this spot, they had set up large logs where skins were tied by the hair for soaking. On land, there was a large log with a flat surface. This was used to pull the skins onto so the hair could be scraped off. The prepared skins were then placed in a half-barrel filled with dry birch bark. Alum and water were used in the tanning process, giving the finished leather a fine colour. The leather was then used to make traditional footwear and harnesses."
+            ]
+          },
+          {
+            "type": "heading",
+            "inline": [
+              "The Cowshed"
+            ]
+          },
+          {
+            "type": "image",
+            "src": "./assets/images/lingrasmo/fjoset.png",
+            "alt": ""
+          },
+          {
+            "type": "paragraph",
+            "inline": [
+              "In the cowshed, they had a hearth built from stone and clay. A very large pot was usually placed there. It was used to heat drinks for the animals, often mixed with treats such as food scraps, fish meal or hay. The animals loved getting the warm drink in the morning.",
+              {
+                "type": "break"
+              },
+              "The hearth was also used for softening the tips of skis or for burning tar onto the skis to seal them."
+            ]
+          },
+          {
+            "type": "paragraph",
+            "inline": [
+              {
+                "type": "strong",
+                "content": [
+                  "Slaughtering:"
+                ]
+              },
+              " They made use of absolutely everything they could from the animals. Blood was used to make blood sausages, blood pudding and blood pancakes. Meat was placed in brine in a barrel for the entire winter, and sides of meat were hung up to dry. They would cut slices from the sides and cook them on the embers in the oven. Some of the meat was preserved in glass jars, and tongues were used as cold cuts. The fat around the animals’ kidneys was used for cooking fat or as an ingredient in soap making."
+            ]
+          },
+          {
+            "type": "image",
+            "src": "./assets/images/lingrasmo/fjos-vedsja.png",
+            "alt": "",
+            "caption": [
+              "The cowshed, woodshed, summer barn, boathouse and outbuildings are protected structures (Sámi Parliament)."
+            ]
+          },
+          {
+            "type": "heading",
+            "inline": [
+              "Selling Goods in Tromsø"
+            ]
+          },
+          {
+            "type": "paragraph",
+            "inline": [
+              "When my great-grandfather went to sell goods (cheese, butter, meat, berries, leather), they would travel by horse and cart to Lakselvbukt. From there, they took a boat to Tromsø. There was a regular merchant who bought goods from my great-grandfather, Gerhardt Knudsen. The children were allowed to come along on these trips, but only one at a time. When they arrived in Tromsø, the child's task was to watch over the goods while the merchant went to pick up a horse and cart to carry the goods away. My great-grandfather kept a book where he recorded everything he sold and how much he got for it."
+            ]
+          },
+          {
+            "type": "image",
+            "src": "./assets/images/lingrasmo/sjogata-1870.jpg",
+            "alt": "",
+            "caption": [
+              " Tromsø in the old days. ",
+              {
+                "type": "em",
+                "content": [
+                  "Tromsø i gamledager."
+                ]
+              },
+              " Foto: N.A. Ytreberg: Tromsø bys historie. B. 2. Dato: 1870-tallet ",
+              {
+                "type": "link",
+                "url": "https://creativecommons.org/public-domain/pdm/",
+                "content": [
+                  "PD"
+                ]
+              }
+            ]
+          },
+          {
+            "type": "heading",
+            "inline": [
+              "Work on the Farm"
+            ]
+          },
+          {
+            "type": "paragraph",
+            "inline": [
+              "There was a great deal of hard work on the farm, and nearly everything was done and made by hand. There was not much machinery available at the time. The children learned the value of hard work early on, as they were expected to help out as soon as they were old enough. They had a cowshed with sheep, cows and a few goats, and the children had their own assigned tasks."
+            ]
+          },
+          {
+            "type": "paragraph",
+            "inline": [
+              "In time, Lingrasmo became one of two farms in the area with a \"Machine Station.\" This meant they had a tractor and were responsible for ploughing fields, cutting grass, transporting firewood or doing other work for farms that did not have a tractor. It is believed that they received some form of subsidy for this responsibility, which likely provided some extra income."
+            ]
+          },
+          {
+            "type": "paragraph",
+            "inline": [
+              "In 1947, Lingrasmo became a telephone relay station under Lakselvbukt. Messages were sent to the farm, and they were responsible for passing them on to other farms in the area."
+            ]
+          },
+          {
+            "type": "image",
+            "src": "./assets/images/lingrasmo/arbeid-pa-garden.png",
+            "alt": "",
+            "caption": [
+              "A work crew ready for the day’s tasks on the farm."
+            ]
+          },
+          {
+            "type": "heading",
+            "inline": [
+              "Time for Play"
+            ]
+          },
+          {
+            "type": "paragraph",
+            "inline": [
+              "In between the periods of hard work, the children would find ways to play together. In the winter, they went skiing or sledded down the hills. In the summer, they played games like tip-cat, where they would strike a small stick into the air and try to hit it as far as possible, and they also played hide-and-seek. If they had a ball, one child would stand on each side of a building, trying to kick or throw the ball over the roof to the other."
+            ]
+          },
+          {
+            "type": "paragraph",
+            "inline": [
+              {
+                "type": "break"
+              },
+              "In the winter, they also had a board game called ",
+              {
+                "type": "em",
+                "content": [
+                  "Sáhkku"
+                ]
+              },
+              ". The board and playing pieces for the game were made and carved by my great-great-grandfather."
+            ]
+          },
+          {
+            "type": "callout",
+            "content": [
+              {
+                "type": "paragraph",
+                "inline": [
+                  {
+                    "type": "strong",
+                    "content": [
+                      {
+                        "type": "link",
+                        "url": "https://result.uit.no/reaidu/ressurser/aktiviteter/sahkku/",
+                        "content": [
+                          "Read more about the game here"
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "heading",
+            "inline": [
+              "Moskaluokta – Lakselvbukt"
+            ]
+          },
+          {
+            "type": "paragraph",
+            "inline": [
+              "The children did not always attend school for many years. The first school building was an earthen goahti. The children lived there while attending school. During the day, the family went about their activities on one side of the goahti while lessons were held on the other side. My great-grandfather attended school in this ",
+              {
+                "type": "em",
+                "content": [
+                  "goahti."
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "inline": [
+              "Where Lakselvbukt School stands today, there used to be a boarding school. When my grandmother was young, there were so many children attending that, in order to manage teaching everyone, the children went to school for three weeks and then stayed home for three weeks."
+            ]
+          },
+          {
+            "type": "image",
+            "src": "./assets/images/lingrasmo/lakselvbukt.png",
+            "alt": "",
+            "caption": [
+              "Photo taken from “the 1000-meter point,” looking down towards my grandmother’s house and my parents’ house."
+            ]
+          },
+          {
+            "type": "paragraph",
+            "inline": [
+              "Some of the children from reindeer-herding Sámi families also attended the boarding school. These children did not speak any Norwegian. One of them refused to speak Norwegian at all and spoke only Sámi to her teacher, who was from the south. One of my grandmother’s sisters helped the teacher by translating what the girl said. She spent a lot of time with these children and supported them at school. Eventually, she worked at the school to help care for them. These children did not return home every three weeks as the other children did, but stayed at the school year-round. When my grandmother’s sister grew tired and wanted to go home, she simply took the children with her to Lingrasmo. There, they were free to speak Sámi as much as they wanted, and they were warmly welcomed."
+            ]
+          },
+          {
+            "type": "heading",
+            "inline": [
+              "Norwegianization"
+            ]
+          },
+          {
+            "type": "paragraph",
+            "inline": [
+              "At Lingrasmo, the children did not experience much of the Norwegianization directly. Their parents spoke Sámi at home, and they had learned Norwegian well enough to manage just fine at school. They did notice that more people were speaking Norwegian and starting to wear different clothes, but they had a safe space at home that many others did not. This was because my great-grandparents were firmly committed to preserving the language."
+            ]
+          },
+          {
+            "type": "image",
+            "src": "./assets/images/lingrasmo/nf-05689-087.png",
+            "alt": "",
+            "caption": [
+              {
+                "type": "strong",
+                "content": [
+                  "Class at Kautokeino internatskole."
+                ]
+              },
+              " Fotograf: ",
+              {
+                "type": "link",
+                "url": "https://digitaltmuseum.no/search?name=f89b7f23-49b3-4bca-a89c-f28b7ec080c4",
+                "content": [
+                  "Marr, Leslie"
+                ]
+              },
+              " ",
+              {
+                "type": "link",
+                "url": "https://digitaltmuseum.no/011013374451/kautokeino-skole-interior-fra-klasserom-med-laerer-og-elever-1957",
+                "content": [
+                  "Kautokeino skole. Interiør fra klasserom med lærer og elever, 1957."
+                ]
+              },
+              " ",
+              {
+                "type": "link",
+                "url": "https://creativecommons.org/licenses/by-sa/4.0/deed.no",
+                "content": [
+                  "CC BY-SA 4.0"
+                ]
+              },
+              " Eksponert."
+            ]
+          },
+          {
+            "type": "paragraph",
+            "inline": [
+              "However, they understood that there was shame attached to being Sámi or having Sámi relatives, so much of the Sámi identity was simply \"silenced.\" Over time, people began speaking only Norwegian, but my great-grandmother always answered in Sámi. She also had a few friends with whom she spoke Sámi exclusively."
+            ]
+          },
+          {
+            "type": "paragraph",
+            "inline": [
+              "When the children at Lingrasmo grew up and moved away, they likely became more aware of the Norwegianization. None of these children chose to teach Sámi to their own children. Nor did they talk about Sámi culture and traditions. That part of their identity quietly disappeared."
+            ]
+          },
+          {
+            "type": "paragraph",
+            "inline": [
+              "My grandmother spoke Sámi with acquaintances at the prayer house and at the shop, but at home with the children, she spoke Norwegian. However, if she and my grandfather wanted to talk without the children fully understanding, they would speak in Sámi. Later, my father told me that they actually understood most of what was said, but found it so exciting to listen to their parents speak Sámi that they never said a word about it."
+            ]
+          },
+          {
+            "type": "image",
+            "src": "./assets/images/lingrasmo/nf-05689-086-1.png",
+            "alt": "",
+            "caption": [
+              {
+                "type": "strong",
+                "content": [
+                  "Klasse på Kautokeino internatskole."
+                ]
+              },
+              " Fotograf: ",
+              {
+                "type": "link",
+                "url": "https://digitaltmuseum.no/search?name=f89b7f23-49b3-4bca-a89c-f28b7ec080c4",
+                "content": [
+                  "Marr, Leslie"
+                ]
+              },
+              " ",
+              {
+                "type": "link",
+                "url": "https://digitaltmuseum.no/011013374451/kautokeino-skole-interior-fra-klasserom-med-laerer-og-elever-1957",
+                "content": [
+                  "Kautokeino skole. Interiør fra klasserom med lærer og elever, 1957."
+                ]
+              },
+              " ",
+              {
+                "type": "link",
+                "url": "https://creativecommons.org/licenses/by-sa/4.0/deed.no",
+                "content": [
+                  "CC BY-SA 4.0"
+                ]
+              },
+              " Eksponert."
+            ]
+          },
+          {
+            "type": "heading",
+            "inline": [
+              "Hets og begraving av identitet "
+            ]
+          },
+          {
+            "type": "paragraph",
+            "inline": [
+              "Selv om språket i større eller mindre grad lenge holdt seg levende, ble andre deler av kulturen gradvis borte. Mange valgte å kvitte seg med kofter og utstyr de hadde til koftene sammen med andre typiske samiske plagg og redskaper. Det sies at noen også gravde ned sine samiske eiendeler for å skjule at slikt hadde vært på gårdene. Men ved gjennomgang av skiftedokumenter som stammer fra omtrent denne tiden, så vi at mange hadde kofter, sjal, søljer, komager, skallebånd mm i sitt eie."
+            ]
+          },
+          {
+            "type": "paragraph",
+            "inline": [
+              "Da bestemor og søsknene var med oldefar på handelsturer i Tromsø, fikk de rett som det var nedsettende kommentarer fra by-ungene. Fortsatt den dag i dag, kommer det hets rettet mot den samiske befolkningen her i Tromsø."
+            ]
+          },
+          {
+            "type": "heading",
+            "inline": [
+              "Harassment and the Suppression of Identity"
+            ]
+          },
+          {
+            "type": "paragraph",
+            "inline": [
+              "Although the language remained alive to a greater or lesser extent, other parts of the culture gradually disappeared. Many people chose to get rid of their gákti and related accessories, along with other traditional Sámi clothing and tools. It is said that some even buried their Sámi belongings to hide the fact that such items had ever been on the farms. However, when reviewing probate documents from around that time, we found that many still owned gákti, shawls, silver brooches, traditional footwear, decorative bands and other items.",
+              {
+                "type": "break"
+              },
+              {
+                "type": "break"
+              },
+              "When my grandmother and her siblings accompanied my great-grandfather on trading trips to Tromsø, they would often receive derogatory remarks from the town children. Even today, harassment against the Sámi population continues here in Tromsø."
+            ]
+          },
+          {
+            "type": "heading",
+            "inline": [
+              "Grandmother and Grandfather"
+            ]
+          },
+          {
+            "type": "paragraph",
+            "inline": [
+              "My grandmother found her husband in Lakselvbukt, got married, and brought with her a cow, a heifer and two sheep from home as part of her dowry and as a start to their farming. They took over a farm in Lakselvbukt from relatives of my grandfather. Times were hard. She came from Lingrasmo, where there had always been enough, and where they could share with those who had less. Now she had to manage with what little they had. It was a completely different world for her, but she gritted her teeth and did what she could to build up a farm where they had what they needed. In time, they established a cowshed with more sheep and cows, as well as a horse they shared with a neighbour."
+            ]
+          },
+          {
+            "type": "paragraph",
+            "inline": [
+              "My grandfather went fishing (at Jøviktinden and Furøynes) and was a regular crew member with Jacobsen from Olderbakken. The winter fishing season began in January when the cod arrived, and he could be away all winter. He also did a lot of fishing at home for their own use. He caught cod, redfish, herring and anything else the fjord had to offer in season."
+            ]
+          },
+          {
+            "type": "paragraph",
+            "inline": [
+              "My grandmother and grandfather always spoke Sámi at home, but Norwegian with the children. They used Sámi as a \"secret language\" that the children were not supposed to understand."
+            ]
+          },
+          {
+            "type": "heading",
+            "inline": [
+              {
+                "type": "strong",
+                "content": [
+                  "Sámi in Decline"
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "inline": [
+              "In the 1950s, there were only two households that spoke Norwegian; otherwise, everyone spoke Sámi. Prayer meetings at the prayer house were typically held in Sámi, with Norwegian provided through an interpreter. Sámi was still widely spoken in the 1970s, but gradually it became less and less common. During the 1970s, the generation fluent in Sámi began to die out. Much of the language was lost, and at the care home, several residents forgot their Norwegian, so someone had to be hired to speak Sámi with them."
+            ]
+          },
+          {
+            "type": "paragraph",
+            "inline": [
+              "Around the year 2000, a Sámi language project was launched, with one staff member organising weekly gatherings. They arranged transportation for elderly participants who could not get there on their own, giving them a chance to speak Sámi together. This was greatly appreciated. There were not many participants at each meeting, but it brought great joy to those who came. \"At last we can speak without shame.\" Awareness and pride began to take root among those who wanted to reclaim it."
+            ]
+          },
+          {
+            "type": "heading",
+            "inline": [
+              "My Childhood on the Farm after My Grandmother’s Time"
+            ]
+          },
+          {
+            "type": "paragraph",
+            "inline": [
+              "My father eventually took over the farm. We continued doing everything by hand, in the \"old way,\" until he eventually got a tractor. That made things much easier. My childhood years were also spent doing many of the same tasks that both my grandmother and great-grandmother had done."
+            ]
+          },
+          {
+            "type": "image",
+            "src": "./assets/images/lingrasmo/hesjer-hoy.png",
+            "alt": "",
+            "caption": [
+              "Dad and mum stacking hay on poles."
+            ]
+          },
+          {
+            "type": "image",
+            "src": "./assets/images/lingrasmo/lam.png",
+            "alt": "",
+            "caption": [
+              "The Author with a Lamb."
+            ]
+          },
+          {
+            "type": "image",
+            "src": "./assets/images/lingrasmo/colab-forslag-innhold-historie-2.png",
+            "alt": ""
+          }
+        ]
+      }
     }
   ]
 }

@@ -2266,7 +2266,9 @@
         "infotekst_en": "Lingrasmo Farm is located in Lakselvdalen in the Ullsfjord area of Northern Norway and was home to a Sámi family for several generations. The farm was a central part of everyday life, based on farming, livestock, fishing, and traditional handicrafts. Most necessities were produced by hand, including food, clothing, and tools. The Sámi language and cultural traditions were carefully preserved at Lingrasmo, even during the period of Norwegianisation. Several of the farm’s buildings are now protected as cultural heritage sites.",
         "notion_url_no": "https://learnlabacademy.notion.site/Livet-p-g-rden-i-Lakselvbukt-1e52c336afd6809ea568e0ec7ca0d2dc?pvs=143",
         "notion_url_sme": "https://learnlab.notion.site/Eallin-d-lus-Moskaluovttas-2072c336afd680efb3b8d15542b3a588?pvs=143",
-        "notion_url_en": "https://learnlab.notion.site/Life-on-the-Farm-in-Lakselvbukt-2232c336afd680539d33c5e76dc0f185?pvs=143"
+        "notion_url_en": "https://learnlab.notion.site/Life-on-the-Farm-in-Lakselvbukt-2232c336afd680539d33c5e76dc0f185?pvs=143",
+        "article_id": "lingrasmo-gard",
+        "article_languages": ["no", "sme", "en"]
       },
       "geometry": {
         "type": "Point",

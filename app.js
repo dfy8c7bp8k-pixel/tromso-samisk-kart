@@ -351,13 +351,81 @@ const articlesReady = fetch("./data/articles.json")
     return null;
   });
 
-function appendArticleBlock(block) {
+// Structured inline content preserves source text without interpreting export HTML.
+function appendArticleInline(parent, parts) {
+  parts.forEach((part) => {
+    if (typeof part === "string") {
+      parent.append(document.createTextNode(part));
+      return;
+    }
+    if (part?.type === "break") {
+      parent.append(document.createElement("br"));
+      return;
+    }
+
+    const tag = { strong: "strong", em: "em", underline: "u", link: "a", "highlight-red": "mark" }[part?.type];
+    if (typeof tag !== "string" || !Array.isArray(part.content)) return;
+    const url = tag === "a" ? normalizeHttpsUrl(part.url) : "";
+    if (tag === "a" && !url) {
+      appendArticleInline(parent, part.content);
+      return;
+    }
+    const element = document.createElement(tag);
+    if (tag === "mark") element.className = "article-panel__highlight-red";
+    if (url) {
+      element.href = url;
+      element.target = "_blank";
+      element.rel = "noopener noreferrer";
+    }
+    appendArticleInline(element, part.content);
+    parent.append(element);
+  });
+}
+
+function appendArticleBlock(block, parent = articleBody) {
   const type = clean(block?.type);
+
+  if (type === "image") {
+    const src = clean(block.src);
+    if (!/^\.\/assets\/images\/[a-z0-9/_-]+\.(png|jpe?g|webp|gif)$/i.test(src)) return;
+    const figure = document.createElement("figure");
+    figure.className = "article-panel__figure";
+    const image = document.createElement("img");
+    image.className = "article-panel__image";
+    image.src = src;
+    image.alt = typeof block.alt === "string" ? block.alt : "";
+    image.loading = "lazy";
+    image.decoding = "async";
+    figure.append(image);
+    if (Array.isArray(block.caption)) {
+      const caption = document.createElement("figcaption");
+      appendArticleInline(caption, block.caption);
+      figure.append(caption);
+    }
+    parent.append(figure);
+    return;
+  }
+
+  if (type === "callout" && Array.isArray(block.content)) {
+    const callout = document.createElement("aside");
+    callout.className = "article-panel__callout";
+    if (clean(block.icon)) {
+      const icon = document.createElement("span");
+      icon.className = "article-panel__callout-icon";
+      icon.textContent = block.icon;
+      icon.setAttribute("aria-hidden", "true");
+      callout.append(icon);
+    }
+    block.content.forEach((child) => appendArticleBlock(child, callout));
+    parent.append(callout);
+    return;
+  }
 
   if (type === "heading") {
     const heading = document.createElement("h2");
-    heading.textContent = clean(block.text);
-    articleBody.append(heading);
+    if (Array.isArray(block.inline)) appendArticleInline(heading, block.inline);
+    else heading.textContent = clean(block.text);
+    parent.append(heading);
     return;
   }
 
@@ -373,7 +441,7 @@ function appendArticleBlock(block) {
       quote.append(credit);
     }
 
-    articleBody.append(quote);
+    parent.append(quote);
     return;
   }
 
@@ -381,16 +449,20 @@ function appendArticleBlock(block) {
     const list = document.createElement("ul");
     block.items.forEach((item) => {
       const listItem = document.createElement("li");
-      listItem.textContent = clean(item);
+      if (Array.isArray(item)) appendArticleInline(listItem, item);
+      else listItem.textContent = clean(item);
       list.append(listItem);
     });
-    articleBody.append(list);
+    parent.append(list);
     return;
   }
 
   const paragraph = document.createElement("p");
-  paragraph.textContent = clean(block?.text);
-  articleBody.append(paragraph);
+  if (Array.isArray(block?.inline)) {
+    paragraph.className = "article-panel__source-text";
+    appendArticleInline(paragraph, block.inline);
+  } else paragraph.textContent = clean(block?.text);
+  parent.append(paragraph);
 }
 
 function renderArticle(articleId) {
@@ -422,11 +494,19 @@ function renderArticle(articleId) {
 
   const notices = [];
   if (articleLang !== currentLang) {
-    notices.push(
-      currentLang === "en"
-        ? "This article is available only in Norwegian."
-        : "Artikkelen er bare tilgjengelig på norsk."
-    );
+    if (articleLang === "no" && availableLanguages.length > 1) {
+      notices.push(
+        currentLang === "en"
+          ? "This article is shown in Norwegian."
+          : "Artikkelen vises på norsk."
+      );
+    } else {
+      notices.push(
+        currentLang === "en"
+          ? "This article is available only in Norwegian."
+          : "Artikkelen er bare tilgjengelig på norsk."
+      );
+    }
   }
   if (article.status === "draft") {
     notices.push("Tekst, kilder, navn og rettigheter må kvalitetssikres før publisering.");
@@ -464,7 +544,7 @@ function renderArticle(articleId) {
     articleBody.append(figure);
   }
 
-  contentByLanguage[articleLang].forEach(appendArticleBlock);
+  contentByLanguage[articleLang].forEach((block) => appendArticleBlock(block));
 
   const video = article.external_video;
   const videoUrl = video?.provider === "youtube" ? youtubeUrl(video.url) : "";
@@ -586,6 +666,9 @@ function buildPopupHtml(p) {
   const articleLanguages = Array.isArray(p.article_languages)
     ? p.article_languages.map((value) => clean(value)).filter(Boolean)
     : [];
+  // Prefer the local article in its own language; keep translated external pages.
+  // Without an external page, retain the existing Norwegian article fallback.
+  const useArticle = articleId && (articleLanguages.includes(lang) || !url);
 
   if (infotekst || url || articleId) {
     html += `
@@ -594,7 +677,7 @@ function buildPopupHtml(p) {
         <div class="popup-text">
           ${infotekst ? `<p>${renderText(infotekst)}</p>` : ""}
           ${
-            url
+            url && !useArticle
               ? `<p><a href="${escapeHtml(
                   url
                 )}" target="_blank" rel="noopener noreferrer">${escapeHtml(
@@ -603,7 +686,7 @@ function buildPopupHtml(p) {
               : ""
           }
           ${
-            articleId
+            useArticle
               ? `<button class="popup-article-button" type="button" data-article-id="${escapeHtml(
                   articleId
                 )}">${escapeHtml(
