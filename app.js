@@ -390,6 +390,7 @@ function appendArticleBlock(block, parent = articleBody) {
     if (!/^\.\/assets\/images\/[a-z0-9/_-]+\.(png|jpe?g|webp|gif)$/i.test(src)) return;
     const figure = document.createElement("figure");
     figure.className = "article-panel__figure";
+    if (block.size === "portrait") figure.classList.add("article-panel__figure--portrait");
     const image = document.createElement("img");
     image.className = "article-panel__image";
     image.src = src;
@@ -484,6 +485,8 @@ function renderArticle(articleId) {
   const titleByLanguage = article.title || {};
   articleTitle.textContent =
     clean(titleByLanguage[articleLang]) || clean(titleByLanguage.no);
+  articleTitle.lang = articleLang;
+  articleBody.lang = articleLang;
   articleKicker.textContent = article.status === "draft"
     ? "Utkast · Om stedet"
     : "Om stedet";
