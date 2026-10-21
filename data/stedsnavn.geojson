@@ -2494,6 +2494,8 @@
         "norsk_navn": "Makkvatnet",
         "objekttype": "kultur",
         "icon_id": "anna_plaque",
+        "article_id": "anna-i-makkvannet",
+        "article_languages": ["no"],
         "infotekst_no": "Her bodde Anna i Makkvatnet. Hun var et viktig ledd i et nettverk av samiske loser på flyktingeruta fra Makkvatnet. Les historien om Anna her:",
         "infotekst_smj": "Dánna åroj Suoksavuom-Ánná. Sån lij ájnas oassen báhtariddjijdoalvvoj værmádagás báhtarimválkkamin Suoksavuomes. ",
         "infotekst_sme": "",
