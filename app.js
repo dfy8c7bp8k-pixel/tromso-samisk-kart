@@ -15,11 +15,34 @@ const SAPMI_BOUNDS = L.latLngBounds(
   [72.2, 41.5]
 );
 
+// Room for panning around Sápmi and for tall mobile viewports at zoom 3.
+const NAVIGATION_BOUNDS = L.latLngBounds(
+  [10.0, -40.0],
+  [85.0, 85.0]
+);
+
 const map = L.map("map", {
   zoomAnimation: true,
+  minZoom: 3,
+  maxBounds: NAVIGATION_BOUNDS,
+  maxBoundsViscosity: 1,
   zoomSnap: 0.75,
   zoomDelta: 0.75
 });
+
+// One world copy must cover the actual map width; round up to an allowed zoom.
+function updateMinZoom() {
+  const widthZoom = Math.log2(map.getSize().x / map.options.crs.scale(0));
+  const snap = map.options.zoomSnap;
+  const minWidthZoom = Math.ceil(widthZoom / snap) * snap;
+  // Allow the floor to fall again after resizing to a smaller viewport.
+  map.setMinZoom(3);
+  // The pan bounds also keep the viewport away from the edges of that copy.
+  map.setMinZoom(Math.max(3, minWidthZoom, map.getBoundsZoom(NAVIGATION_BOUNDS, true)));
+}
+
+map.on("resize", updateMinZoom);
+updateMinZoom();
 
 map.fitBounds(SAPMI_BOUNDS, {
   padding: [20, 20]
@@ -30,6 +53,7 @@ const osmLayer = L.tileLayer(
   "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
   {
     maxZoom: 19,
+    noWrap: true,
     zIndex: 0,
     attribution:
       '© <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener">OpenStreetMap contributors</a>'
@@ -43,6 +67,7 @@ const kartverketLayer = L.tileLayer(
   "https://cache.kartverket.no/v1/wmts/1.0.0/topo/default/webmercator/{z}/{y}/{x}.png",
   {
     maxZoom: 19,
+    noWrap: true,
     zIndex: 10,
     attribution:
       '© <a href="https://www.kartverket.no/" target="_blank" rel="noopener">Kartverket</a> | ' +
