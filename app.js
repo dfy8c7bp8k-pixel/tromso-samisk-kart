@@ -365,7 +365,7 @@ function appendArticleInline(parent, parts) {
 
     const tag = { strong: "strong", em: "em", underline: "u", link: "a", "highlight-red": "mark" }[part?.type];
     if (typeof tag !== "string" || !Array.isArray(part.content)) return;
-    const url = tag === "a" ? normalizeHttpsUrl(part.url) : "";
+    const url = tag === "a" ? normalizeHttpsUrl(part.url_by_language?.[currentLang] || part.url) : "";
     if (tag === "a" && !url) {
       appendArticleInline(parent, part.content);
       return;
@@ -663,7 +663,8 @@ function buildPopupHtml(p) {
     <div class="popup-norsk">${norskNavn}</div>
   `;
 
-  const infotekst = clean(p[`infotekst_${lang}`]);
+  const textLang = !clean(p[`infotekst_${lang}`]) && p.popup_fallback_no ? "no" : lang;
+  const infotekst = clean(p[`infotekst_${textLang}`]);
   const url = normalizeHttpsUrl(p[`notion_url_${lang}`]);
   const articleId = clean(p.article_id);
   const articleLanguages = Array.isArray(p.article_languages)
@@ -675,10 +676,10 @@ function buildPopupHtml(p) {
 
   if (infotekst || url || articleId) {
     html += `
-      <div class="popup-lang" lang="${escapeHtml(lang)}">
-        ${langIconFor(lang)}
+      <div class="popup-lang" lang="${escapeHtml(textLang)}">
+        ${langIconFor(textLang)}
         <div class="popup-text">
-          ${infotekst ? `<p>${renderText(infotekst)}</p>` : ""}
+          ${infotekst ? `<p>${textLang !== lang ? "<em>Vises på norsk.</em><br>" : ""}${renderText(infotekst)}</p>` : ""}
           ${
             url && !useArticle
               ? `<p><a href="${escapeHtml(

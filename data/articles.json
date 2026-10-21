@@ -4842,6 +4842,36 @@
           }
         ]
       }
+    },
+    {
+      "id": "gaisi-spraksenter",
+      "status": "published",
+      "title": {
+        "no": "Gáisi språksenter"
+      },
+      "content": {
+        "no": [
+          {
+            "type": "paragraph",
+            "text": "Språksenteret skal arbeide for å fremme samisk språk og kultur, i form av tiltak i egen regi eller i samarbeid med andre. Gáisi språksenter skal være åpent og inkluderende for hele befolkningen i sitt virkeområde. Språksenteret driver oppsøkende virksomhet, og det bestrebes å gjennomføre språksenterets aktiviteter geografisk spredt i virkeområdet."
+          },
+          {
+            "type": "paragraph",
+            "inline": [
+              {
+                "type": "link",
+                "content": [
+                  "Les mer om Gáisi språksenter på hjemmesiden deres"
+                ],
+                "url": "https://www.gaisi.org/omgaisi",
+                "url_by_language": {
+                  "sme": "https://www.gaisi.org/gaisibirra"
+                }
+              }
+            ]
+          }
+        ]
+      }
     }
   ]
 }
