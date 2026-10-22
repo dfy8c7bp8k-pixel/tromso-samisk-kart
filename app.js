@@ -206,17 +206,18 @@ function normalizeHttpsUrl(input) {
 // ===== Ikoner (SVG) for punkter =====
 function svgIcon(path, size = 100) {
   const s = Number.isFinite(size) ? size : 100;
+  const height = s / (ICON_ASPECT_RATIOS[path] || 1);
 
   return L.divIcon({
     className: "custom-svg-marker",
     html: `
-      <div class="marker-shell" style="width:${s}px; height:${s}px;">
+      <div class="marker-shell" style="width:${s}px; height:${height}px;">
         <img src="${path}" class="marker-inner" alt="" />
       </div>
     `,
-    iconSize: [s, s],
-    iconAnchor: [s / 2, s / 2],
-    popupAnchor: [0, -s / 2],
+    iconSize: [s, height],
+    iconAnchor: [s / 2, height / 2],
+    popupAnchor: [0, -height / 2],
   });
 }
 function defaultBlueIcon(size = 25) {
@@ -256,6 +257,8 @@ const ICONS = {
   anna_plaque: "assets/icons/kultur/anna_plaque.svg",
   leirelv: "assets/icons/kultur/leirelv.svg",
   drag_skole: "assets/icons/skoler/drag_skole.svg",
+  nord_salten_vgs_hamaroy: "assets/icons/skoler/nord-salten-vgs-hamaroy.png",
+  nord_salten_vgs_leinesfjord: "assets/icons/skoler/nord-salten-vgs-leinesfjord.png",
   arran_lulesamisk_senter: "assets/icons/spraksenter/arran_lulesamisk_senter.svg",
   sjursnes_bonnestein: "assets/icons/kultur/sjursnes_bonnestein.svg",
   oldervik_offerplass: "assets/icons/kultur/oldervik_offerplass.svg",
@@ -270,6 +273,11 @@ const ICONS = {
   musneset_kulturlandskap: "assets/icons/natur/musneset_kulturlandskap.svg",
 };
 
+const ICON_ASPECT_RATIOS = {
+  [ICONS.nord_salten_vgs_hamaroy]: 1294 / 1216,
+  [ICONS.nord_salten_vgs_leinesfjord]: 1448 / 1086
+};
+
 // OVERRIDE: base size per icon before zoom scaling.
 // Value is percent/pixels relative to the standard 100 base size.
 const ICON_OVERRIDES = {
@@ -280,6 +288,8 @@ const ICON_OVERRIDES = {
   gaisi_tromso: 40, 
   gaisi_lakselvbukt: 40,      
   drag_skole: 40,
+  nord_salten_vgs_hamaroy: 90,
+  nord_salten_vgs_leinesfjord: 90,
   arran_lulesamisk_senter: 40,
   samisk_hus_tromso: 40,
   sesam_uit: 40,
@@ -690,7 +700,8 @@ function buildPopupHtml(p) {
 
   const textLang = !clean(p[`infotekst_${lang}`]) && p.popup_fallback_no ? "no" : lang;
   const infotekst = clean(p[`infotekst_${textLang}`]);
-  const url = normalizeHttpsUrl(p[`notion_url_${lang}`]);
+  const urlLang = clean(p[`notion_url_${lang}`]) ? lang : p.popup_fallback_no ? textLang : lang;
+  const url = normalizeHttpsUrl(p[`notion_url_${urlLang}`]);
   const articleId = clean(p.article_id);
   const articleLanguages = Array.isArray(p.article_languages)
     ? p.article_languages.map((value) => clean(value)).filter(Boolean)
@@ -710,7 +721,7 @@ function buildPopupHtml(p) {
               ? `<p><a href="${escapeHtml(
                   url
                 )}" target="_blank" rel="noopener noreferrer">${escapeHtml(
-                  linkTextFor(lang)
+                  linkTextFor(urlLang)
                 )}</a></p>`
               : ""
           }

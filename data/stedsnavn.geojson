@@ -2792,6 +2792,56 @@
         "type": "Point",
         "coordinates": [19.63692, 69.49928]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "samisk_navn": "Nuortta-Sálto joarkkaskåvllå",
+        "norsk_navn": "Nord-Salten videregående skole – Oppeid (Hamarøy)",
+        "objekttype": "skoler",
+        "icon_id": "nord_salten_vgs_hamaroy",
+        "infotekst_no": "Adresse: Vestfjordveien 1565, 8294 Hamarøy\n\nNuortta-Sálto joarkkaskåvllå / Nord-Salten videregående skole er en skole med studiested på Oppeid i Hamarøy og et studiested i Leinesfjord i Steigen.\n\nPå skolen tilbyr de lulesamisk språkopplæring. Et unikt tilbud hvor eleven får mulighet til å velge samisk som første eller andre språk. Samisk språk, kultur og samfunnsliv skal være en integrert og naturlig del av opplæringen.\n\nSom eneste skole i landet tilbyr de Friluftslivsfag, et studie som gir generell studiekompetanse kombinert med turer og aktiviteter i naturskjønne omgivelser.",
+        "infotekst_smj": "",
+        "infotekst_sme": "",
+        "infotekst_en": "",
+        "popup_fallback_no": true,
+        "notion_url_no": "https://nord-salten.vgs.no/",
+        "notion_url_smj": "",
+        "notion_url_sme": "",
+        "notion_url_en": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.623895422045377,
+          68.08351752120376
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "samisk_navn": "Nuortta-Sálto joarkkaskåvllå",
+        "norsk_navn": "Nord-Salten videregående skole – Leinesfjord (Steigen)",
+        "objekttype": "skoler",
+        "icon_id": "nord_salten_vgs_leinesfjord",
+        "infotekst_no": "Adresse: Myklebostad 11, 8283 Leinesfjord\n\nNuortta-Sálto joarkkaskåvllå / Nord-Salten videregående skole er en skole med studiested på Oppeid i Hamarøy og et studiested i Leinesfjord i Steigen.\n\nPå skolen tilbyr de lulesamisk språkopplæring. Et unikt tilbud hvor eleven får mulighet til å velge samisk som første eller andre språk. Samisk språk, kultur og samfunnsliv skal være en integrert og naturlig del av opplæringen.\n\nSom eneste skole i landet tilbyr de Friluftslivsfag, et studie som gir generell studiekompetanse kombinert med turer og aktiviteter i naturskjønne omgivelser.",
+        "infotekst_smj": "",
+        "infotekst_sme": "",
+        "infotekst_en": "",
+        "popup_fallback_no": true,
+        "notion_url_no": "https://nord-salten.vgs.no/",
+        "notion_url_smj": "",
+        "notion_url_sme": "",
+        "notion_url_en": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.014610549018165,
+          67.77706074182922
+        ]
+      }
     }
   ]
 }
