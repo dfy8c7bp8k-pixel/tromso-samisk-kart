@@ -1709,7 +1709,8 @@
                 "type": "em",
                 "content": [
                   "Samer og hund foran gammer i Tromsdalen. "
-                ]
+                ],
+                "lang": "no"
               },
               "Foto: Knud Knudsen 1873 Nasjonalmuseet/Nasjonalmuseet Robert Meyer Collection ",
               {
@@ -1867,7 +1868,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "lang": "no"
           },
           {
             "type": "image",
@@ -2268,7 +2270,8 @@
                 "type": "em",
                 "content": [
                   "Tromsø i gamledager. "
-                ]
+                ],
+                "lang": "no"
               },
               "Foto: N.A. Ytreberg: Tromsø bys historie. B. 2. Dato: 1870-tallet ",
               {
@@ -2408,7 +2411,8 @@
                 "type": "strong",
                 "content": [
                   "Klasse på Kautokeino internatskole."
-                ]
+                ],
+                "lang": "no"
               },
               " Fotograf: ",
               {
@@ -2464,7 +2468,8 @@
                 "type": "strong",
                 "content": [
                   "Klasse på Kautokeino internatskole."
-                ]
+                ],
+                "lang": "no"
               },
               " Fotograf: ",
               {
@@ -2688,7 +2693,8 @@
                 "type": "em",
                 "content": [
                   "Samer og hund foran gammer i Tromsdalen. "
-                ]
+                ],
+                "lang": "no"
               },
               "Foto: Knud Knudsen 1873 Nasjonalmuseet/Nasjonalmuseet Robert Meyer Collection ",
               {
@@ -3229,7 +3235,8 @@
                 "type": "em",
                 "content": [
                   "Tromsø i gamledager."
-                ]
+                ],
+                "lang": "no"
               },
               " Foto: N.A. Ytreberg: Tromsø bys historie. B. 2. Dato: 1870-tallet ",
               {
@@ -3438,7 +3445,8 @@
                 "type": "strong",
                 "content": [
                   "Klasse på Kautokeino internatskole."
-                ]
+                ],
+                "lang": "no"
               },
               " Fotograf: ",
               {
@@ -3471,19 +3479,22 @@
             "type": "heading",
             "inline": [
               "Hets og begraving av identitet "
-            ]
+            ],
+            "lang": "no"
           },
           {
             "type": "paragraph",
             "inline": [
               "Selv om språket i større eller mindre grad lenge holdt seg levende, ble andre deler av kulturen gradvis borte. Mange valgte å kvitte seg med kofter og utstyr de hadde til koftene sammen med andre typiske samiske plagg og redskaper. Det sies at noen også gravde ned sine samiske eiendeler for å skjule at slikt hadde vært på gårdene. Men ved gjennomgang av skiftedokumenter som stammer fra omtrent denne tiden, så vi at mange hadde kofter, sjal, søljer, komager, skallebånd mm i sitt eie."
-            ]
+            ],
+            "lang": "no"
           },
           {
             "type": "paragraph",
             "inline": [
               "Da bestemor og søsknene var med oldefar på handelsturer i Tromsø, fikk de rett som det var nedsettende kommentarer fra by-ungene. Fortsatt den dag i dag, kommer det hets rettet mot den samiske befolkningen her i Tromsø."
-            ]
+            ],
+            "lang": "no"
           },
           {
             "type": "heading",
@@ -4187,7 +4198,8 @@
                 "type": "strong",
                 "content": [
                   "Tegning av O.H. von Lode"
-                ]
+                ],
+                "lang": "no"
               }
             ]
           },

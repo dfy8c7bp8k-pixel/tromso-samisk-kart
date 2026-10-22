@@ -134,8 +134,10 @@ const LangControl = L.Control.extend({
         // Vi lukker bare popup, så brukeren kan klikke markør på nytt.
         map.closePopup();
 
-        if (articleDialog.open && activeArticleId) {
-          renderArticle(activeArticleId);
+        if (articleDialog.open && activeArticleId && !renderArticle(activeArticleId)) {
+          articleTrigger = null;
+          articleDialog.close();
+          a.focus();
         }
       });
     });
@@ -324,13 +326,6 @@ function langIconFor(lang) {
   return `<span class="lang-icon-inline" aria-hidden="true">🇬🇧</span>`;
 }
 
-function articleButtonTextFor(lang, availableLanguages) {
-  if (availableLanguages.includes(lang)) return linkTextFor(lang);
-  if (lang === "sme" || lang === "smj") return "Les mer (norsk)";
-  if (lang === "en") return "Read more (Norwegian)";
-  return "Les mer";
-}
-
 // ===== Lokale artikler =====
 const articleDialog = document.querySelector("#article-dialog");
 const articleClose = document.querySelector("#article-close");
@@ -386,6 +381,12 @@ const articlesReady = fetch("./data/articles.json")
     return null;
   });
 
+function hasArticleLanguage(article, lang) {
+  return !!clean(article?.title?.[lang]) &&
+    Array.isArray(article?.content?.[lang]) &&
+    article.content[lang].some((block) => !block.lang || block.lang === lang);
+}
+
 // Structured inline content preserves source text without interpreting export HTML.
 function appendArticleInline(parent, parts) {
   parts.forEach((part) => {
@@ -393,6 +394,7 @@ function appendArticleInline(parent, parts) {
       parent.append(document.createTextNode(part));
       return;
     }
+    if (part?.lang && part.lang !== currentLang && part.type !== "link") return;
     if (part?.type === "break") {
       parent.append(document.createElement("br"));
       return;
@@ -418,6 +420,7 @@ function appendArticleInline(parent, parts) {
 }
 
 function appendArticleBlock(block, parent = articleBody) {
+  if (block?.lang && block.lang !== currentLang) return;
   const type = clean(block?.type);
 
   if (type === "image") {
@@ -436,7 +439,7 @@ function appendArticleBlock(block, parent = articleBody) {
     if (Array.isArray(block.caption)) {
       const caption = document.createElement("figcaption");
       appendArticleInline(caption, block.caption);
-      figure.append(caption);
+      if (caption.childNodes.length || !block.caption.length) figure.append(caption);
     }
     parent.append(figure);
     return;
@@ -503,23 +506,13 @@ function appendArticleBlock(block, parent = articleBody) {
 
 function renderArticle(articleId) {
   const article = articlesById.get(articleId);
-  if (!article) return false;
+  if (!hasArticleLanguage(article, currentLang)) return false;
 
   const contentByLanguage = article.content || {};
-  const availableLanguages = Object.keys(contentByLanguage).filter(
-    (lang) => Array.isArray(contentByLanguage[lang])
-  );
-  const articleLang = availableLanguages.includes(currentLang)
-    ? currentLang
-    : availableLanguages.includes("no")
-      ? "no"
-      : availableLanguages[0];
-
-  if (!articleLang) return false;
+  const articleLang = currentLang;
 
   const titleByLanguage = article.title || {};
-  articleTitle.textContent =
-    clean(titleByLanguage[articleLang]) || clean(titleByLanguage.no);
+  articleTitle.textContent = clean(titleByLanguage[articleLang]);
   articleTitle.lang = articleLang;
   articleBody.lang = articleLang;
   articleKicker.textContent = article.status === "draft"
@@ -531,21 +524,6 @@ function renderArticle(articleId) {
   );
 
   const notices = [];
-  if (articleLang !== currentLang) {
-    if (articleLang === "no" && availableLanguages.length > 1) {
-      notices.push(
-        currentLang === "en"
-          ? "This article is shown in Norwegian."
-          : "Artikkelen vises på norsk."
-      );
-    } else {
-      notices.push(
-        currentLang === "en"
-          ? "This article is available only in Norwegian."
-          : "Artikkelen er bare tilgjengelig på norsk."
-      );
-    }
-  }
   if (article.status === "draft") {
     notices.push("Tekst, kilder, navn og rettigheter må kvalitetssikres før publisering.");
   }
@@ -554,9 +532,9 @@ function renderArticle(articleId) {
 
   articleBody.replaceChildren();
 
-  const lead = clean(article.lead?.[articleLang] || article.lead?.no);
+  const lead = clean(article.lead?.[articleLang]);
   if (lead) {
-    const leadHeading = clean(article.lead_heading?.[articleLang] || article.lead_heading?.no);
+    const leadHeading = clean(article.lead_heading?.[articleLang]);
     if (leadHeading) {
       const heading = document.createElement("h2");
       heading.className = "article-panel__lead-heading";
@@ -654,8 +632,12 @@ async function openArticle(articleId, trigger) {
   articleTrigger = trigger;
   try {
     await articlesReady;
-    if (!renderArticle(articleId)) {
+    if (!articlesById.has(articleId)) {
       throw new Error(`Fant ikke artikkelen: ${articleId}`);
+    }
+    if (!renderArticle(articleId)) {
+      articleTrigger = null;
+      return;
     }
     activeArticleId = articleId;
     articleDialog.showModal();
@@ -674,6 +656,8 @@ articleDialog.addEventListener("click", (event) => {
 
 articleDialog.addEventListener("close", () => {
   activeArticleId = "";
+  articleTitle.textContent = "";
+  articleBody.replaceChildren();
   if (articleTrigger instanceof HTMLElement) articleTrigger.focus();
   articleTrigger = null;
 });
@@ -698,39 +682,28 @@ function buildPopupHtml(p) {
     <div class="popup-norsk">${norskNavn}</div>
   `;
 
-  const textLang = !clean(p[`infotekst_${lang}`]) && p.popup_fallback_no ? "no" : lang;
-  const infotekst = clean(p[`infotekst_${textLang}`]);
-  const urlLang = clean(p[`notion_url_${lang}`]) ? lang : p.popup_fallback_no ? textLang : lang;
-  const url = normalizeHttpsUrl(p[`notion_url_${urlLang}`]);
+  const infotekst = clean(p[`infotekst_${lang}`]);
+  const url = normalizeHttpsUrl(p[`notion_url_${lang}`]);
   const articleId = clean(p.article_id);
-  const articleLanguages = Array.isArray(p.article_languages)
-    ? p.article_languages.map((value) => clean(value)).filter(Boolean)
+  const article = articlesById.get(articleId);
+  const useArticle = hasArticleLanguage(article, lang);
+  const externalLinks = useArticle ? [] : url
+    ? [{ url, label: linkTextFor(lang) }]
     : [];
-  // Prefer the local article in its own language; keep translated external pages.
-  // Without an external page, retain the existing Norwegian article fallback.
-  const useArticle = articleId && (articleLanguages.includes(lang) || !url);
 
-  if (infotekst || url || articleId) {
+  if (infotekst || externalLinks.length || useArticle) {
     html += `
-      <div class="popup-lang" lang="${escapeHtml(textLang)}">
-        ${langIconFor(textLang)}
+      <div class="popup-lang" lang="${escapeHtml(lang)}">
+        ${langIconFor(lang)}
         <div class="popup-text">
-          ${infotekst ? `<p>${textLang !== lang ? "<em>Vises på norsk.</em><br>" : ""}${renderText(infotekst)}</p>` : ""}
-          ${
-            url && !useArticle
-              ? `<p><a href="${escapeHtml(
-                  url
-                )}" target="_blank" rel="noopener noreferrer">${escapeHtml(
-                  linkTextFor(urlLang)
-                )}</a></p>`
-              : ""
-          }
+          ${infotekst ? `<p>${renderText(infotekst)}</p>` : ""}
+          ${externalLinks.map((link) => `<p><a href="${escapeHtml(link.url)}" target="_blank" rel="noopener noreferrer">${escapeHtml(link.label)}</a></p>`).join("")}
           ${
             useArticle
               ? `<button class="popup-article-button" type="button" data-article-id="${escapeHtml(
                   articleId
                 )}">${escapeHtml(
-                  articleButtonTextFor(lang, articleLanguages)
+                  linkTextFor(lang)
                 )}</button>`
               : ""
           }
@@ -753,7 +726,8 @@ fetch("./data/stedsnavn.geojson")
     if (!r.ok) throw new Error(`Klarte ikke å laste GeoJSON (${r.status})`);
     return r.json();
   })
-  .then((data) => {
+  .then(async (data) => {
+    await articlesReady;
     const geo = L.geoJSON(data, {
       onEachFeature,
       pointToLayer: (feature, latlng) => {
@@ -792,7 +766,8 @@ fetch("./data/stories.geojson")
     }
     return response.json();
   })
-  .then((data) => {
+  .then(async (data) => {
+    await articlesReady;
     L.geoJSON(data, {
       onEachFeature,
       pointToLayer: (feature, latlng) => {
