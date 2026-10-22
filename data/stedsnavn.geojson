@@ -2516,6 +2516,8 @@
         "norsk_navn": "Leirelv",
         "objekttype": "kultur",
         "icon_id": "leirelv",
+        "article_id": "grenselosene-petra-nils-knutsen",
+        "article_languages": ["no"],
         "infotekst_no": "Her bodde Petra og Nils Knutsen, som var grenseloser under 2. verdenskrig. Les historien om Petra og Nils her:",
         "infotekst_smj": "Dánna årojga Smájle-Petra ja -Nilssa, gudi lijga báhtariddjijdoalvvo maŋep væráltdoaro. Lågå subttsasav Petra ja Nilsa birra dánna:",
         "infotekst_sme": "",
